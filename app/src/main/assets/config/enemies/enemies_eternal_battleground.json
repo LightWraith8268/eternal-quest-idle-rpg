@@ -1,0 +1,52 @@
+{
+  "enemies": [
+    {
+      "id": "eternal_champion",
+      "name": "Eternal Champion",
+      "level": 150,
+      "hitpoints": 2500,
+      "maxHitpoints": 2500,
+      "attack": 180,
+      "strength": 160,
+      "defense": 170,
+      "attackSpeed": 10000,
+      "accuracy": 0.95,
+      "experienceReward": 12000,
+      "combatLevelRequired": 500,
+      "description": "A warrior who has fought for eternity",
+      "area": "ETERNAL_BATTLEGROUND"
+    },
+    {
+      "id": "godslayer",
+      "name": "Godslayer",
+      "level": 160,
+      "hitpoints": 2800,
+      "maxHitpoints": 2800,
+      "attack": 200,
+      "strength": 180,
+      "defense": 190,
+      "attackSpeed": 11000,
+      "accuracy": 0.97,
+      "experienceReward": 15000,
+      "combatLevelRequired": 550,
+      "description": "One who has slain gods and claimed their power",
+      "area": "ETERNAL_BATTLEGROUND"
+    },
+    {
+      "id": "eternal_sovereign",
+      "name": "Eternal Sovereign",
+      "level": 200,
+      "hitpoints": 3500,
+      "maxHitpoints": 3500,
+      "attack": 250,
+      "strength": 220,
+      "defense": 230,
+      "attackSpeed": 12000,
+      "accuracy": 0.99,
+      "experienceReward": 25000,
+      "combatLevelRequired": 590,
+      "description": "The ultimate ruler of the eternal battleground",
+      "area": "ETERNAL_BATTLEGROUND"
+    }
+  ]
+}

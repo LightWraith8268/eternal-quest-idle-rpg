@@ -22,7 +22,15 @@ class GameRepository(private val appContext: Context) {
     private var sigilPerksDao = database.sigilPerksDao()
     
     private val timeService = TimeService()
-    init { com.eternalquest.util.PerkConfig.load(appContext) }
+    init {
+        com.eternalquest.util.PerkConfig.load(appContext)
+        // Hard-fail on invalid or duplicate IDs to keep content consistent
+        com.eternalquest.util.ItemCatalog.load(appContext)
+        com.eternalquest.util.EnemyCatalog.load(appContext)
+        com.eternalquest.util.AreasCatalog.load(appContext)
+        com.eternalquest.util.SkillsCatalog.load(appContext)
+        com.eternalquest.util.LootTablesCatalog.load(appContext)
+    }
     private var upgradeSystem = UpgradeSystem(upgradesDao, bankDao)
     private var tickEngine = TickEngine(
         playerDao,
@@ -71,7 +79,8 @@ class GameRepository(private val appContext: Context) {
         totalTabsProvider = {
             val upgrades = upgradesDao.getPlayerUpgradesSync() ?: PlayerUpgrades()
             QoLUpgrades.getTotalBankTabs(upgrades)
-        }
+        },
+        enemyProvider = { id -> com.eternalquest.util.EnemyCatalog.get(id) ?: com.eternalquest.data.entities.Enemies.ALL.find { it.id == id } }
     )
     
     // Trigger for live data source switching
@@ -206,15 +215,16 @@ class GameRepository(private val appContext: Context) {
     
     // Item operations
     suspend fun initializeItems() {
+        // Load item catalog from JSON if available (fallback to built-ins)
+        try { com.eternalquest.util.ItemCatalog.load(appContext) } catch (_: Exception) {}
+        val catalog = com.eternalquest.util.ItemCatalog.all().ifEmpty { GameItems.ALL }
         val existingItems = itemDao.getAllItems().first()
         if (existingItems.isEmpty()) {
-            itemDao.insertItems(GameItems.ALL)
+            itemDao.insertItems(catalog)
         } else {
             val existingIds = existingItems.map { it.id }.toSet()
-            val missing = GameItems.ALL.filter { it.id !in existingIds }
-            if (missing.isNotEmpty()) {
-                itemDao.insertItems(missing)
-            }
+            val missing = catalog.filter { it.id !in existingIds }
+            if (missing.isNotEmpty()) itemDao.insertItems(missing)
         }
         // Load any extra activities from assets
         try {
@@ -530,7 +540,8 @@ class GameRepository(private val appContext: Context) {
             totalTabsProvider = {
                 val upgrades = newUpgradesDao.getPlayerUpgradesSync() ?: PlayerUpgrades()
                 QoLUpgrades.getTotalBankTabs(upgrades)
-            }
+            },
+            enemyProvider = { id -> com.eternalquest.util.EnemyCatalog.get(id) ?: com.eternalquest.data.entities.Enemies.ALL.find { it.id == id } }
         )
 
         // Initialize baseline data for the new profile

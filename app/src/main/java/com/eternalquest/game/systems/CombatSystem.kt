@@ -94,7 +94,7 @@ class CombatSystem {
     }
     
     fun calculateLootDrops(enemy: Enemy): List<ItemDrop> {
-        val lootTable = LootTables.getLootTable(enemy.id)
+        val lootTable = com.eternalquest.util.LootTablesCatalog.getLootTable(enemy.id) ?: LootTables.getLootTable(enemy.id)
         val drops = mutableListOf<ItemDrop>()
         
         for (loot in lootTable) {

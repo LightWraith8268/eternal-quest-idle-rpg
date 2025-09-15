@@ -138,19 +138,19 @@ fun BankScreen(
         val tabItems = bankItems.filter { it.tabIndex == selectedTab }
         val filteredByQuery = if (toolsEnabled && query.isNotBlank()) {
             tabItems.filter { item ->
-                val meta = GameItems.ALL.find { it.id == item.itemId }
+                val meta = com.eternalquest.util.ItemCatalog.get(item.itemId)
                 (meta?.name ?: item.itemId).contains(query, ignoreCase = true)
             }
         } else tabItems
         val filtered = if (toolsEnabled) {
             if (selectedCategory == "All") filteredByQuery else filteredByQuery.filter { item ->
-                val meta = GameItems.ALL.find { it.id == item.itemId }
+                val meta = com.eternalquest.util.ItemCatalog.get(item.itemId)
                 meta?.category?.name == selectedCategory
             }
         } else filteredByQuery
         val sorted = when (sortMode) {
             "Qty" -> filtered.sortedByDescending { it.quantity }
-            else -> filtered.sortedBy { GameItems.ALL.find { meta -> meta.id == it.itemId }?.name ?: it.itemId }
+            else -> filtered.sortedBy { com.eternalquest.util.ItemCatalog.get(it.itemId)?.name ?: it.itemId }
         }
         val gridItems = if (toolsEnabled) {
             // If show empty disabled, pack only existing items; else fill grid by slot index
@@ -307,13 +307,12 @@ fun BankSlot(bankItem: BankItem?, onSellItem: ((String, Int) -> Unit)? = null) {
             contentAlignment = Alignment.Center
         ) {
             if (item != null && bankItem != null) {
-                val sprite = Sprites.forItemId(item.id)
+                val painter = Sprites.painterForItemId(item.id)
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Image(
-                        painter = painterResource(id = sprite.resId),
+                        painter = painter,
                         contentDescription = item.name,
-                        modifier = Modifier.size(32.dp),
-                        colorFilter = sprite.tint?.let { ColorFilter.tint(it) }
+                        modifier = Modifier.size(32.dp)
                     )
                     if (bankItem.quantity > 1) {
                         Text(

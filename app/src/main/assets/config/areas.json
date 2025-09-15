@@ -1,0 +1,260 @@
+{
+  "areas": [
+    {
+      "id": "starting_meadow",
+      "name": "Starting Meadow",
+      "type": "OVERWORLD",
+      "minCombatLevel": 1,
+      "maxCombatLevel": 10,
+      "description": "A peaceful meadow where beginners learn to fight"
+    },
+    {
+      "id": "dark_forest",
+      "name": "Dark Forest",
+      "type": "OVERWORLD",
+      "minCombatLevel": 15,
+      "maxCombatLevel": 35,
+      "description": "A twisted forest filled with dangerous creatures"
+    },
+    {
+      "id": "haunted_cemetery",
+      "name": "Haunted Cemetery",
+      "type": "OVERWORLD",
+      "minCombatLevel": 30,
+      "maxCombatLevel": 60,
+      "description": "An ancient graveyard where the dead refuse to rest"
+    },
+    {
+      "id": "mountain_peaks",
+      "name": "Mountain Peaks",
+      "type": "OVERWORLD",
+      "minCombatLevel": 50,
+      "maxCombatLevel": 80,
+      "description": "Treacherous mountain peaks with powerful beasts"
+    },
+    {
+      "id": "desert_wasteland",
+      "name": "Desert Wasteland",
+      "type": "OVERWORLD",
+      "minCombatLevel": 70,
+      "maxCombatLevel": 100,
+      "description": "A harsh desert inhabited by deadly creatures"
+    },
+    {
+      "id": "frozen_tundra",
+      "name": "Frozen Tundra",
+      "type": "OVERWORLD",
+      "minCombatLevel": 90,
+      "maxCombatLevel": 120,
+      "description": "An icy wasteland where only the strongest survive"
+    },
+    {
+      "id": "volcanic_region",
+      "name": "Volcanic Region",
+      "type": "OVERWORLD",
+      "minCombatLevel": 110,
+      "maxCombatLevel": 140,
+      "description": "A land of fire and molten rock"
+    },
+    {
+      "id": "shadow_realm",
+      "name": "Shadow Realm",
+      "type": "OVERWORLD",
+      "minCombatLevel": 130,
+      "maxCombatLevel": 160,
+      "description": "A dimension where darkness reigns supreme"
+    },
+    {
+      "id": "void_dimension",
+      "name": "Void Dimension",
+      "type": "OVERWORLD",
+      "minCombatLevel": 150,
+      "maxCombatLevel": 180,
+      "description": "The space between worlds, home to cosmic horrors"
+    },
+    {
+      "id": "primal_jungle",
+      "name": "Primal Jungle",
+      "type": "OVERWORLD",
+      "minCombatLevel": 170,
+      "maxCombatLevel": 200,
+      "description": "A dense jungle from the world's beginning"
+    },
+    {
+      "id": "ethereal_plane",
+      "name": "Ethereal Plane",
+      "type": "OVERWORLD",
+      "minCombatLevel": 180,
+      "maxCombatLevel": 220,
+      "description": "A ghostly dimension overlapping reality"
+    },
+    {
+      "id": "nightmare_realm",
+      "name": "Nightmare Realm",
+      "type": "OVERWORLD",
+      "minCombatLevel": 200,
+      "maxCombatLevel": 250,
+      "description": "A twisted realm born from collective fears"
+    },
+    {
+      "id": "astral_wastes",
+      "name": "Astral Wastes",
+      "type": "OVERWORLD",
+      "minCombatLevel": 250,
+      "maxCombatLevel": 300,
+      "description": "Desolate wastes floating in the astral plane"
+    },
+    {
+      "id": "temporal_rifts",
+      "name": "Temporal Rifts",
+      "type": "OVERWORLD",
+      "minCombatLevel": 300,
+      "maxCombatLevel": 350,
+      "description": "Unstable tears in the fabric of time itself"
+    },
+    {
+      "id": "chaos_storms",
+      "name": "Chaos Storms",
+      "type": "OVERWORLD",
+      "minCombatLevel": 350,
+      "maxCombatLevel": 400,
+      "description": "Violent storms of pure chaotic energy"
+    },
+    {
+      "id": "divine_sanctum",
+      "name": "Divine Sanctum",
+      "type": "OVERWORLD",
+      "minCombatLevel": 400,
+      "maxCombatLevel": 500,
+      "description": "The sacred realm where gods once walked"
+    },
+    {
+      "id": "eternal_battleground",
+      "name": "Eternal Battleground",
+      "type": "OVERWORLD",
+      "minCombatLevel": 500,
+      "maxCombatLevel": 600,
+      "description": "The ultimate proving ground for the strongest warriors"
+    },
+    {
+      "id": "goblin_caves",
+      "name": "Goblin Caves",
+      "type": "DUNGEON",
+      "minCombatLevel": 5,
+      "maxCombatLevel": 15,
+      "description": "Underground caves infested with goblin tribes"
+    },
+    {
+      "id": "skeleton_crypts",
+      "name": "Skeleton Crypts",
+      "type": "DUNGEON",
+      "minCombatLevel": 12,
+      "maxCombatLevel": 25,
+      "description": "Ancient crypts filled with animated skeletons"
+    },
+    {
+      "id": "vampire_castle",
+      "name": "Vampire Castle",
+      "type": "DUNGEON",
+      "minCombatLevel": 20,
+      "maxCombatLevel": 35,
+      "description": "A dark castle ruled by vampire lords"
+    },
+    {
+      "id": "dragon_lair",
+      "name": "Dragon Lair",
+      "type": "DUNGEON",
+      "minCombatLevel": 40,
+      "maxCombatLevel": 60,
+      "description": "The dwelling place of ancient dragons"
+    },
+    {
+      "id": "void_temple",
+      "name": "Void Temple",
+      "type": "DUNGEON",
+      "minCombatLevel": 80,
+      "maxCombatLevel": 100,
+      "description": "A temple dedicated to the void itself"
+    },
+    {
+      "id": "blood_cathedral",
+      "name": "Blood Cathedral",
+      "type": "DUNGEON",
+      "minCombatLevel": 25,
+      "maxCombatLevel": 40,
+      "description": "A twisted cathedral where blood magic is practiced"
+    },
+    {
+      "id": "poison_swamp_depths",
+      "name": "Poison Swamp Depths",
+      "type": "DUNGEON",
+      "minCombatLevel": 30,
+      "maxCombatLevel": 45,
+      "description": "The toxic depths beneath a poisonous swamp"
+    },
+    {
+      "id": "thunder_peaks_dungeon",
+      "name": "Thunder Peaks Dungeon",
+      "type": "DUNGEON",
+      "minCombatLevel": 35,
+      "maxCombatLevel": 50,
+      "description": "Lightning-struck caverns in the mountain peaks"
+    },
+    {
+      "id": "abyssal_depths",
+      "name": "Abyssal Depths",
+      "type": "DUNGEON",
+      "minCombatLevel": 50,
+      "maxCombatLevel": 70,
+      "description": "The deepest trenches of an underground ocean"
+    },
+    {
+      "id": "necromancer_tower",
+      "name": "Necromancer Tower",
+      "type": "DUNGEON",
+      "minCombatLevel": 40,
+      "maxCombatLevel": 60,
+      "description": "A tower where dark necromancy is studied"
+    },
+    {
+      "id": "clockwork_citadel",
+      "name": "Clockwork Citadel",
+      "type": "DUNGEON",
+      "minCombatLevel": 45,
+      "maxCombatLevel": 65,
+      "description": "A mechanical fortress powered by gears and steam"
+    },
+    {
+      "id": "chaos_realm",
+      "name": "Chaos Realm",
+      "type": "DUNGEON",
+      "minCombatLevel": 60,
+      "maxCombatLevel": 80,
+      "description": "A realm where reality bends and twists chaotically"
+    },
+    {
+      "id": "primordial_caverns",
+      "name": "Primordial Caverns",
+      "type": "DUNGEON",
+      "minCombatLevel": 65,
+      "maxCombatLevel": 85,
+      "description": "Ancient caverns from the world's creation"
+    },
+    {
+      "id": "starfall_sanctuary",
+      "name": "Starfall Sanctuary",
+      "type": "DUNGEON",
+      "minCombatLevel": 70,
+      "maxCombatLevel": 90,
+      "description": "A sanctuary where fallen stars are worshipped"
+    },
+    {
+      "id": "doomspire_keep",
+      "name": "Doomspire Keep",
+      "type": "DUNGEON",
+      "minCombatLevel": 75,
+      "maxCombatLevel": 95,
+      "description": "A fortress that brings doom to all who enter"
+    }
+  ]
+}

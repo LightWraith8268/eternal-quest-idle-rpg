@@ -1,0 +1,52 @@
+{
+  "enemies": [
+    {
+      "id": "chaos_elemental",
+      "name": "Chaos Elemental",
+      "level": 100,
+      "hitpoints": 1300,
+      "maxHitpoints": 1300,
+      "attack": 115,
+      "strength": 90,
+      "defense": 95,
+      "attackSpeed": 7000,
+      "accuracy": 0.89,
+      "experienceReward": 5800,
+      "combatLevelRequired": 350,
+      "description": "A being of pure chaotic energy",
+      "area": "CHAOS_STORMS"
+    },
+    {
+      "id": "storm_titan",
+      "name": "Storm Titan",
+      "level": 105,
+      "hitpoints": 1500,
+      "maxHitpoints": 1500,
+      "attack": 120,
+      "strength": 100,
+      "defense": 110,
+      "attackSpeed": 7500,
+      "accuracy": 0.87,
+      "experienceReward": 6500,
+      "combatLevelRequired": 370,
+      "description": "A colossal titan born from chaotic storms",
+      "area": "CHAOS_STORMS"
+    },
+    {
+      "id": "chaos_lord",
+      "name": "Chaos Lord",
+      "level": 110,
+      "hitpoints": 1700,
+      "maxHitpoints": 1700,
+      "attack": 130,
+      "strength": 110,
+      "defense": 120,
+      "attackSpeed": 8000,
+      "accuracy": 0.85,
+      "experienceReward": 7500,
+      "combatLevelRequired": 390,
+      "description": "A powerful lord who commands chaos itself",
+      "area": "CHAOS_STORMS"
+    }
+  ]
+}

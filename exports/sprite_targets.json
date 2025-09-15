@@ -1,0 +1,2519 @@
+[
+  {
+    "type": "activity",
+    "id": "cook_salmon",
+    "name": "Cook Salmon"
+  },
+  {
+    "type": "activity",
+    "id": "cook_swordfish",
+    "name": "Cook Swordfish"
+  },
+  {
+    "type": "activity",
+    "id": "cook_trout",
+    "name": "Cook Trout"
+  },
+  {
+    "type": "activity",
+    "id": "cook_tuna",
+    "name": "Cook Tuna"
+  },
+  {
+    "type": "activity",
+    "id": "cut_maple",
+    "name": "Cut Maple Trees"
+  },
+  {
+    "type": "activity",
+    "id": "cut_oak",
+    "name": "Cut Oak Trees"
+  },
+  {
+    "type": "activity",
+    "id": "cut_willow",
+    "name": "Cut Willow Trees"
+  },
+  {
+    "type": "activity",
+    "id": "cut_yew",
+    "name": "Cut Yew Trees"
+  },
+  {
+    "type": "activity",
+    "id": "fish_salmon",
+    "name": "Fish for Salmon"
+  },
+  {
+    "type": "activity",
+    "id": "fish_swordfish",
+    "name": "Fish for Swordfish"
+  },
+  {
+    "type": "activity",
+    "id": "fish_trout",
+    "name": "Fish for Trout"
+  },
+  {
+    "type": "activity",
+    "id": "fish_tuna",
+    "name": "Fish for Tuna"
+  },
+  {
+    "type": "activity",
+    "id": "forge_iron_helmet",
+    "name": "Forge Iron Helmet"
+  },
+  {
+    "type": "activity",
+    "id": "forge_iron_sword",
+    "name": "Forge Iron Sword"
+  },
+  {
+    "type": "activity",
+    "id": "mine_coal",
+    "name": "Mine Coal Ore"
+  },
+  {
+    "type": "activity",
+    "id": "mine_copper",
+    "name": "Mine Copper Ore"
+  },
+  {
+    "type": "activity",
+    "id": "mine_iron",
+    "name": "Mine Iron Ore"
+  },
+  {
+    "type": "activity",
+    "id": "mine_mithril",
+    "name": "Mine Mithril Ore"
+  },
+  {
+    "type": "activity",
+    "id": "smelt_gold_bar",
+    "name": "Smelt Gold Bar"
+  },
+  {
+    "type": "activity",
+    "id": "smelt_iron_bar",
+    "name": "Smelt Iron Bar"
+  },
+  {
+    "type": "activity",
+    "id": "smelt_mithril_bar",
+    "name": "Smelt Mithril Bar"
+  },
+  {
+    "type": "area",
+    "id": "abyssal_depths",
+    "name": "Abyssal Depths",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "astral_wastes",
+    "name": "Astral Wastes",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "blood_cathedral",
+    "name": "Blood Cathedral",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "chaos_realm",
+    "name": "Chaos Realm",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "chaos_storms",
+    "name": "Chaos Storms",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "clockwork_citadel",
+    "name": "Clockwork Citadel",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "dark_forest",
+    "name": "Dark Forest",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "desert_wasteland",
+    "name": "Desert Wasteland",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "divine_sanctum",
+    "name": "Divine Sanctum",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "doomspire_keep",
+    "name": "Doomspire Keep",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "dragon_lair",
+    "name": "Dragon Lair",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "eternal_battleground",
+    "name": "Eternal Battleground",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "ethereal_plane",
+    "name": "Ethereal Plane",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "frozen_tundra",
+    "name": "Frozen Tundra",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "goblin_caves",
+    "name": "Goblin Caves",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "haunted_cemetery",
+    "name": "Haunted Cemetery",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "mountain_peaks",
+    "name": "Mountain Peaks",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "necromancer_tower",
+    "name": "Necromancer Tower",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "nightmare_realm",
+    "name": "Nightmare Realm",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "poison_swamp_depths",
+    "name": "Poison Swamp Depths",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "primal_jungle",
+    "name": "Primal Jungle",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "primordial_caverns",
+    "name": "Primordial Caverns",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "shadow_realm",
+    "name": "Shadow Realm",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "skeleton_crypts",
+    "name": "Skeleton Crypts",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "starfall_sanctuary",
+    "name": "Starfall Sanctuary",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "starting_meadow",
+    "name": "Starting Meadow",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "temporal_rifts",
+    "name": "Temporal Rifts",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "thunder_peaks_dungeon",
+    "name": "Thunder Peaks Dungeon",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "vampire_castle",
+    "name": "Vampire Castle",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "void_dimension",
+    "name": "Void Dimension",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "area",
+    "id": "void_temple",
+    "name": "Void Temple",
+    "areaType": "DUNGEON"
+  },
+  {
+    "type": "area",
+    "id": "volcanic_region",
+    "name": "Volcanic Region",
+    "areaType": "OVERWORLD"
+  },
+  {
+    "type": "enemy",
+    "id": "ancient_dragon",
+    "name": "Ancient Dragon"
+  },
+  {
+    "type": "enemy",
+    "id": "angel",
+    "name": "Fallen Angel"
+  },
+  {
+    "type": "enemy",
+    "id": "archangel",
+    "name": "Archangel"
+  },
+  {
+    "type": "enemy",
+    "id": "archlich",
+    "name": "Archlich"
+  },
+  {
+    "type": "enemy",
+    "id": "assassin",
+    "name": "Shadow Assassin"
+  },
+  {
+    "type": "enemy",
+    "id": "astral_drifter",
+    "name": "Astral Drifter"
+  },
+  {
+    "type": "enemy",
+    "id": "astral_leviathan",
+    "name": "Astral Leviathan"
+  },
+  {
+    "type": "enemy",
+    "id": "bandit",
+    "name": "Bandit"
+  },
+  {
+    "type": "enemy",
+    "id": "banshee",
+    "name": "Banshee"
+  },
+  {
+    "type": "enemy",
+    "id": "bat",
+    "name": "Vampire Bat"
+  },
+  {
+    "type": "enemy",
+    "id": "bear",
+    "name": "Cave Bear"
+  },
+  {
+    "type": "enemy",
+    "id": "black_widow",
+    "name": "Black Widow"
+  },
+  {
+    "type": "enemy",
+    "id": "bone_golem",
+    "name": "Bone Golem"
+  },
+  {
+    "type": "enemy",
+    "id": "bone_knight",
+    "name": "Bone Knight"
+  },
+  {
+    "type": "enemy",
+    "id": "butterfly",
+    "name": "Rainbow Butterfly"
+  },
+  {
+    "type": "enemy",
+    "id": "cactus_golem",
+    "name": "Cactus Golem"
+  },
+  {
+    "type": "enemy",
+    "id": "chaos_elemental",
+    "name": "Chaos Elemental"
+  },
+  {
+    "type": "enemy",
+    "id": "chaos_lord",
+    "name": "Chaos Lord"
+  },
+  {
+    "type": "enemy",
+    "id": "chimera",
+    "name": "Chimera"
+  },
+  {
+    "type": "enemy",
+    "id": "chrono_stalker",
+    "name": "Chrono Stalker"
+  },
+  {
+    "type": "enemy",
+    "id": "cosmic_horror",
+    "name": "Cosmic Horror"
+  },
+  {
+    "type": "enemy",
+    "id": "cow",
+    "name": "Wild Cow"
+  },
+  {
+    "type": "enemy",
+    "id": "crypt_guardian",
+    "name": "Crypt Guardian"
+  },
+  {
+    "type": "enemy",
+    "id": "death_knight",
+    "name": "Death Knight"
+  },
+  {
+    "type": "enemy",
+    "id": "deity",
+    "name": "Fallen Deity"
+  },
+  {
+    "type": "enemy",
+    "id": "demon",
+    "name": "Lesser Demon"
+  },
+  {
+    "type": "enemy",
+    "id": "desert_scorpion",
+    "name": "Desert Scorpion"
+  },
+  {
+    "type": "enemy",
+    "id": "desert_wraith",
+    "name": "Desert Wraith"
+  },
+  {
+    "type": "enemy",
+    "id": "dire_wolf",
+    "name": "Dire Wolf"
+  },
+  {
+    "type": "enemy",
+    "id": "divine_avatar",
+    "name": "Divine Avatar"
+  },
+  {
+    "type": "enemy",
+    "id": "dragon",
+    "name": "Young Dragon"
+  },
+  {
+    "type": "enemy",
+    "id": "drake",
+    "name": "Drake"
+  },
+  {
+    "type": "enemy",
+    "id": "elemental",
+    "name": "Fire Elemental"
+  },
+  {
+    "type": "enemy",
+    "id": "eternal_champion",
+    "name": "Eternal Champion"
+  },
+  {
+    "type": "enemy",
+    "id": "eternal_sovereign",
+    "name": "Eternal Sovereign"
+  },
+  {
+    "type": "enemy",
+    "id": "field_mouse",
+    "name": "Field Mouse"
+  },
+  {
+    "type": "enemy",
+    "id": "fire_salamander",
+    "name": "Fire Salamander"
+  },
+  {
+    "type": "enemy",
+    "id": "forest_troll",
+    "name": "Forest Troll"
+  },
+  {
+    "type": "enemy",
+    "id": "frog",
+    "name": "Giant Frog"
+  },
+  {
+    "type": "enemy",
+    "id": "ghoul",
+    "name": "Ghoul"
+  },
+  {
+    "type": "enemy",
+    "id": "giant_bat",
+    "name": "Giant Bat"
+  },
+  {
+    "type": "enemy",
+    "id": "gnoll",
+    "name": "Gnoll"
+  },
+  {
+    "type": "enemy",
+    "id": "goblin",
+    "name": "Goblin"
+  },
+  {
+    "type": "enemy",
+    "id": "goblin_archer",
+    "name": "Goblin Archer"
+  },
+  {
+    "type": "enemy",
+    "id": "goblin_berserker",
+    "name": "Goblin Berserker"
+  },
+  {
+    "type": "enemy",
+    "id": "goblin_chief",
+    "name": "Goblin Chief"
+  },
+  {
+    "type": "enemy",
+    "id": "goblin_shaman",
+    "name": "Goblin Shaman"
+  },
+  {
+    "type": "enemy",
+    "id": "godslayer",
+    "name": "Godslayer"
+  },
+  {
+    "type": "enemy",
+    "id": "golem",
+    "name": "Stone Golem"
+  },
+  {
+    "type": "enemy",
+    "id": "grave_digger",
+    "name": "Grave Digger"
+  },
+  {
+    "type": "enemy",
+    "id": "green_slime",
+    "name": "Green Slime"
+  },
+  {
+    "type": "enemy",
+    "id": "griffin",
+    "name": "Griffin"
+  },
+  {
+    "type": "enemy",
+    "id": "harpy",
+    "name": "Harpy"
+  },
+  {
+    "type": "enemy",
+    "id": "hawk",
+    "name": "Forest Hawk"
+  },
+  {
+    "type": "enemy",
+    "id": "hobgoblin",
+    "name": "Hobgoblin"
+  },
+  {
+    "type": "enemy",
+    "id": "hydra",
+    "name": "Hydra"
+  },
+  {
+    "type": "enemy",
+    "id": "ice_giant",
+    "name": "Ice Giant"
+  },
+  {
+    "type": "enemy",
+    "id": "knight",
+    "name": "Knight"
+  },
+  {
+    "type": "enemy",
+    "id": "kobold",
+    "name": "Kobold"
+  },
+  {
+    "type": "enemy",
+    "id": "lich",
+    "name": "Lich"
+  },
+  {
+    "type": "enemy",
+    "id": "mage",
+    "name": "Mage"
+  },
+  {
+    "type": "enemy",
+    "id": "minotaur",
+    "name": "Minotaur"
+  },
+  {
+    "type": "enemy",
+    "id": "mirage_assassin",
+    "name": "Mirage Assassin"
+  },
+  {
+    "type": "enemy",
+    "id": "mountain_goat",
+    "name": "Mountain Goat"
+  },
+  {
+    "type": "enemy",
+    "id": "mountain_troll",
+    "name": "Mountain Troll"
+  },
+  {
+    "type": "enemy",
+    "id": "ogre",
+    "name": "Ogre"
+  },
+  {
+    "type": "enemy",
+    "id": "orc",
+    "name": "Orc"
+  },
+  {
+    "type": "enemy",
+    "id": "owlbear",
+    "name": "Owlbear"
+  },
+  {
+    "type": "enemy",
+    "id": "phantom",
+    "name": "Phantom"
+  },
+  {
+    "type": "enemy",
+    "id": "phoenix",
+    "name": "Phoenix"
+  },
+  {
+    "type": "enemy",
+    "id": "primordial",
+    "name": "Primordial Being"
+  },
+  {
+    "type": "enemy",
+    "id": "rabbit",
+    "name": "Wild Rabbit"
+  },
+  {
+    "type": "enemy",
+    "id": "rat",
+    "name": "Giant Rat"
+  },
+  {
+    "type": "enemy",
+    "id": "raven",
+    "name": "Giant Raven"
+  },
+  {
+    "type": "enemy",
+    "id": "reality_ripper",
+    "name": "Reality Ripper"
+  },
+  {
+    "type": "enemy",
+    "id": "rock_giant",
+    "name": "Rock Giant"
+  },
+  {
+    "type": "enemy",
+    "id": "sand_golem",
+    "name": "Sand Golem"
+  },
+  {
+    "type": "enemy",
+    "id": "sand_worm",
+    "name": "Sand Worm"
+  },
+  {
+    "type": "enemy",
+    "id": "seraph",
+    "name": "Seraph"
+  },
+  {
+    "type": "enemy",
+    "id": "shadow_wolf",
+    "name": "Shadow Wolf"
+  },
+  {
+    "type": "enemy",
+    "id": "sheep",
+    "name": "Wild Sheep"
+  },
+  {
+    "type": "enemy",
+    "id": "skeleton",
+    "name": "Skeleton"
+  },
+  {
+    "type": "enemy",
+    "id": "skeleton_archer",
+    "name": "Skeleton Archer"
+  },
+  {
+    "type": "enemy",
+    "id": "skeleton_lord",
+    "name": "Skeleton Lord"
+  },
+  {
+    "type": "enemy",
+    "id": "skeleton_mage",
+    "name": "Skeleton Mage"
+  },
+  {
+    "type": "enemy",
+    "id": "slime",
+    "name": "Blue Slime"
+  },
+  {
+    "type": "enemy",
+    "id": "snow_leopard",
+    "name": "Snow Leopard"
+  },
+  {
+    "type": "enemy",
+    "id": "sparrow",
+    "name": "Sparrow"
+  },
+  {
+    "type": "enemy",
+    "id": "spider",
+    "name": "Giant Spider"
+  },
+  {
+    "type": "enemy",
+    "id": "storm_eagle",
+    "name": "Storm Eagle"
+  },
+  {
+    "type": "enemy",
+    "id": "storm_titan",
+    "name": "Storm Titan"
+  },
+  {
+    "type": "enemy",
+    "id": "tarantula",
+    "name": "Tarantula"
+  },
+  {
+    "type": "enemy",
+    "id": "temporal_guardian",
+    "name": "Temporal Guardian"
+  },
+  {
+    "type": "enemy",
+    "id": "time_wraith",
+    "name": "Time Wraith"
+  },
+  {
+    "type": "enemy",
+    "id": "titan",
+    "name": "Stone Titan"
+  },
+  {
+    "type": "enemy",
+    "id": "troll",
+    "name": "Troll"
+  },
+  {
+    "type": "enemy",
+    "id": "vampire",
+    "name": "Vampire"
+  },
+  {
+    "type": "enemy",
+    "id": "vampire_bat_swarm",
+    "name": "Vampire Bat Swarm"
+  },
+  {
+    "type": "enemy",
+    "id": "vampire_lord",
+    "name": "Vampire Lord"
+  },
+  {
+    "type": "enemy",
+    "id": "vampire_spawn",
+    "name": "Vampire Spawn"
+  },
+  {
+    "type": "enemy",
+    "id": "void_dragon",
+    "name": "Void Dragon"
+  },
+  {
+    "type": "enemy",
+    "id": "void_phantom",
+    "name": "Void Phantom"
+  },
+  {
+    "type": "enemy",
+    "id": "void_walker",
+    "name": "Void Walker"
+  },
+  {
+    "type": "enemy",
+    "id": "warlord",
+    "name": "Orc Warlord"
+  },
+  {
+    "type": "enemy",
+    "id": "wild_boar",
+    "name": "Wild Boar"
+  },
+  {
+    "type": "enemy",
+    "id": "wolf",
+    "name": "Wolf"
+  },
+  {
+    "type": "enemy",
+    "id": "world_eater",
+    "name": "World Eater"
+  },
+  {
+    "type": "enemy",
+    "id": "wraith",
+    "name": "Wraith"
+  },
+  {
+    "type": "enemy",
+    "id": "wyrmling",
+    "name": "Wyrmling"
+  },
+  {
+    "type": "enemy",
+    "id": "wyvern",
+    "name": "Wyvern"
+  },
+  {
+    "type": "enemy",
+    "id": "yeti",
+    "name": "Yeti"
+  },
+  {
+    "type": "enemy",
+    "id": "zombie",
+    "name": "Zombie"
+  },
+  {
+    "type": "item",
+    "id": "acid_gland",
+    "name": "Acid Gland"
+  },
+  {
+    "type": "item",
+    "id": "adamant_bar",
+    "name": "Adamant Bar"
+  },
+  {
+    "type": "item",
+    "id": "adamant_boots",
+    "name": "Adamant Boots"
+  },
+  {
+    "type": "item",
+    "id": "adamant_chestplate",
+    "name": "Adamant Chestplate"
+  },
+  {
+    "type": "item",
+    "id": "adamant_gloves",
+    "name": "Adamant Gloves"
+  },
+  {
+    "type": "item",
+    "id": "adamant_helmet",
+    "name": "Adamant Helmet"
+  },
+  {
+    "type": "item",
+    "id": "adamant_leggings",
+    "name": "Adamant Leggings"
+  },
+  {
+    "type": "item",
+    "id": "adamant_shield",
+    "name": "Adamant Shield"
+  },
+  {
+    "type": "item",
+    "id": "adamant_sword",
+    "name": "Adamant Sword"
+  },
+  {
+    "type": "item",
+    "id": "adamantite_ore",
+    "name": "Adamantite Ore"
+  },
+  {
+    "type": "item",
+    "id": "adept_staff",
+    "name": "Adept Staff"
+  },
+  {
+    "type": "item",
+    "id": "air_essence",
+    "name": "Air Essence"
+  },
+  {
+    "type": "item",
+    "id": "amethyst",
+    "name": "Amethyst"
+  },
+  {
+    "type": "item",
+    "id": "amulet_of_life",
+    "name": "Amulet of Life"
+  },
+  {
+    "type": "item",
+    "id": "amulet_of_magic",
+    "name": "Amulet of Magic"
+  },
+  {
+    "type": "item",
+    "id": "amulet_of_strength",
+    "name": "Amulet of Strength"
+  },
+  {
+    "type": "item",
+    "id": "ancient_coin",
+    "name": "Ancient Coin"
+  },
+  {
+    "type": "item",
+    "id": "ancient_rune",
+    "name": "Ancient Rune"
+  },
+  {
+    "type": "item",
+    "id": "ancient_soul",
+    "name": "Ancient Soul"
+  },
+  {
+    "type": "item",
+    "id": "angel_wing",
+    "name": "Angel Wing"
+  },
+  {
+    "type": "item",
+    "id": "apple",
+    "name": "Apple"
+  },
+  {
+    "type": "item",
+    "id": "apprentice_staff",
+    "name": "Apprentice Staff"
+  },
+  {
+    "type": "item",
+    "id": "arcane_staff",
+    "name": "Arcane Staff"
+  },
+  {
+    "type": "item",
+    "id": "assassin_dagger",
+    "name": "Assassin Dagger"
+  },
+  {
+    "type": "item",
+    "id": "bandit_mask",
+    "name": "Bandit Mask"
+  },
+  {
+    "type": "item",
+    "id": "bat_leather",
+    "name": "Bat Leather"
+  },
+  {
+    "type": "item",
+    "id": "bear_claw",
+    "name": "Bear Claw"
+  },
+  {
+    "type": "item",
+    "id": "beast_claw",
+    "name": "Beast Claw"
+  },
+  {
+    "type": "item",
+    "id": "beef_roast",
+    "name": "Beef Roast"
+  },
+  {
+    "type": "item",
+    "id": "beetle_carapace",
+    "name": "Beetle Carapace"
+  },
+  {
+    "type": "item",
+    "id": "birch_log",
+    "name": "Birch Log"
+  },
+  {
+    "type": "item",
+    "id": "bird_feather",
+    "name": "Bird Feather"
+  },
+  {
+    "type": "item",
+    "id": "black_opal",
+    "name": "Black Opal"
+  },
+  {
+    "type": "item",
+    "id": "bone",
+    "name": "Bone"
+  },
+  {
+    "type": "item",
+    "id": "bread",
+    "name": "Bread"
+  },
+  {
+    "type": "item",
+    "id": "bronze_axe",
+    "name": "Bronze Axe"
+  },
+  {
+    "type": "item",
+    "id": "bronze_bar",
+    "name": "Bronze Bar"
+  },
+  {
+    "type": "item",
+    "id": "bronze_dagger",
+    "name": "Bronze Dagger"
+  },
+  {
+    "type": "item",
+    "id": "bronze_hatchet",
+    "name": "Bronze Hatchet"
+  },
+  {
+    "type": "item",
+    "id": "bronze_key",
+    "name": "Bronze Key"
+  },
+  {
+    "type": "item",
+    "id": "bronze_pickaxe",
+    "name": "Bronze Pickaxe"
+  },
+  {
+    "type": "item",
+    "id": "bronze_sword",
+    "name": "Bronze Sword"
+  },
+  {
+    "type": "item",
+    "id": "carrot_seed",
+    "name": "Carrot Seed"
+  },
+  {
+    "type": "item",
+    "id": "celestial_axe",
+    "name": "Celestial Axe"
+  },
+  {
+    "type": "item",
+    "id": "celestial_bar",
+    "name": "Celestial Bar"
+  },
+  {
+    "type": "item",
+    "id": "celestial_ore",
+    "name": "Celestial Ore"
+  },
+  {
+    "type": "item",
+    "id": "celestial_sword",
+    "name": "Celestial Sword"
+  },
+  {
+    "type": "item",
+    "id": "cheese",
+    "name": "Cheese"
+  },
+  {
+    "type": "item",
+    "id": "chicken_feather",
+    "name": "Chicken Feather"
+  },
+  {
+    "type": "item",
+    "id": "chitin_plate",
+    "name": "Chitin Plate"
+  },
+  {
+    "type": "item",
+    "id": "coal_ore",
+    "name": "Coal Ore"
+  },
+  {
+    "type": "item",
+    "id": "compass",
+    "name": "Compass"
+  },
+  {
+    "type": "item",
+    "id": "cooked_kraken_tentacle",
+    "name": "Cooked Kraken Tentacle"
+  },
+  {
+    "type": "item",
+    "id": "cooked_leviathan",
+    "name": "Cooked Leviathan"
+  },
+  {
+    "type": "item",
+    "id": "cooked_manta_ray",
+    "name": "Cooked Manta Ray"
+  },
+  {
+    "type": "item",
+    "id": "cooked_salmon",
+    "name": "Cooked Salmon"
+  },
+  {
+    "type": "item",
+    "id": "cooked_shark",
+    "name": "Cooked Shark"
+  },
+  {
+    "type": "item",
+    "id": "cooked_swordfish",
+    "name": "Cooked Swordfish"
+  },
+  {
+    "type": "item",
+    "id": "cooked_trout",
+    "name": "Cooked Trout"
+  },
+  {
+    "type": "item",
+    "id": "cooked_tuna",
+    "name": "Cooked Tuna"
+  },
+  {
+    "type": "item",
+    "id": "cooked_void_fish",
+    "name": "Cooked Void Fish"
+  },
+  {
+    "type": "item",
+    "id": "copper_ore",
+    "name": "Copper Ore"
+  },
+  {
+    "type": "item",
+    "id": "copper_ring",
+    "name": "Copper Ring"
+  },
+  {
+    "type": "item",
+    "id": "corn_seed",
+    "name": "Corn Seed"
+  },
+  {
+    "type": "item",
+    "id": "corrupted_soul",
+    "name": "Corrupted Soul"
+  },
+  {
+    "type": "item",
+    "id": "cosmic_staff",
+    "name": "Cosmic Staff"
+  },
+  {
+    "type": "item",
+    "id": "cow_hide",
+    "name": "Cow Hide"
+  },
+  {
+    "type": "item",
+    "id": "crab_shell",
+    "name": "Crab Shell"
+  },
+  {
+    "type": "item",
+    "id": "crocodile_leather",
+    "name": "Crocodile Leather"
+  },
+  {
+    "type": "item",
+    "id": "crown_of_kings",
+    "name": "Crown of Kings"
+  },
+  {
+    "type": "item",
+    "id": "crystal_component",
+    "name": "Crystal Component"
+  },
+  {
+    "type": "item",
+    "id": "crystal_skull",
+    "name": "Crystal Skull"
+  },
+  {
+    "type": "item",
+    "id": "cursed_bone",
+    "name": "Cursed Bone"
+  },
+  {
+    "type": "item",
+    "id": "daisy",
+    "name": "Daisy"
+  },
+  {
+    "type": "item",
+    "id": "deer_antler",
+    "name": "Deer Antler"
+  },
+  {
+    "type": "item",
+    "id": "deer_hide",
+    "name": "Deer Hide"
+  },
+  {
+    "type": "item",
+    "id": "defense_potion",
+    "name": "Defense Potion"
+  },
+  {
+    "type": "item",
+    "id": "demon_horn",
+    "name": "Demon Horn"
+  },
+  {
+    "type": "item",
+    "id": "diamond",
+    "name": "Diamond"
+  },
+  {
+    "type": "item",
+    "id": "diamond_ring",
+    "name": "Diamond Ring"
+  },
+  {
+    "type": "item",
+    "id": "dragon_axe",
+    "name": "Dragon Axe"
+  },
+  {
+    "type": "item",
+    "id": "dragon_bone",
+    "name": "Dragon Bone"
+  },
+  {
+    "type": "item",
+    "id": "dragon_boots",
+    "name": "Dragon Boots"
+  },
+  {
+    "type": "item",
+    "id": "dragon_bow",
+    "name": "Dragon Bow"
+  },
+  {
+    "type": "item",
+    "id": "dragon_chestplate",
+    "name": "Dragon Chestplate"
+  },
+  {
+    "type": "item",
+    "id": "dragon_gloves",
+    "name": "Dragon Gloves"
+  },
+  {
+    "type": "item",
+    "id": "dragon_hatchet",
+    "name": "Dragon Hatchet"
+  },
+  {
+    "type": "item",
+    "id": "dragon_helmet",
+    "name": "Dragon Helmet"
+  },
+  {
+    "type": "item",
+    "id": "dragon_herb",
+    "name": "Dragon Herb"
+  },
+  {
+    "type": "item",
+    "id": "dragon_leggings",
+    "name": "Dragon Leggings"
+  },
+  {
+    "type": "item",
+    "id": "dragon_pickaxe",
+    "name": "Dragon Pickaxe"
+  },
+  {
+    "type": "item",
+    "id": "dragon_scale",
+    "name": "Dragon Scale"
+  },
+  {
+    "type": "item",
+    "id": "dragon_shield",
+    "name": "Dragon Shield"
+  },
+  {
+    "type": "item",
+    "id": "dragon_steak",
+    "name": "Dragon Steak"
+  },
+  {
+    "type": "item",
+    "id": "dragon_sword",
+    "name": "Dragon Sword"
+  },
+  {
+    "type": "item",
+    "id": "dragonite_axe",
+    "name": "Dragonite Axe"
+  },
+  {
+    "type": "item",
+    "id": "dragonite_bar",
+    "name": "Dragonite Bar"
+  },
+  {
+    "type": "item",
+    "id": "dragonite_ore",
+    "name": "Dragonite Ore"
+  },
+  {
+    "type": "item",
+    "id": "dragonite_sword",
+    "name": "Dragonite Sword"
+  },
+  {
+    "type": "item",
+    "id": "dungeon_map",
+    "name": "Dungeon Map"
+  },
+  {
+    "type": "item",
+    "id": "eagle_talon",
+    "name": "Eagle Talon"
+  },
+  {
+    "type": "item",
+    "id": "earth_essence",
+    "name": "Earth Essence"
+  },
+  {
+    "type": "item",
+    "id": "elderwood_log",
+    "name": "Elderwood Log"
+  },
+  {
+    "type": "item",
+    "id": "electric_organ",
+    "name": "Electric Organ"
+  },
+  {
+    "type": "item",
+    "id": "elemental_staff",
+    "name": "Elemental Staff"
+  },
+  {
+    "type": "item",
+    "id": "elephant_ivory",
+    "name": "Elephant Ivory"
+  },
+  {
+    "type": "item",
+    "id": "elven_bow",
+    "name": "Elven Bow"
+  },
+  {
+    "type": "item",
+    "id": "emerald",
+    "name": "Emerald"
+  },
+  {
+    "type": "item",
+    "id": "enhancement_catalyst",
+    "name": "Enhancement Catalyst"
+  },
+  {
+    "type": "item",
+    "id": "ethereal_bar",
+    "name": "Ethereal Bar"
+  },
+  {
+    "type": "item",
+    "id": "ethereal_ore",
+    "name": "Ethereal Ore"
+  },
+  {
+    "type": "item",
+    "id": "ethereal_sword",
+    "name": "Ethereal Sword"
+  },
+  {
+    "type": "item",
+    "id": "experience_potion",
+    "name": "Experience Potion"
+  },
+  {
+    "type": "item",
+    "id": "fairy_dust",
+    "name": "Fairy Dust"
+  },
+  {
+    "type": "item",
+    "id": "fine_leather",
+    "name": "Fine Leather"
+  },
+  {
+    "type": "item",
+    "id": "fire_essence",
+    "name": "Fire Essence"
+  },
+  {
+    "type": "item",
+    "id": "fire_gland",
+    "name": "Fire Gland"
+  },
+  {
+    "type": "item",
+    "id": "fishing_net",
+    "name": "Fishing Net"
+  },
+  {
+    "type": "item",
+    "id": "frost_gland",
+    "name": "Frost Gland"
+  },
+  {
+    "type": "item",
+    "id": "fusion_catalyst",
+    "name": "Fusion Catalyst"
+  },
+  {
+    "type": "item",
+    "id": "gear_component",
+    "name": "Gear Component"
+  },
+  {
+    "type": "item",
+    "id": "giant_pearl",
+    "name": "Giant Pearl"
+  },
+  {
+    "type": "item",
+    "id": "ginseng",
+    "name": "Ginseng"
+  },
+  {
+    "type": "item",
+    "id": "goblin_ear",
+    "name": "Goblin Ear"
+  },
+  {
+    "type": "item",
+    "id": "gold_bar",
+    "name": "Gold Bar"
+  },
+  {
+    "type": "item",
+    "id": "gold_necklace",
+    "name": "Gold Necklace"
+  },
+  {
+    "type": "item",
+    "id": "gold_ore",
+    "name": "Gold Ore"
+  },
+  {
+    "type": "item",
+    "id": "gold_ring",
+    "name": "Gold Ring"
+  },
+  {
+    "type": "item",
+    "id": "golden_idol",
+    "name": "Golden Idol"
+  },
+  {
+    "type": "item",
+    "id": "golden_key",
+    "name": "Golden Key"
+  },
+  {
+    "type": "item",
+    "id": "golden_treasure_chest",
+    "name": "Golden Treasure Chest"
+  },
+  {
+    "type": "item",
+    "id": "golem_core",
+    "name": "Golem Core"
+  },
+  {
+    "type": "item",
+    "id": "greater_health_potion",
+    "name": "Greater Health Potion"
+  },
+  {
+    "type": "item",
+    "id": "grimoire",
+    "name": "Grimoire"
+  },
+  {
+    "type": "item",
+    "id": "harpoon",
+    "name": "Harpoon"
+  },
+  {
+    "type": "item",
+    "id": "harpy_feather",
+    "name": "Harpy Feather"
+  },
+  {
+    "type": "item",
+    "id": "health_potion",
+    "name": "Health Potion"
+  },
+  {
+    "type": "item",
+    "id": "hippopotamus_hide",
+    "name": "Hippopotamus Hide"
+  },
+  {
+    "type": "item",
+    "id": "ice_essence",
+    "name": "Ice Essence"
+  },
+  {
+    "type": "item",
+    "id": "iron_axe",
+    "name": "Iron Axe"
+  },
+  {
+    "type": "item",
+    "id": "iron_bar",
+    "name": "Iron Bar"
+  },
+  {
+    "type": "item",
+    "id": "iron_boots",
+    "name": "Iron Boots"
+  },
+  {
+    "type": "item",
+    "id": "iron_chestplate",
+    "name": "Iron Chestplate"
+  },
+  {
+    "type": "item",
+    "id": "iron_dagger",
+    "name": "Iron Dagger"
+  },
+  {
+    "type": "item",
+    "id": "iron_gloves",
+    "name": "Iron Gloves"
+  },
+  {
+    "type": "item",
+    "id": "iron_hatchet",
+    "name": "Iron Hatchet"
+  },
+  {
+    "type": "item",
+    "id": "iron_helmet",
+    "name": "Iron Helmet"
+  },
+  {
+    "type": "item",
+    "id": "iron_leggings",
+    "name": "Iron Leggings"
+  },
+  {
+    "type": "item",
+    "id": "iron_ore",
+    "name": "Iron Ore"
+  },
+  {
+    "type": "item",
+    "id": "iron_pickaxe",
+    "name": "Iron Pickaxe"
+  },
+  {
+    "type": "item",
+    "id": "iron_shield",
+    "name": "Iron Shield"
+  },
+  {
+    "type": "item",
+    "id": "iron_sword",
+    "name": "Iron Sword"
+  },
+  {
+    "type": "item",
+    "id": "ironbark_log",
+    "name": "Ironbark Log"
+  },
+  {
+    "type": "item",
+    "id": "jellyfish_tentacle",
+    "name": "Jellyfish Tentacle"
+  },
+  {
+    "type": "item",
+    "id": "leather_boots",
+    "name": "Leather Boots"
+  },
+  {
+    "type": "item",
+    "id": "leather_chestplate",
+    "name": "Leather Chestplate"
+  },
+  {
+    "type": "item",
+    "id": "leather_gloves",
+    "name": "Leather Gloves"
+  },
+  {
+    "type": "item",
+    "id": "leather_helmet",
+    "name": "Leather Helmet"
+  },
+  {
+    "type": "item",
+    "id": "leather_leggings",
+    "name": "Leather Leggings"
+  },
+  {
+    "type": "item",
+    "id": "leather_necklace",
+    "name": "Leather Necklace"
+  },
+  {
+    "type": "item",
+    "id": "legendary_treasure_chest",
+    "name": "Legendary Treasure Chest"
+  },
+  {
+    "type": "item",
+    "id": "leopard_skin",
+    "name": "Leopard Skin"
+  },
+  {
+    "type": "item",
+    "id": "lich_phylactery",
+    "name": "Lich Phylactery"
+  },
+  {
+    "type": "item",
+    "id": "life_blossom",
+    "name": "Life Blossom"
+  },
+  {
+    "type": "item",
+    "id": "light_essence",
+    "name": "Light Essence"
+  },
+  {
+    "type": "item",
+    "id": "lily",
+    "name": "Lily"
+  },
+  {
+    "type": "item",
+    "id": "lion_hide",
+    "name": "Lion Hide"
+  },
+  {
+    "type": "item",
+    "id": "lobster_pot",
+    "name": "Lobster Pot"
+  },
+  {
+    "type": "item",
+    "id": "lockpick",
+    "name": "Lockpick"
+  },
+  {
+    "type": "item",
+    "id": "lost_soul",
+    "name": "Lost Soul"
+  },
+  {
+    "type": "item",
+    "id": "lotus",
+    "name": "Lotus"
+  },
+  {
+    "type": "item",
+    "id": "luck_potion",
+    "name": "Luck Potion"
+  },
+  {
+    "type": "item",
+    "id": "magic_bean",
+    "name": "Magic Bean"
+  },
+  {
+    "type": "item",
+    "id": "magic_bow",
+    "name": "Magic Bow"
+  },
+  {
+    "type": "item",
+    "id": "magic_circuit",
+    "name": "Magic Circuit"
+  },
+  {
+    "type": "item",
+    "id": "magic_fishing_rod",
+    "name": "Magic Fishing Rod"
+  },
+  {
+    "type": "item",
+    "id": "magic_potion",
+    "name": "Magic Potion"
+  },
+  {
+    "type": "item",
+    "id": "maple_bow",
+    "name": "Maple Bow"
+  },
+  {
+    "type": "item",
+    "id": "maple_log",
+    "name": "Maple Log"
+  },
+  {
+    "type": "item",
+    "id": "master_key",
+    "name": "Master Key"
+  },
+  {
+    "type": "item",
+    "id": "master_rune",
+    "name": "Master Rune"
+  },
+  {
+    "type": "item",
+    "id": "master_staff",
+    "name": "Master Staff"
+  },
+  {
+    "type": "item",
+    "id": "meat_pie",
+    "name": "Meat Pie"
+  },
+  {
+    "type": "item",
+    "id": "minor_health_potion",
+    "name": "Minor Health Potion"
+  },
+  {
+    "type": "item",
+    "id": "mithril_bar",
+    "name": "Mithril Bar"
+  },
+  {
+    "type": "item",
+    "id": "mithril_boots",
+    "name": "Mithril Boots"
+  },
+  {
+    "type": "item",
+    "id": "mithril_chestplate",
+    "name": "Mithril Chestplate"
+  },
+  {
+    "type": "item",
+    "id": "mithril_dagger",
+    "name": "Mithril Dagger"
+  },
+  {
+    "type": "item",
+    "id": "mithril_gloves",
+    "name": "Mithril Gloves"
+  },
+  {
+    "type": "item",
+    "id": "mithril_hatchet",
+    "name": "Mithril Hatchet"
+  },
+  {
+    "type": "item",
+    "id": "mithril_helmet",
+    "name": "Mithril Helmet"
+  },
+  {
+    "type": "item",
+    "id": "mithril_leggings",
+    "name": "Mithril Leggings"
+  },
+  {
+    "type": "item",
+    "id": "mithril_ore",
+    "name": "Mithril Ore"
+  },
+  {
+    "type": "item",
+    "id": "mithril_pickaxe",
+    "name": "Mithril Pickaxe"
+  },
+  {
+    "type": "item",
+    "id": "mithril_shield",
+    "name": "Mithril Shield"
+  },
+  {
+    "type": "item",
+    "id": "mithril_sword",
+    "name": "Mithril Sword"
+  },
+  {
+    "type": "item",
+    "id": "monster_sinew",
+    "name": "Monster Sinew"
+  },
+  {
+    "type": "item",
+    "id": "moonflower",
+    "name": "Moonflower"
+  },
+  {
+    "type": "item",
+    "id": "nettle",
+    "name": "Nettle"
+  },
+  {
+    "type": "item",
+    "id": "nightshade",
+    "name": "Nightshade"
+  },
+  {
+    "type": "item",
+    "id": "oak_bow",
+    "name": "Oak Bow"
+  },
+  {
+    "type": "item",
+    "id": "oak_log",
+    "name": "Oak Log"
+  },
+  {
+    "type": "item",
+    "id": "octopus_ink",
+    "name": "Octopus Ink"
+  },
+  {
+    "type": "item",
+    "id": "orange",
+    "name": "Orange"
+  },
+  {
+    "type": "item",
+    "id": "orb_of_darkness",
+    "name": "Orb of Darkness"
+  },
+  {
+    "type": "item",
+    "id": "orb_of_light",
+    "name": "Orb of Light"
+  },
+  {
+    "type": "item",
+    "id": "orb_of_power",
+    "name": "Orb of Power"
+  },
+  {
+    "type": "item",
+    "id": "orb_of_wisdom",
+    "name": "Orb of Wisdom"
+  },
+  {
+    "type": "item",
+    "id": "orc_tooth",
+    "name": "Orc Tooth"
+  },
+  {
+    "type": "item",
+    "id": "orchid",
+    "name": "Orchid"
+  },
+  {
+    "type": "item",
+    "id": "phoenix_dust",
+    "name": "Phoenix Dust"
+  },
+  {
+    "type": "item",
+    "id": "pig_skin",
+    "name": "Pig Skin"
+  },
+  {
+    "type": "item",
+    "id": "platinum_ring",
+    "name": "Platinum Ring"
+  },
+  {
+    "type": "item",
+    "id": "poison_dagger",
+    "name": "Poison Dagger"
+  },
+  {
+    "type": "item",
+    "id": "potato_seed",
+    "name": "Potato Seed"
+  },
+  {
+    "type": "item",
+    "id": "pristine_feather",
+    "name": "Pristine Feather"
+  },
+  {
+    "type": "item",
+    "id": "pure_soul",
+    "name": "Pure Soul"
+  },
+  {
+    "type": "item",
+    "id": "quartz",
+    "name": "Quartz"
+  },
+  {
+    "type": "item",
+    "id": "rabbit_foot",
+    "name": "Rabbit Foot"
+  },
+  {
+    "type": "item",
+    "id": "rabbit_fur",
+    "name": "Rabbit Fur"
+  },
+  {
+    "type": "item",
+    "id": "rat_tail",
+    "name": "Rat Tail"
+  },
+  {
+    "type": "item",
+    "id": "raw_kraken_tentacle",
+    "name": "Raw Kraken Tentacle"
+  },
+  {
+    "type": "item",
+    "id": "raw_leviathan",
+    "name": "Raw Leviathan"
+  },
+  {
+    "type": "item",
+    "id": "raw_manta_ray",
+    "name": "Raw Manta Ray"
+  },
+  {
+    "type": "item",
+    "id": "raw_meat",
+    "name": "Raw Meat"
+  },
+  {
+    "type": "item",
+    "id": "raw_salmon",
+    "name": "Raw Salmon"
+  },
+  {
+    "type": "item",
+    "id": "raw_shark",
+    "name": "Raw Shark"
+  },
+  {
+    "type": "item",
+    "id": "raw_swordfish",
+    "name": "Raw Swordfish"
+  },
+  {
+    "type": "item",
+    "id": "raw_trout",
+    "name": "Raw Trout"
+  },
+  {
+    "type": "item",
+    "id": "raw_tuna",
+    "name": "Raw Tuna"
+  },
+  {
+    "type": "item",
+    "id": "raw_void_fish",
+    "name": "Raw Void Fish"
+  },
+  {
+    "type": "item",
+    "id": "reality_fragment",
+    "name": "Reality Fragment"
+  },
+  {
+    "type": "item",
+    "id": "redwood_log",
+    "name": "Redwood Log"
+  },
+  {
+    "type": "item",
+    "id": "rhino_horn",
+    "name": "Rhino Horn"
+  },
+  {
+    "type": "item",
+    "id": "roasted_chicken",
+    "name": "Roasted Chicken"
+  },
+  {
+    "type": "item",
+    "id": "rope",
+    "name": "Rope"
+  },
+  {
+    "type": "item",
+    "id": "rose",
+    "name": "Rose"
+  },
+  {
+    "type": "item",
+    "id": "ruby",
+    "name": "Ruby"
+  },
+  {
+    "type": "item",
+    "id": "rugged_leather",
+    "name": "Rugged Leather"
+  },
+  {
+    "type": "item",
+    "id": "rune_of_fortune",
+    "name": "Rune of Fortune"
+  },
+  {
+    "type": "item",
+    "id": "rune_of_power",
+    "name": "Rune of Power"
+  },
+  {
+    "type": "item",
+    "id": "rune_of_protection",
+    "name": "Rune of Protection"
+  },
+  {
+    "type": "item",
+    "id": "rune_of_speed",
+    "name": "Rune of Speed"
+  },
+  {
+    "type": "item",
+    "id": "runite_axe",
+    "name": "Runite Axe"
+  },
+  {
+    "type": "item",
+    "id": "runite_bar",
+    "name": "Runite Bar"
+  },
+  {
+    "type": "item",
+    "id": "runite_ore",
+    "name": "Runite Ore"
+  },
+  {
+    "type": "item",
+    "id": "runite_sword",
+    "name": "Runite Sword"
+  },
+  {
+    "type": "item",
+    "id": "sage",
+    "name": "Sage"
+  },
+  {
+    "type": "item",
+    "id": "sapphire",
+    "name": "Sapphire"
+  },
+  {
+    "type": "item",
+    "id": "scorpion_chitin",
+    "name": "Scorpion Chitin"
+  },
+  {
+    "type": "item",
+    "id": "scroll_of_enchanting",
+    "name": "Scroll of Enchanting"
+  },
+  {
+    "type": "item",
+    "id": "scroll_of_identify",
+    "name": "Scroll of Identify"
+  },
+  {
+    "type": "item",
+    "id": "scroll_of_summoning",
+    "name": "Scroll of Summoning"
+  },
+  {
+    "type": "item",
+    "id": "scroll_of_teleport",
+    "name": "Scroll of Teleport"
+  },
+  {
+    "type": "item",
+    "id": "shadow_bow",
+    "name": "Shadow Bow"
+  },
+  {
+    "type": "item",
+    "id": "shadow_dagger",
+    "name": "Shadow Dagger"
+  },
+  {
+    "type": "item",
+    "id": "shadow_essence",
+    "name": "Shadow Essence"
+  },
+  {
+    "type": "item",
+    "id": "shadowbark_log",
+    "name": "Shadowbark Log"
+  },
+  {
+    "type": "item",
+    "id": "shark_skin",
+    "name": "Shark Skin"
+  },
+  {
+    "type": "item",
+    "id": "sheep_wool",
+    "name": "Sheep Wool"
+  },
+  {
+    "type": "item",
+    "id": "silk_thread",
+    "name": "Silk Thread"
+  },
+  {
+    "type": "item",
+    "id": "silver_bar",
+    "name": "Silver Bar"
+  },
+  {
+    "type": "item",
+    "id": "silver_key",
+    "name": "Silver Key"
+  },
+  {
+    "type": "item",
+    "id": "silver_necklace",
+    "name": "Silver Necklace"
+  },
+  {
+    "type": "item",
+    "id": "silver_ore",
+    "name": "Silver Ore"
+  },
+  {
+    "type": "item",
+    "id": "silver_ring",
+    "name": "Silver Ring"
+  },
+  {
+    "type": "item",
+    "id": "skeleton_key",
+    "name": "Skeleton Key"
+  },
+  {
+    "type": "item",
+    "id": "snake_skin",
+    "name": "Snake Skin"
+  },
+  {
+    "type": "item",
+    "id": "space_fragment",
+    "name": "Space Fragment"
+  },
+  {
+    "type": "item",
+    "id": "speed_potion",
+    "name": "Speed Potion"
+  },
+  {
+    "type": "item",
+    "id": "spider_silk",
+    "name": "Spider Silk"
+  },
+  {
+    "type": "item",
+    "id": "spring_component",
+    "name": "Spring Component"
+  },
+  {
+    "type": "item",
+    "id": "staff_of_ages",
+    "name": "Staff of Ages"
+  },
+  {
+    "type": "item",
+    "id": "star_dust",
+    "name": "Star Dust"
+  },
+  {
+    "type": "item",
+    "id": "star_stone",
+    "name": "Star Stone"
+  },
+  {
+    "type": "item",
+    "id": "starbloom",
+    "name": "Starbloom"
+  },
+  {
+    "type": "item",
+    "id": "steel_axe",
+    "name": "Steel Axe"
+  },
+  {
+    "type": "item",
+    "id": "steel_bar",
+    "name": "Steel Bar"
+  },
+  {
+    "type": "item",
+    "id": "steel_boots",
+    "name": "Steel Boots"
+  },
+  {
+    "type": "item",
+    "id": "steel_chestplate",
+    "name": "Steel Chestplate"
+  },
+  {
+    "type": "item",
+    "id": "steel_dagger",
+    "name": "Steel Dagger"
+  },
+  {
+    "type": "item",
+    "id": "steel_gloves",
+    "name": "Steel Gloves"
+  },
+  {
+    "type": "item",
+    "id": "steel_hatchet",
+    "name": "Steel Hatchet"
+  },
+  {
+    "type": "item",
+    "id": "steel_helmet",
+    "name": "Steel Helmet"
+  },
+  {
+    "type": "item",
+    "id": "steel_leggings",
+    "name": "Steel Leggings"
+  },
+  {
+    "type": "item",
+    "id": "steel_pickaxe",
+    "name": "Steel Pickaxe"
+  },
+  {
+    "type": "item",
+    "id": "steel_shield",
+    "name": "Steel Shield"
+  },
+  {
+    "type": "item",
+    "id": "steel_sword",
+    "name": "Steel Sword"
+  },
+  {
+    "type": "item",
+    "id": "strength_potion",
+    "name": "Strength Potion"
+  },
+  {
+    "type": "item",
+    "id": "super_health_potion",
+    "name": "Super Health Potion"
+  },
+  {
+    "type": "item",
+    "id": "teak_log",
+    "name": "Teak Log"
+  },
+  {
+    "type": "item",
+    "id": "thick_fur",
+    "name": "Thick Fur"
+  },
+  {
+    "type": "item",
+    "id": "tiger_pelt",
+    "name": "Tiger Pelt"
+  },
+  {
+    "type": "item",
+    "id": "time_fragment",
+    "name": "Time Fragment"
+  },
+  {
+    "type": "item",
+    "id": "tin_ore",
+    "name": "Tin Ore"
+  },
+  {
+    "type": "item",
+    "id": "titan_essence",
+    "name": "Titan Essence"
+  },
+  {
+    "type": "item",
+    "id": "tomato_seed",
+    "name": "Tomato Seed"
+  },
+  {
+    "type": "item",
+    "id": "tome_of_knowledge",
+    "name": "Tome of Knowledge"
+  },
+  {
+    "type": "item",
+    "id": "tome_of_power",
+    "name": "Tome of Power"
+  },
+  {
+    "type": "item",
+    "id": "torch",
+    "name": "Torch"
+  },
+  {
+    "type": "item",
+    "id": "transmutation_catalyst",
+    "name": "Transmutation Catalyst"
+  },
+  {
+    "type": "item",
+    "id": "treasure_chest",
+    "name": "Treasure Chest"
+  },
+  {
+    "type": "item",
+    "id": "troll_hide",
+    "name": "Troll Hide"
+  },
+  {
+    "type": "item",
+    "id": "turtle_shell",
+    "name": "Turtle Shell"
+  },
+  {
+    "type": "item",
+    "id": "vampire_fang",
+    "name": "Vampire Fang"
+  },
+  {
+    "type": "item",
+    "id": "vegetable_stew",
+    "name": "Vegetable Stew"
+  },
+  {
+    "type": "item",
+    "id": "venom_sac",
+    "name": "Venom Sac"
+  },
+  {
+    "type": "item",
+    "id": "void_axe",
+    "name": "Void Axe"
+  },
+  {
+    "type": "item",
+    "id": "void_bar",
+    "name": "Void Bar"
+  },
+  {
+    "type": "item",
+    "id": "void_crystal",
+    "name": "Void Crystal"
+  },
+  {
+    "type": "item",
+    "id": "void_dust",
+    "name": "Void Dust"
+  },
+  {
+    "type": "item",
+    "id": "void_moss",
+    "name": "Void Moss"
+  },
+  {
+    "type": "item",
+    "id": "void_ore",
+    "name": "Void Ore"
+  },
+  {
+    "type": "item",
+    "id": "void_shard",
+    "name": "Void Shard"
+  },
+  {
+    "type": "item",
+    "id": "void_staff",
+    "name": "Void Staff"
+  },
+  {
+    "type": "item",
+    "id": "void_sword",
+    "name": "Void Sword"
+  },
+  {
+    "type": "item",
+    "id": "whale_blubber",
+    "name": "Whale Blubber"
+  },
+  {
+    "type": "item",
+    "id": "wheat_seed",
+    "name": "Wheat Seed"
+  },
+  {
+    "type": "item",
+    "id": "willow_bow",
+    "name": "Willow Bow"
+  },
+  {
+    "type": "item",
+    "id": "willow_log",
+    "name": "Willow Log"
+  },
+  {
+    "type": "item",
+    "id": "wolf_pelt",
+    "name": "Wolf Pelt"
+  },
+  {
+    "type": "item",
+    "id": "world_seed",
+    "name": "World Seed"
+  },
+  {
+    "type": "item",
+    "id": "world_tree_log",
+    "name": "World Tree Log"
+  },
+  {
+    "type": "item",
+    "id": "wyvern_scale",
+    "name": "Wyvern Scale"
+  },
+  {
+    "type": "item",
+    "id": "yew_bow",
+    "name": "Yew Bow"
+  },
+  {
+    "type": "item",
+    "id": "yew_log",
+    "name": "Yew Log"
+  },
+  {
+    "type": "item",
+    "id": "zombie_fragment",
+    "name": "Zombie Fragment"
+  },
+  {
+    "type": "skill",
+    "id": "cooking",
+    "name": "Cooking"
+  },
+  {
+    "type": "skill",
+    "id": "fishing",
+    "name": "Fishing"
+  },
+  {
+    "type": "skill",
+    "id": "mining",
+    "name": "Mining"
+  },
+  {
+    "type": "skill",
+    "id": "smithing",
+    "name": "Smithing"
+  },
+  {
+    "type": "skill",
+    "id": "woodcutting",
+    "name": "Woodcutting"
+  }
+]

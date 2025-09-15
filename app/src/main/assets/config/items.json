@@ -1,0 +1,2947 @@
+{
+  "items": [
+    {
+      "id": "copper_ore",
+      "name": "Copper Ore",
+      "description": "A chunk of copper ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 5,
+      "iconResource": ""
+    },
+    {
+      "id": "tin_ore",
+      "name": "Tin Ore",
+      "description": "A chunk of tin ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 4,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_ore",
+      "name": "Iron Ore",
+      "description": "A chunk of iron ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 10,
+      "iconResource": ""
+    },
+    {
+      "id": "oak_log",
+      "name": "Oak Log",
+      "description": "A sturdy oak log",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 3,
+      "iconResource": ""
+    },
+    {
+      "id": "willow_log",
+      "name": "Willow Log",
+      "description": "A flexible willow log",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 6,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_trout",
+      "name": "Raw Trout",
+      "description": "A fresh trout",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_salmon",
+      "name": "Raw Salmon",
+      "description": "A large salmon",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 12,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_trout",
+      "name": "Cooked Trout",
+      "description": "A delicious cooked trout",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_salmon",
+      "name": "Cooked Salmon",
+      "description": "A perfectly cooked salmon",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_tuna",
+      "name": "Raw Tuna",
+      "description": "A hefty tuna",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_tuna",
+      "name": "Cooked Tuna",
+      "description": "A savory cooked tuna",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 40,
+      "iconResource": ""
+    },
+    {
+      "id": "coal_ore",
+      "name": "Coal Ore",
+      "description": "A chunk of coal",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "maple_log",
+      "name": "Maple Log",
+      "description": "A resilient maple log",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 10,
+      "iconResource": ""
+    },
+    {
+      "id": "birch_log",
+      "name": "Birch Log",
+      "description": "A pale birch log",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 4,
+      "iconResource": ""
+    },
+    {
+      "id": "teak_log",
+      "name": "Teak Log",
+      "description": "A dense teak log",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_ore",
+      "name": "Mithril Ore",
+      "description": "A rare mithril ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 40,
+      "iconResource": ""
+    },
+    {
+      "id": "silver_ore",
+      "name": "Silver Ore",
+      "description": "A chunk of silver ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "gold_ore",
+      "name": "Gold Ore",
+      "description": "A valuable gold ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "adamantite_ore",
+      "name": "Adamantite Ore",
+      "description": "A very strong ore",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "yew_log",
+      "name": "Yew Log",
+      "description": "A dense yew log",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_swordfish",
+      "name": "Raw Swordfish",
+      "description": "A large swordfish",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_swordfish",
+      "name": "Cooked Swordfish",
+      "description": "A juicy cooked swordfish",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 70,
+      "iconResource": ""
+    },
+    {
+      "id": "runite_ore",
+      "name": "Runite Ore",
+      "description": "A legendary ore that pulses with power",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "dragonite_ore",
+      "name": "Dragonite Ore",
+      "description": "An otherworldly ore found in dragon lairs",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "celestial_ore",
+      "name": "Celestial Ore",
+      "description": "A divine ore that fell from the heavens",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "void_ore",
+      "name": "Void Ore",
+      "description": "A mysterious ore from the void realm",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "ethereal_ore",
+      "name": "Ethereal Ore",
+      "description": "A ghostly ore that phases in and out of reality",
+      "category": "ORE",
+      "stackSize": 100,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "redwood_log",
+      "name": "Redwood Log",
+      "description": "A massive log from an ancient tree",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 45,
+      "iconResource": ""
+    },
+    {
+      "id": "elderwood_log",
+      "name": "Elderwood Log",
+      "description": "Wood from the eldest trees in the forest",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "ironbark_log",
+      "name": "Ironbark Log",
+      "description": "Wood as hard as iron itself",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "shadowbark_log",
+      "name": "Shadowbark Log",
+      "description": "Dark wood that absorbs light",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "world_tree_log",
+      "name": "World Tree Log",
+      "description": "A branch from the mythical world tree",
+      "category": "LOG",
+      "stackSize": 100,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_shark",
+      "name": "Raw Shark",
+      "description": "A massive predator of the deep",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_manta_ray",
+      "name": "Raw Manta Ray",
+      "description": "A graceful giant of the ocean",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 95,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_kraken_tentacle",
+      "name": "Raw Kraken Tentacle",
+      "description": "A tentacle from the legendary kraken",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_leviathan",
+      "name": "Raw Leviathan",
+      "description": "Meat from the ancient sea beast",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 250,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_void_fish",
+      "name": "Raw Void Fish",
+      "description": "A fish from the void dimension",
+      "category": "FISH",
+      "stackSize": 50,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_shark",
+      "name": "Cooked Shark",
+      "description": "Perfectly grilled shark steak",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_manta_ray",
+      "name": "Cooked Manta Ray",
+      "description": "A delicacy fit for kings",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 190,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_kraken_tentacle",
+      "name": "Cooked Kraken Tentacle",
+      "description": "Legendary seafood with mystical properties",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_leviathan",
+      "name": "Cooked Leviathan",
+      "description": "Ancient beast meat that grants strength",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "cooked_void_fish",
+      "name": "Cooked Void Fish",
+      "description": "Void-touched delicacy that phases reality",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "daisy",
+      "name": "Daisy",
+      "description": "A simple white flower",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 2,
+      "iconResource": ""
+    },
+    {
+      "id": "rose",
+      "name": "Rose",
+      "description": "A beautiful red rose",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "lily",
+      "name": "Lily",
+      "description": "An elegant white lily",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "orchid",
+      "name": "Orchid",
+      "description": "A rare exotic orchid",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "lotus",
+      "name": "Lotus",
+      "description": "A mystical lotus blossom",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "moonflower",
+      "name": "Moonflower",
+      "description": "A flower that blooms only at night",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "starbloom",
+      "name": "Starbloom",
+      "description": "A celestial flower that glows",
+      "category": "FLOWER",
+      "stackSize": 50,
+      "value": 250,
+      "iconResource": ""
+    },
+    {
+      "id": "nettle",
+      "name": "Nettle",
+      "description": "A stinging herb with healing properties",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 5,
+      "iconResource": ""
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "description": "A wise herb used in rituals",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 12,
+      "iconResource": ""
+    },
+    {
+      "id": "ginseng",
+      "name": "Ginseng",
+      "description": "A powerful healing root",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "nightshade",
+      "name": "Nightshade",
+      "description": "A dangerous poisonous plant",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 40,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_herb",
+      "name": "Dragon Herb",
+      "description": "A rare herb that grows near dragons",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "void_moss",
+      "name": "Void Moss",
+      "description": "Moss that grows in the void realm",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "life_blossom",
+      "name": "Life Blossom",
+      "description": "A flower that radiates life energy",
+      "category": "HERB",
+      "stackSize": 100,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "wheat_seed",
+      "name": "Wheat Seed",
+      "description": "Seeds for growing wheat",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 3,
+      "iconResource": ""
+    },
+    {
+      "id": "carrot_seed",
+      "name": "Carrot Seed",
+      "description": "Seeds for growing carrots",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 5,
+      "iconResource": ""
+    },
+    {
+      "id": "potato_seed",
+      "name": "Potato Seed",
+      "description": "Seeds for growing potatoes",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 4,
+      "iconResource": ""
+    },
+    {
+      "id": "tomato_seed",
+      "name": "Tomato Seed",
+      "description": "Seeds for growing tomatoes",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "corn_seed",
+      "name": "Corn Seed",
+      "description": "Seeds for growing corn",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 12,
+      "iconResource": ""
+    },
+    {
+      "id": "magic_bean",
+      "name": "Magic Bean",
+      "description": "A seed infused with magical energy",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "world_seed",
+      "name": "World Seed",
+      "description": "A seed that could grow into a world tree",
+      "category": "SEED",
+      "stackSize": 200,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "quartz",
+      "name": "Quartz",
+      "description": "A clear crystal with weak magical properties",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "amethyst",
+      "name": "Amethyst",
+      "description": "A purple gem that enhances magic",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 45,
+      "iconResource": ""
+    },
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "description": "A green gem of nature's power",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 85,
+      "iconResource": ""
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "description": "A red gem that burns with inner fire",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "description": "A blue gem as deep as the ocean",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "description": "The hardest and most brilliant gem",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "black_opal",
+      "name": "Black Opal",
+      "description": "A rare opal with shifting colors",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "star_stone",
+      "name": "Star Stone",
+      "description": "A gem that contains a trapped star",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 1000,
+      "iconResource": ""
+    },
+    {
+      "id": "void_crystal",
+      "name": "Void Crystal",
+      "description": "A crystal from the void dimension",
+      "category": "GEM",
+      "stackSize": 50,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "minor_health_potion",
+      "name": "Minor Health Potion",
+      "description": "Restores a small amount of health",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "health_potion",
+      "name": "Health Potion",
+      "description": "Restores moderate health",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "greater_health_potion",
+      "name": "Greater Health Potion",
+      "description": "Restores significant health",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "super_health_potion",
+      "name": "Super Health Potion",
+      "description": "Restores maximum health",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "strength_potion",
+      "name": "Strength Potion",
+      "description": "Temporarily increases attack power",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "defense_potion",
+      "name": "Defense Potion",
+      "description": "Temporarily increases defense",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "speed_potion",
+      "name": "Speed Potion",
+      "description": "Temporarily increases speed",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "magic_potion",
+      "name": "Magic Potion",
+      "description": "Restores magical energy",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "luck_potion",
+      "name": "Luck Potion",
+      "description": "Increases drop rates temporarily",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "experience_potion",
+      "name": "Experience Potion",
+      "description": "Doubles XP gain for a short time",
+      "category": "POTION",
+      "stackSize": 20,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "scroll_of_teleport",
+      "name": "Scroll of Teleport",
+      "description": "Instantly travel to a known location",
+      "category": "SCROLL",
+      "stackSize": 10,
+      "value": 40,
+      "iconResource": ""
+    },
+    {
+      "id": "scroll_of_identify",
+      "name": "Scroll of Identify",
+      "description": "Reveals the properties of an item",
+      "category": "SCROLL",
+      "stackSize": 10,
+      "value": 30,
+      "iconResource": ""
+    },
+    {
+      "id": "scroll_of_enchanting",
+      "name": "Scroll of Enchanting",
+      "description": "Enhances weapon or armor",
+      "category": "SCROLL",
+      "stackSize": 10,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "scroll_of_summoning",
+      "name": "Scroll of Summoning",
+      "description": "Calls forth a creature to aid you",
+      "category": "SCROLL",
+      "stackSize": 10,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "tome_of_knowledge",
+      "name": "Tome of Knowledge",
+      "description": "Contains ancient wisdom",
+      "category": "TOME",
+      "stackSize": 5,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "tome_of_power",
+      "name": "Tome of Power",
+      "description": "Grants temporary immense power",
+      "category": "TOME",
+      "stackSize": 5,
+      "value": 1000,
+      "iconResource": ""
+    },
+    {
+      "id": "grimoire",
+      "name": "Grimoire",
+      "description": "A book of dark magic spells",
+      "category": "TOME",
+      "stackSize": 5,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_key",
+      "name": "Bronze Key",
+      "description": "Opens basic locked doors",
+      "category": "KEY",
+      "stackSize": 1,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "silver_key",
+      "name": "Silver Key",
+      "description": "Opens intermediate locks",
+      "category": "KEY",
+      "stackSize": 1,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "golden_key",
+      "name": "Golden Key",
+      "description": "Opens precious treasure chests",
+      "category": "KEY",
+      "stackSize": 1,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "skeleton_key",
+      "name": "Skeleton Key",
+      "description": "Opens any lock",
+      "category": "KEY",
+      "stackSize": 1,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "master_key",
+      "name": "Master Key",
+      "description": "The key that opens all doors",
+      "category": "KEY",
+      "stackSize": 1,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "treasure_chest",
+      "name": "Treasure Chest",
+      "description": "Contains valuable loot",
+      "category": "TREASURE",
+      "stackSize": 1,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "golden_treasure_chest",
+      "name": "Golden Treasure Chest",
+      "description": "Contains rare treasures",
+      "category": "TREASURE",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "legendary_treasure_chest",
+      "name": "Legendary Treasure Chest",
+      "description": "Contains legendary items",
+      "category": "TREASURE",
+      "stackSize": 1,
+      "value": 3000,
+      "iconResource": ""
+    },
+    {
+      "id": "cursed_bone",
+      "name": "Cursed Bone",
+      "description": "A bone tainted with dark magic",
+      "category": "BONE_ITEM",
+      "stackSize": 30,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "ancient_rune",
+      "name": "Ancient Rune",
+      "description": "A rune inscribed with forgotten power",
+      "category": "RUNE",
+      "stackSize": 20,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "shadow_essence",
+      "name": "Shadow Essence",
+      "description": "Pure essence of darkness",
+      "category": "ESSENCE",
+      "stackSize": 10,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "light_essence",
+      "name": "Light Essence",
+      "description": "Pure essence of light",
+      "category": "ESSENCE",
+      "stackSize": 10,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "fire_essence",
+      "name": "Fire Essence",
+      "description": "Concentrated fire energy",
+      "category": "ESSENCE",
+      "stackSize": 10,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "ice_essence",
+      "name": "Ice Essence",
+      "description": "Frozen essence of winter",
+      "category": "ESSENCE",
+      "stackSize": 10,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "earth_essence",
+      "name": "Earth Essence",
+      "description": "Essence of the living earth",
+      "category": "ESSENCE",
+      "stackSize": 10,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "air_essence",
+      "name": "Air Essence",
+      "description": "Essence of the eternal winds",
+      "category": "ESSENCE",
+      "stackSize": 10,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "lost_soul",
+      "name": "Lost Soul",
+      "description": "The soul of a wandering spirit",
+      "category": "SOUL",
+      "stackSize": 5,
+      "value": 600,
+      "iconResource": ""
+    },
+    {
+      "id": "corrupted_soul",
+      "name": "Corrupted Soul",
+      "description": "A soul tainted by evil",
+      "category": "SOUL",
+      "stackSize": 5,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "pure_soul",
+      "name": "Pure Soul",
+      "description": "An untainted, pure soul",
+      "category": "SOUL",
+      "stackSize": 5,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "ancient_soul",
+      "name": "Ancient Soul",
+      "description": "The soul of an ancient being",
+      "category": "SOUL",
+      "stackSize": 5,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "reality_fragment",
+      "name": "Reality Fragment",
+      "description": "A piece of broken reality",
+      "category": "FRAGMENT",
+      "stackSize": 3,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "time_fragment",
+      "name": "Time Fragment",
+      "description": "A shard of frozen time",
+      "category": "FRAGMENT",
+      "stackSize": 3,
+      "value": 1800,
+      "iconResource": ""
+    },
+    {
+      "id": "space_fragment",
+      "name": "Space Fragment",
+      "description": "A fragment of twisted space",
+      "category": "FRAGMENT",
+      "stackSize": 3,
+      "value": 2200,
+      "iconResource": ""
+    },
+    {
+      "id": "fairy_dust",
+      "name": "Fairy Dust",
+      "description": "Magical dust from fairy wings",
+      "category": "DUST",
+      "stackSize": 100,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "star_dust",
+      "name": "Star Dust",
+      "description": "Dust from a fallen star",
+      "category": "DUST",
+      "stackSize": 100,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "void_dust",
+      "name": "Void Dust",
+      "description": "Dust from the void realm",
+      "category": "DUST",
+      "stackSize": 100,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "phoenix_dust",
+      "name": "Phoenix Dust",
+      "description": "Dust from phoenix feathers",
+      "category": "DUST",
+      "stackSize": 100,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "gear_component",
+      "name": "Gear Component",
+      "description": "A mechanical gear",
+      "category": "COMPONENT",
+      "stackSize": 50,
+      "value": 30,
+      "iconResource": ""
+    },
+    {
+      "id": "spring_component",
+      "name": "Spring Component",
+      "description": "A coiled spring mechanism",
+      "category": "COMPONENT",
+      "stackSize": 50,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "crystal_component",
+      "name": "Crystal Component",
+      "description": "A crystalline component",
+      "category": "COMPONENT",
+      "stackSize": 50,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "magic_circuit",
+      "name": "Magic Circuit",
+      "description": "A circuit that conducts magic",
+      "category": "COMPONENT",
+      "stackSize": 50,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "orb_of_light",
+      "name": "Orb of Light",
+      "description": "An orb radiating pure light",
+      "category": "ORB",
+      "stackSize": 5,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "orb_of_darkness",
+      "name": "Orb of Darkness",
+      "description": "An orb consuming all light",
+      "category": "ORB",
+      "stackSize": 5,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "orb_of_power",
+      "name": "Orb of Power",
+      "description": "An orb crackling with energy",
+      "category": "ORB",
+      "stackSize": 5,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "orb_of_wisdom",
+      "name": "Orb of Wisdom",
+      "description": "An orb containing ancient knowledge",
+      "category": "ORB",
+      "stackSize": 5,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "transmutation_catalyst",
+      "name": "Transmutation Catalyst",
+      "description": "Enables material transformation",
+      "category": "CATALYST",
+      "stackSize": 10,
+      "value": 600,
+      "iconResource": ""
+    },
+    {
+      "id": "enhancement_catalyst",
+      "name": "Enhancement Catalyst",
+      "description": "Enhances item properties",
+      "category": "CATALYST",
+      "stackSize": 10,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "fusion_catalyst",
+      "name": "Fusion Catalyst",
+      "description": "Allows item fusion",
+      "category": "CATALYST",
+      "stackSize": 10,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_pickaxe",
+      "name": "Bronze Pickaxe",
+      "description": "A basic mining tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_pickaxe",
+      "name": "Iron Pickaxe",
+      "description": "An improved mining tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 250,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_pickaxe",
+      "name": "Steel Pickaxe",
+      "description": "A professional mining tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_pickaxe",
+      "name": "Mithril Pickaxe",
+      "description": "A superior mining tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_pickaxe",
+      "name": "Dragon Pickaxe",
+      "description": "The ultimate mining tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 3000,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_hatchet",
+      "name": "Bronze Hatchet",
+      "description": "A basic woodcutting tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_hatchet",
+      "name": "Iron Hatchet",
+      "description": "An improved woodcutting tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 220,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_hatchet",
+      "name": "Steel Hatchet",
+      "description": "A professional woodcutting tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 450,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_hatchet",
+      "name": "Mithril Hatchet",
+      "description": "A superior woodcutting tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 1100,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_hatchet",
+      "name": "Dragon Hatchet",
+      "description": "The ultimate woodcutting tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 2800,
+      "iconResource": ""
+    },
+    {
+      "id": "fishing_net",
+      "name": "Fishing Net",
+      "description": "Catches multiple fish at once",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "lobster_pot",
+      "name": "Lobster Pot",
+      "description": "Catches sea creatures",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "harpoon",
+      "name": "Harpoon",
+      "description": "For catching large fish",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "magic_fishing_rod",
+      "name": "Magic Fishing Rod",
+      "description": "Enchanted fishing tool",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "ancient_coin",
+      "name": "Ancient Coin",
+      "description": "Currency from a lost civilization",
+      "category": "ARTIFACT",
+      "stackSize": 20,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "golden_idol",
+      "name": "Golden Idol",
+      "description": "A valuable religious artifact",
+      "category": "ARTIFACT",
+      "stackSize": 5,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "crystal_skull",
+      "name": "Crystal Skull",
+      "description": "A mysterious crystal skull",
+      "category": "ARTIFACT",
+      "stackSize": 3,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "staff_of_ages",
+      "name": "Staff of Ages",
+      "description": "An artifact that controls time",
+      "category": "ARTIFACT",
+      "stackSize": 1,
+      "value": 10000,
+      "iconResource": ""
+    },
+    {
+      "id": "crown_of_kings",
+      "name": "Crown of Kings",
+      "description": "The crown of ancient rulers",
+      "category": "ARTIFACT",
+      "stackSize": 1,
+      "value": 15000,
+      "iconResource": ""
+    },
+    {
+      "id": "rune_of_power",
+      "name": "Rune of Power",
+      "description": "Increases magical abilities",
+      "category": "RUNE",
+      "stackSize": 10,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "rune_of_protection",
+      "name": "Rune of Protection",
+      "description": "Provides magical defense",
+      "category": "RUNE",
+      "stackSize": 10,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "rune_of_speed",
+      "name": "Rune of Speed",
+      "description": "Increases movement speed",
+      "category": "RUNE",
+      "stackSize": 10,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "rune_of_fortune",
+      "name": "Rune of Fortune",
+      "description": "Increases luck in all endeavors",
+      "category": "RUNE",
+      "stackSize": 10,
+      "value": 600,
+      "iconResource": ""
+    },
+    {
+      "id": "master_rune",
+      "name": "Master Rune",
+      "description": "The ultimate runic power",
+      "category": "RUNE",
+      "stackSize": 5,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "description": "Basic food made from wheat",
+      "category": "FOOD",
+      "stackSize": 50,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "description": "Nutritious dairy product",
+      "category": "FOOD",
+      "stackSize": 30,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "description": "A crisp, healthy fruit",
+      "category": "FOOD",
+      "stackSize": 100,
+      "value": 3,
+      "iconResource": ""
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "description": "A juicy citrus fruit",
+      "category": "FOOD",
+      "stackSize": 100,
+      "value": 4,
+      "iconResource": ""
+    },
+    {
+      "id": "meat_pie",
+      "name": "Meat Pie",
+      "description": "A hearty meat-filled pastry",
+      "category": "FOOD",
+      "stackSize": 20,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "vegetable_stew",
+      "name": "Vegetable Stew",
+      "description": "A nutritious vegetable mixture",
+      "category": "FOOD",
+      "stackSize": 25,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "roasted_chicken",
+      "name": "Roasted Chicken",
+      "description": "Perfectly cooked poultry",
+      "category": "FOOD",
+      "stackSize": 15,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "beef_roast",
+      "name": "Beef Roast",
+      "description": "A large cut of roasted beef",
+      "category": "FOOD",
+      "stackSize": 10,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_steak",
+      "name": "Dragon Steak",
+      "description": "The ultimate meal for warriors",
+      "category": "FOOD",
+      "stackSize": 5,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "copper_ring",
+      "name": "Copper Ring",
+      "description": "A simple copper band",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "silver_ring",
+      "name": "Silver Ring",
+      "description": "An elegant silver ring",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "gold_ring",
+      "name": "Gold Ring",
+      "description": "A precious gold ring",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "platinum_ring",
+      "name": "Platinum Ring",
+      "description": "A rare platinum ring",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "diamond_ring",
+      "name": "Diamond Ring",
+      "description": "A ring set with a brilliant diamond",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "leather_necklace",
+      "name": "Leather Necklace",
+      "description": "A simple leather cord",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "silver_necklace",
+      "name": "Silver Necklace",
+      "description": "A delicate silver chain",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "gold_necklace",
+      "name": "Gold Necklace",
+      "description": "A beautiful gold necklace",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "amulet_of_strength",
+      "name": "Amulet of Strength",
+      "description": "Increases physical power",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "amulet_of_magic",
+      "name": "Amulet of Magic",
+      "description": "Enhances magical abilities",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "amulet_of_life",
+      "name": "Amulet of Life",
+      "description": "Increases maximum health",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "dungeon_map",
+      "name": "Dungeon Map",
+      "description": "Reveals dungeon layout",
+      "category": "SCROLL",
+      "stackSize": 5,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "compass",
+      "name": "Compass",
+      "description": "Always points toward treasure",
+      "category": "TOOL",
+      "stackSize": 1,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "lockpick",
+      "name": "Lockpick",
+      "description": "Opens locked chests",
+      "category": "TOOL",
+      "stackSize": 20,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "torch",
+      "name": "Torch",
+      "description": "Lights up dark areas",
+      "category": "TOOL",
+      "stackSize": 50,
+      "value": 5,
+      "iconResource": ""
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "description": "Useful for climbing and binding",
+      "category": "TOOL",
+      "stackSize": 10,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "rabbit_fur",
+      "name": "Rabbit Fur",
+      "description": "Soft fur from a rabbit",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 4,
+      "iconResource": ""
+    },
+    {
+      "id": "rabbit_foot",
+      "name": "Rabbit Foot",
+      "description": "A lucky rabbit's foot",
+      "category": "MISC",
+      "stackSize": 50,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "bird_feather",
+      "name": "Bird Feather",
+      "description": "A common bird feather",
+      "category": "MISC",
+      "stackSize": 200,
+      "value": 2,
+      "iconResource": ""
+    },
+    {
+      "id": "eagle_talon",
+      "name": "Eagle Talon",
+      "description": "A sharp eagle talon",
+      "category": "MISC",
+      "stackSize": 30,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "chicken_feather",
+      "name": "Chicken Feather",
+      "description": "Feathers for fletching",
+      "category": "MISC",
+      "stackSize": 150,
+      "value": 3,
+      "iconResource": ""
+    },
+    {
+      "id": "cow_hide",
+      "name": "Cow Hide",
+      "description": "Raw leather from cattle",
+      "category": "MISC",
+      "stackSize": 50,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "sheep_wool",
+      "name": "Sheep Wool",
+      "description": "Soft wool for weaving",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 6,
+      "iconResource": ""
+    },
+    {
+      "id": "pig_skin",
+      "name": "Pig Skin",
+      "description": "Tough pig leather",
+      "category": "MISC",
+      "stackSize": 80,
+      "value": 10,
+      "iconResource": ""
+    },
+    {
+      "id": "deer_hide",
+      "name": "Deer Hide",
+      "description": "Quality deer leather",
+      "category": "MISC",
+      "stackSize": 40,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "deer_antler",
+      "name": "Deer Antler",
+      "description": "Strong antler for crafting",
+      "category": "MISC",
+      "stackSize": 20,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "snake_skin",
+      "name": "Snake Skin",
+      "description": "Flexible snake leather",
+      "category": "MISC",
+      "stackSize": 60,
+      "value": 18,
+      "iconResource": ""
+    },
+    {
+      "id": "crocodile_leather",
+      "name": "Crocodile Leather",
+      "description": "Tough, scaled leather",
+      "category": "MISC",
+      "stackSize": 30,
+      "value": 45,
+      "iconResource": ""
+    },
+    {
+      "id": "turtle_shell",
+      "name": "Turtle Shell",
+      "description": "A hard protective shell",
+      "category": "MISC",
+      "stackSize": 20,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "crab_shell",
+      "name": "Crab Shell",
+      "description": "Chitinous crab armor",
+      "category": "MISC",
+      "stackSize": 40,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "scorpion_chitin",
+      "name": "Scorpion Chitin",
+      "description": "Hard exoskeleton material",
+      "category": "MISC",
+      "stackSize": 35,
+      "value": 40,
+      "iconResource": ""
+    },
+    {
+      "id": "beetle_carapace",
+      "name": "Beetle Carapace",
+      "description": "Shiny beetle shell",
+      "category": "MISC",
+      "stackSize": 50,
+      "value": 30,
+      "iconResource": ""
+    },
+    {
+      "id": "bat_leather",
+      "name": "Bat Leather",
+      "description": "Thin wing membrane",
+      "category": "MISC",
+      "stackSize": 80,
+      "value": 12,
+      "iconResource": ""
+    },
+    {
+      "id": "lion_hide",
+      "name": "Lion Hide",
+      "description": "Majestic lion leather",
+      "category": "MISC",
+      "stackSize": 15,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "tiger_pelt",
+      "name": "Tiger Pelt",
+      "description": "Striped tiger fur",
+      "category": "MISC",
+      "stackSize": 15,
+      "value": 90,
+      "iconResource": ""
+    },
+    {
+      "id": "leopard_skin",
+      "name": "Leopard Skin",
+      "description": "Spotted leopard hide",
+      "category": "MISC",
+      "stackSize": 20,
+      "value": 70,
+      "iconResource": ""
+    },
+    {
+      "id": "elephant_ivory",
+      "name": "Elephant Ivory",
+      "description": "Valuable ivory tusk",
+      "category": "MISC",
+      "stackSize": 10,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "rhino_horn",
+      "name": "Rhino Horn",
+      "description": "A powerful rhino horn",
+      "category": "MISC",
+      "stackSize": 8,
+      "value": 250,
+      "iconResource": ""
+    },
+    {
+      "id": "hippopotamus_hide",
+      "name": "Hippopotamus Hide",
+      "description": "Extremely thick hide",
+      "category": "MISC",
+      "stackSize": 12,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "whale_blubber",
+      "name": "Whale Blubber",
+      "description": "Oily whale fat",
+      "category": "MISC",
+      "stackSize": 20,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "shark_skin",
+      "name": "Shark Skin",
+      "description": "Rough sandpaper-like skin",
+      "category": "MISC",
+      "stackSize": 25,
+      "value": 65,
+      "iconResource": ""
+    },
+    {
+      "id": "octopus_ink",
+      "name": "Octopus Ink",
+      "description": "Black ink for writing",
+      "category": "MISC",
+      "stackSize": 50,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "jellyfish_tentacle",
+      "name": "Jellyfish Tentacle",
+      "description": "Stinging tentacle",
+      "category": "MISC",
+      "stackSize": 40,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "giant_pearl",
+      "name": "Giant Pearl",
+      "description": "A massive pearl from an oyster",
+      "category": "GEM",
+      "stackSize": 5,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "silk_thread",
+      "name": "Silk Thread",
+      "description": "Fine silk from spiders",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "chitin_plate",
+      "name": "Chitin Plate",
+      "description": "Hardened insect armor",
+      "category": "MISC",
+      "stackSize": 60,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "monster_sinew",
+      "name": "Monster Sinew",
+      "description": "Strong tendon for bowstrings",
+      "category": "MISC",
+      "stackSize": 80,
+      "value": 30,
+      "iconResource": ""
+    },
+    {
+      "id": "beast_claw",
+      "name": "Beast Claw",
+      "description": "Sharp claw from a beast",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 22,
+      "iconResource": ""
+    },
+    {
+      "id": "thick_fur",
+      "name": "Thick Fur",
+      "description": "Warm, thick animal fur",
+      "category": "MISC",
+      "stackSize": 70,
+      "value": 28,
+      "iconResource": ""
+    },
+    {
+      "id": "fine_leather",
+      "name": "Fine Leather",
+      "description": "High-quality processed leather",
+      "category": "MISC",
+      "stackSize": 50,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "rugged_leather",
+      "name": "Rugged Leather",
+      "description": "Tough, weathered leather",
+      "category": "MISC",
+      "stackSize": 60,
+      "value": 40,
+      "iconResource": ""
+    },
+    {
+      "id": "pristine_feather",
+      "name": "Pristine Feather",
+      "description": "A perfect feather for fletching",
+      "category": "MISC",
+      "stackSize": 80,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "venom_sac",
+      "name": "Venom Sac",
+      "description": "Poison gland from venomous creatures",
+      "category": "MISC",
+      "stackSize": 30,
+      "value": 55,
+      "iconResource": ""
+    },
+    {
+      "id": "acid_gland",
+      "name": "Acid Gland",
+      "description": "Corrosive acid producer",
+      "category": "MISC",
+      "stackSize": 25,
+      "value": 65,
+      "iconResource": ""
+    },
+    {
+      "id": "frost_gland",
+      "name": "Frost Gland",
+      "description": "Freezing organ from ice creatures",
+      "category": "MISC",
+      "stackSize": 20,
+      "value": 75,
+      "iconResource": ""
+    },
+    {
+      "id": "fire_gland",
+      "name": "Fire Gland",
+      "description": "Flame-producing organ",
+      "category": "MISC",
+      "stackSize": 20,
+      "value": 75,
+      "iconResource": ""
+    },
+    {
+      "id": "electric_organ",
+      "name": "Electric Organ",
+      "description": "Bioelectric generator",
+      "category": "MISC",
+      "stackSize": 15,
+      "value": 85,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_bar",
+      "name": "Bronze Bar",
+      "description": "A smelted bar of bronze",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_bar",
+      "name": "Iron Bar",
+      "description": "A smelted bar of iron",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_bar",
+      "name": "Steel Bar",
+      "description": "A smelted bar of steel",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 220,
+      "iconResource": ""
+    },
+    {
+      "id": "silver_bar",
+      "name": "Silver Bar",
+      "description": "A smelted bar of silver",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 180,
+      "iconResource": ""
+    },
+    {
+      "id": "gold_bar",
+      "name": "Gold Bar",
+      "description": "A smelted bar of gold",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_bar",
+      "name": "Mithril Bar",
+      "description": "A smelted bar of mithril",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_bar",
+      "name": "Adamant Bar",
+      "description": "A smelted bar of adamant",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 900,
+      "iconResource": ""
+    },
+    {
+      "id": "runite_bar",
+      "name": "Runite Bar",
+      "description": "A bar of legendary runite metal",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "dragonite_bar",
+      "name": "Dragonite Bar",
+      "description": "A bar forged from dragon essence",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 2500,
+      "iconResource": ""
+    },
+    {
+      "id": "celestial_bar",
+      "name": "Celestial Bar",
+      "description": "A divine metal from the heavens",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 4000,
+      "iconResource": ""
+    },
+    {
+      "id": "void_bar",
+      "name": "Void Bar",
+      "description": "A bar that exists between dimensions",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 6500,
+      "iconResource": ""
+    },
+    {
+      "id": "ethereal_bar",
+      "name": "Ethereal Bar",
+      "description": "A ghostly metal that phases through reality",
+      "category": "MISC",
+      "stackSize": 100,
+      "value": 10000,
+      "iconResource": ""
+    },
+    {
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "description": "Fresh meat from a defeated enemy",
+      "category": "COMBAT_DROP",
+      "stackSize": 50,
+      "value": 8,
+      "iconResource": ""
+    },
+    {
+      "id": "rat_tail",
+      "name": "Rat Tail",
+      "description": "A trophy from a giant rat",
+      "category": "COMBAT_DROP",
+      "stackSize": 20,
+      "value": 5,
+      "iconResource": ""
+    },
+    {
+      "id": "goblin_ear",
+      "name": "Goblin Ear",
+      "description": "A goblin's pointed ear",
+      "category": "COMBAT_DROP",
+      "stackSize": 20,
+      "value": 12,
+      "iconResource": ""
+    },
+    {
+      "id": "wolf_pelt",
+      "name": "Wolf Pelt",
+      "description": "A thick wolf pelt",
+      "category": "COMBAT_DROP",
+      "stackSize": 20,
+      "value": 18,
+      "iconResource": ""
+    },
+    {
+      "id": "bandit_mask",
+      "name": "Bandit Mask",
+      "description": "A mask worn by bandits",
+      "category": "COMBAT_DROP",
+      "stackSize": 10,
+      "value": 20,
+      "iconResource": ""
+    },
+    {
+      "id": "orc_tooth",
+      "name": "Orc Tooth",
+      "description": "A sharp orc tooth",
+      "category": "COMBAT_DROP",
+      "stackSize": 20,
+      "value": 25,
+      "iconResource": ""
+    },
+    {
+      "id": "zombie_fragment",
+      "name": "Zombie Fragment",
+      "description": "An eerie fragment of undead",
+      "category": "COMBAT_DROP",
+      "stackSize": 30,
+      "value": 22,
+      "iconResource": ""
+    },
+    {
+      "id": "vampire_fang",
+      "name": "Vampire Fang",
+      "description": "A sharp vampire fang",
+      "category": "COMBAT_DROP",
+      "stackSize": 10,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "golem_core",
+      "name": "Golem Core",
+      "description": "A humming core from a golem",
+      "category": "COMBAT_DROP",
+      "stackSize": 5,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "wyvern_scale",
+      "name": "Wyvern Scale",
+      "description": "A hardened wyvern scale",
+      "category": "COMBAT_DROP",
+      "stackSize": 8,
+      "value": 180,
+      "iconResource": ""
+    },
+    {
+      "id": "bone",
+      "name": "Bone",
+      "description": "A bone from an undead creature",
+      "category": "COMBAT_DROP",
+      "stackSize": 50,
+      "value": 15,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_scale",
+      "name": "Dragon Scale",
+      "description": "A shimmering dragon scale",
+      "category": "COMBAT_DROP",
+      "stackSize": 10,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_bone",
+      "name": "Dragon Bone",
+      "description": "A powerful dragon bone",
+      "category": "COMBAT_DROP",
+      "stackSize": 5,
+      "value": 1000,
+      "iconResource": ""
+    },
+    {
+      "id": "spider_silk",
+      "name": "Spider Silk",
+      "description": "Fine silk from giant spiders",
+      "category": "COMBAT_DROP",
+      "stackSize": 30,
+      "value": 35,
+      "iconResource": ""
+    },
+    {
+      "id": "bear_claw",
+      "name": "Bear Claw",
+      "description": "A massive claw from a cave bear",
+      "category": "COMBAT_DROP",
+      "stackSize": 15,
+      "value": 45,
+      "iconResource": ""
+    },
+    {
+      "id": "troll_hide",
+      "name": "Troll Hide",
+      "description": "Thick hide from a mountain troll",
+      "category": "COMBAT_DROP",
+      "stackSize": 10,
+      "value": 55,
+      "iconResource": ""
+    },
+    {
+      "id": "harpy_feather",
+      "name": "Harpy Feather",
+      "description": "A mystical feather that grants flight",
+      "category": "COMBAT_DROP",
+      "stackSize": 20,
+      "value": 75,
+      "iconResource": ""
+    },
+    {
+      "id": "demon_horn",
+      "name": "Demon Horn",
+      "description": "A curved horn from a lesser demon",
+      "category": "COMBAT_DROP",
+      "stackSize": 8,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "angel_wing",
+      "name": "Angel Wing",
+      "description": "A pure white wing feather",
+      "category": "COMBAT_DROP",
+      "stackSize": 5,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "lich_phylactery",
+      "name": "Lich Phylactery",
+      "description": "The soul vessel of an undead lich",
+      "category": "COMBAT_DROP",
+      "stackSize": 3,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "titan_essence",
+      "name": "Titan Essence",
+      "description": "Raw power from an ancient titan",
+      "category": "COMBAT_DROP",
+      "stackSize": 2,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "void_shard",
+      "name": "Void Shard",
+      "description": "A fragment of pure nothingness",
+      "category": "COMBAT_DROP",
+      "stackSize": 1,
+      "value": 3000,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_sword",
+      "name": "Bronze Sword",
+      "description": "A basic bronze sword",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 100,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "description": "A sturdy iron sword",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 250,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_sword",
+      "name": "Steel Sword",
+      "description": "A sharp steel blade",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_sword",
+      "name": "Mithril Sword",
+      "description": "A gleaming mithril blade",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_sword",
+      "name": "Adamant Sword",
+      "description": "An exceptionally strong blade",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 2500,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_sword",
+      "name": "Dragon Sword",
+      "description": "A legendary dragon forged sword",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 5000,
+      "iconResource": ""
+    },
+    {
+      "id": "runite_sword",
+      "name": "Runite Sword",
+      "description": "A blade of pure runic power",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 8000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragonite_sword",
+      "name": "Dragonite Sword",
+      "description": "A sword infused with dragon essence",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 12000,
+      "iconResource": ""
+    },
+    {
+      "id": "celestial_sword",
+      "name": "Celestial Sword",
+      "description": "A divine blade from the heavens",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 18000,
+      "iconResource": ""
+    },
+    {
+      "id": "void_sword",
+      "name": "Void Sword",
+      "description": "A blade that cuts through reality itself",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 25000,
+      "iconResource": ""
+    },
+    {
+      "id": "ethereal_sword",
+      "name": "Ethereal Sword",
+      "description": "A ghostly blade that phases between worlds",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 35000,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_axe",
+      "name": "Bronze Axe",
+      "description": "A heavy bronze axe",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 150,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_axe",
+      "name": "Iron Axe",
+      "description": "A devastating iron axe",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_axe",
+      "name": "Steel Axe",
+      "description": "A sharp steel axe",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 600,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_axe",
+      "name": "Dragon Axe",
+      "description": "A mythical dragon axe",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 5200,
+      "iconResource": ""
+    },
+    {
+      "id": "runite_axe",
+      "name": "Runite Axe",
+      "description": "An axe that cleaves through armor",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 8500,
+      "iconResource": ""
+    },
+    {
+      "id": "dragonite_axe",
+      "name": "Dragonite Axe",
+      "description": "An axe forged from dragon essence",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 13000,
+      "iconResource": ""
+    },
+    {
+      "id": "celestial_axe",
+      "name": "Celestial Axe",
+      "description": "A divine axe blessed by the gods",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 19000,
+      "iconResource": ""
+    },
+    {
+      "id": "void_axe",
+      "name": "Void Axe",
+      "description": "An axe that devours matter itself",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 27000,
+      "iconResource": ""
+    },
+    {
+      "id": "oak_bow",
+      "name": "Oak Bow",
+      "description": "A simple wooden bow",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 120,
+      "iconResource": ""
+    },
+    {
+      "id": "willow_bow",
+      "name": "Willow Bow",
+      "description": "A flexible willow bow",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "maple_bow",
+      "name": "Maple Bow",
+      "description": "A sturdy maple bow",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "yew_bow",
+      "name": "Yew Bow",
+      "description": "A powerful yew longbow",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "magic_bow",
+      "name": "Magic Bow",
+      "description": "A bow infused with magical energy",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "elven_bow",
+      "name": "Elven Bow",
+      "description": "A masterwork bow crafted by elves",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 3000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_bow",
+      "name": "Dragon Bow",
+      "description": "A bow made from dragonbone",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 6000,
+      "iconResource": ""
+    },
+    {
+      "id": "shadow_bow",
+      "name": "Shadow Bow",
+      "description": "A bow that fires arrows of pure darkness",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 12000,
+      "iconResource": ""
+    },
+    {
+      "id": "apprentice_staff",
+      "name": "Apprentice Staff",
+      "description": "A basic staff for novice mages",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 180,
+      "iconResource": ""
+    },
+    {
+      "id": "adept_staff",
+      "name": "Adept Staff",
+      "description": "A staff for practicing mages",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "master_staff",
+      "name": "Master Staff",
+      "description": "A staff wielded by master mages",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 900,
+      "iconResource": ""
+    },
+    {
+      "id": "arcane_staff",
+      "name": "Arcane Staff",
+      "description": "A staff infused with arcane power",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "elemental_staff",
+      "name": "Elemental Staff",
+      "description": "A staff that commands the elements",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 4500,
+      "iconResource": ""
+    },
+    {
+      "id": "void_staff",
+      "name": "Void Staff",
+      "description": "A staff that channels void magic",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 10000,
+      "iconResource": ""
+    },
+    {
+      "id": "cosmic_staff",
+      "name": "Cosmic Staff",
+      "description": "A staff that harnesses cosmic power",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 20000,
+      "iconResource": ""
+    },
+    {
+      "id": "bronze_dagger",
+      "name": "Bronze Dagger",
+      "description": "A quick bronze blade",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_dagger",
+      "name": "Iron Dagger",
+      "description": "A sharp iron dagger",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 180,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_dagger",
+      "name": "Steel Dagger",
+      "description": "A razor-sharp steel dagger",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_dagger",
+      "name": "Mithril Dagger",
+      "description": "A lightweight mithril dagger",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "poison_dagger",
+      "name": "Poison Dagger",
+      "description": "A dagger coated with deadly poison",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "shadow_dagger",
+      "name": "Shadow Dagger",
+      "description": "A dagger that strikes from the shadows",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 3500,
+      "iconResource": ""
+    },
+    {
+      "id": "assassin_dagger",
+      "name": "Assassin Dagger",
+      "description": "The perfect weapon for silent kills",
+      "category": "WEAPON",
+      "stackSize": 1,
+      "value": 7500,
+      "iconResource": ""
+    },
+    {
+      "id": "leather_helmet",
+      "name": "Leather Helmet",
+      "description": "Basic head protection",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 50,
+      "iconResource": ""
+    },
+    {
+      "id": "leather_chestplate",
+      "name": "Leather Chestplate",
+      "description": "Light torso armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 80,
+      "iconResource": ""
+    },
+    {
+      "id": "leather_leggings",
+      "name": "Leather Leggings",
+      "description": "Flexible leg protection",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 70,
+      "iconResource": ""
+    },
+    {
+      "id": "leather_boots",
+      "name": "Leather Boots",
+      "description": "Light foot protection",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 60,
+      "iconResource": ""
+    },
+    {
+      "id": "leather_gloves",
+      "name": "Leather Gloves",
+      "description": "Basic hand protection",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 45,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_helmet",
+      "name": "Iron Helmet",
+      "description": "Solid iron protection",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 200,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_chestplate",
+      "name": "Iron Chestplate",
+      "description": "Heavy iron armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 400,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_leggings",
+      "name": "Iron Leggings",
+      "description": "Sturdy iron leg armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 350,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_boots",
+      "name": "Iron Boots",
+      "description": "Sturdy iron boots",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 220,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_gloves",
+      "name": "Iron Gloves",
+      "description": "Iron gauntlets",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 180,
+      "iconResource": ""
+    },
+    {
+      "id": "iron_shield",
+      "name": "Iron Shield",
+      "description": "A solid iron shield",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 300,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_helmet",
+      "name": "Steel Helmet",
+      "description": "Strong steel headgear",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 500,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_chestplate",
+      "name": "Steel Chestplate",
+      "description": "Heavy steel armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 800,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_leggings",
+      "name": "Steel Leggings",
+      "description": "Reinforced steel leg armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 700,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_boots",
+      "name": "Steel Boots",
+      "description": "Heavy steel boots",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 520,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_gloves",
+      "name": "Steel Gloves",
+      "description": "Steel-plated gauntlets",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 450,
+      "iconResource": ""
+    },
+    {
+      "id": "steel_shield",
+      "name": "Steel Shield",
+      "description": "A reinforced steel shield",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 600,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_helmet",
+      "name": "Mithril Helmet",
+      "description": "Lightweight mithril headgear",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 1200,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_chestplate",
+      "name": "Mithril Chestplate",
+      "description": "Light but strong mithril armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_leggings",
+      "name": "Mithril Leggings",
+      "description": "Flexible mithril leg armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 1700,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_boots",
+      "name": "Mithril Boots",
+      "description": "Light and strong boots",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 1100,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_gloves",
+      "name": "Mithril Gloves",
+      "description": "Elegant mithril gauntlets",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 950,
+      "iconResource": ""
+    },
+    {
+      "id": "mithril_shield",
+      "name": "Mithril Shield",
+      "description": "A lightweight mithril shield",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 1500,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_helmet",
+      "name": "Adamant Helmet",
+      "description": "Exceptionally strong headgear",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 2500,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_chestplate",
+      "name": "Adamant Chestplate",
+      "description": "Nearly impenetrable armor",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 4000,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_leggings",
+      "name": "Adamant Leggings",
+      "description": "Adamant leg protection",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 3500,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_boots",
+      "name": "Adamant Boots",
+      "description": "Exceptionally sturdy boots",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 2000,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_gloves",
+      "name": "Adamant Gloves",
+      "description": "Adamant gauntlets",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 2200,
+      "iconResource": ""
+    },
+    {
+      "id": "adamant_shield",
+      "name": "Adamant Shield",
+      "description": "An adamant tower shield",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 3000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_helmet",
+      "name": "Dragon Helmet",
+      "description": "Helmet forged from dragon scales",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 8000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_chestplate",
+      "name": "Dragon Chestplate",
+      "description": "Armor made from dragon hide",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 15000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_leggings",
+      "name": "Dragon Leggings",
+      "description": "Leg armor of dragon origin",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 12000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_boots",
+      "name": "Dragon Boots",
+      "description": "Boots crafted from dragon scales",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 9000,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_gloves",
+      "name": "Dragon Gloves",
+      "description": "Gloves imbued with dragon power",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 7500,
+      "iconResource": ""
+    },
+    {
+      "id": "dragon_shield",
+      "name": "Dragon Shield",
+      "description": "A shield forged from dragonbone",
+      "category": "ARMOR",
+      "stackSize": 1,
+      "value": 10000,
+      "iconResource": ""
+    }
+  ]
+}

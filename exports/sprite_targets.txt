@@ -1,0 +1,497 @@
+activity	cook_salmon	Cook Salmon	
+activity	cook_swordfish	Cook Swordfish	
+activity	cook_trout	Cook Trout	
+activity	cook_tuna	Cook Tuna	
+activity	cut_maple	Cut Maple Trees	
+activity	cut_oak	Cut Oak Trees	
+activity	cut_willow	Cut Willow Trees	
+activity	cut_yew	Cut Yew Trees	
+activity	fish_salmon	Fish for Salmon	
+activity	fish_swordfish	Fish for Swordfish	
+activity	fish_trout	Fish for Trout	
+activity	fish_tuna	Fish for Tuna	
+activity	forge_iron_helmet	Forge Iron Helmet	
+activity	forge_iron_sword	Forge Iron Sword	
+activity	mine_coal	Mine Coal Ore	
+activity	mine_copper	Mine Copper Ore	
+activity	mine_iron	Mine Iron Ore	
+activity	mine_mithril	Mine Mithril Ore	
+activity	smelt_gold_bar	Smelt Gold Bar	
+activity	smelt_iron_bar	Smelt Iron Bar	
+activity	smelt_mithril_bar	Smelt Mithril Bar	
+area	abyssal_depths	Abyssal Depths	DUNGEON
+area	astral_wastes	Astral Wastes	OVERWORLD
+area	blood_cathedral	Blood Cathedral	DUNGEON
+area	chaos_realm	Chaos Realm	DUNGEON
+area	chaos_storms	Chaos Storms	OVERWORLD
+area	clockwork_citadel	Clockwork Citadel	DUNGEON
+area	dark_forest	Dark Forest	OVERWORLD
+area	desert_wasteland	Desert Wasteland	OVERWORLD
+area	divine_sanctum	Divine Sanctum	OVERWORLD
+area	doomspire_keep	Doomspire Keep	DUNGEON
+area	dragon_lair	Dragon Lair	DUNGEON
+area	eternal_battleground	Eternal Battleground	OVERWORLD
+area	ethereal_plane	Ethereal Plane	OVERWORLD
+area	frozen_tundra	Frozen Tundra	OVERWORLD
+area	goblin_caves	Goblin Caves	DUNGEON
+area	haunted_cemetery	Haunted Cemetery	OVERWORLD
+area	mountain_peaks	Mountain Peaks	OVERWORLD
+area	necromancer_tower	Necromancer Tower	DUNGEON
+area	nightmare_realm	Nightmare Realm	OVERWORLD
+area	poison_swamp_depths	Poison Swamp Depths	DUNGEON
+area	primal_jungle	Primal Jungle	OVERWORLD
+area	primordial_caverns	Primordial Caverns	DUNGEON
+area	shadow_realm	Shadow Realm	OVERWORLD
+area	skeleton_crypts	Skeleton Crypts	DUNGEON
+area	starfall_sanctuary	Starfall Sanctuary	DUNGEON
+area	starting_meadow	Starting Meadow	OVERWORLD
+area	temporal_rifts	Temporal Rifts	OVERWORLD
+area	thunder_peaks_dungeon	Thunder Peaks Dungeon	DUNGEON
+area	vampire_castle	Vampire Castle	DUNGEON
+area	void_dimension	Void Dimension	OVERWORLD
+area	void_temple	Void Temple	DUNGEON
+area	volcanic_region	Volcanic Region	OVERWORLD
+enemy	ancient_dragon	Ancient Dragon	
+enemy	angel	Fallen Angel	
+enemy	archangel	Archangel	
+enemy	archlich	Archlich	
+enemy	assassin	Shadow Assassin	
+enemy	astral_drifter	Astral Drifter	
+enemy	astral_leviathan	Astral Leviathan	
+enemy	bandit	Bandit	
+enemy	banshee	Banshee	
+enemy	bat	Vampire Bat	
+enemy	bear	Cave Bear	
+enemy	black_widow	Black Widow	
+enemy	bone_golem	Bone Golem	
+enemy	bone_knight	Bone Knight	
+enemy	butterfly	Rainbow Butterfly	
+enemy	cactus_golem	Cactus Golem	
+enemy	chaos_elemental	Chaos Elemental	
+enemy	chaos_lord	Chaos Lord	
+enemy	chimera	Chimera	
+enemy	chrono_stalker	Chrono Stalker	
+enemy	cosmic_horror	Cosmic Horror	
+enemy	cow	Wild Cow	
+enemy	crypt_guardian	Crypt Guardian	
+enemy	death_knight	Death Knight	
+enemy	deity	Fallen Deity	
+enemy	demon	Lesser Demon	
+enemy	desert_scorpion	Desert Scorpion	
+enemy	desert_wraith	Desert Wraith	
+enemy	dire_wolf	Dire Wolf	
+enemy	divine_avatar	Divine Avatar	
+enemy	dragon	Young Dragon	
+enemy	drake	Drake	
+enemy	elemental	Fire Elemental	
+enemy	eternal_champion	Eternal Champion	
+enemy	eternal_sovereign	Eternal Sovereign	
+enemy	field_mouse	Field Mouse	
+enemy	fire_salamander	Fire Salamander	
+enemy	forest_troll	Forest Troll	
+enemy	frog	Giant Frog	
+enemy	ghoul	Ghoul	
+enemy	giant_bat	Giant Bat	
+enemy	gnoll	Gnoll	
+enemy	goblin	Goblin	
+enemy	goblin_archer	Goblin Archer	
+enemy	goblin_berserker	Goblin Berserker	
+enemy	goblin_chief	Goblin Chief	
+enemy	goblin_shaman	Goblin Shaman	
+enemy	godslayer	Godslayer	
+enemy	golem	Stone Golem	
+enemy	grave_digger	Grave Digger	
+enemy	green_slime	Green Slime	
+enemy	griffin	Griffin	
+enemy	harpy	Harpy	
+enemy	hawk	Forest Hawk	
+enemy	hobgoblin	Hobgoblin	
+enemy	hydra	Hydra	
+enemy	ice_giant	Ice Giant	
+enemy	knight	Knight	
+enemy	kobold	Kobold	
+enemy	lich	Lich	
+enemy	mage	Mage	
+enemy	minotaur	Minotaur	
+enemy	mirage_assassin	Mirage Assassin	
+enemy	mountain_goat	Mountain Goat	
+enemy	mountain_troll	Mountain Troll	
+enemy	ogre	Ogre	
+enemy	orc	Orc	
+enemy	owlbear	Owlbear	
+enemy	phantom	Phantom	
+enemy	phoenix	Phoenix	
+enemy	primordial	Primordial Being	
+enemy	rabbit	Wild Rabbit	
+enemy	rat	Giant Rat	
+enemy	raven	Giant Raven	
+enemy	reality_ripper	Reality Ripper	
+enemy	rock_giant	Rock Giant	
+enemy	sand_golem	Sand Golem	
+enemy	sand_worm	Sand Worm	
+enemy	seraph	Seraph	
+enemy	shadow_wolf	Shadow Wolf	
+enemy	sheep	Wild Sheep	
+enemy	skeleton	Skeleton	
+enemy	skeleton_archer	Skeleton Archer	
+enemy	skeleton_lord	Skeleton Lord	
+enemy	skeleton_mage	Skeleton Mage	
+enemy	slime	Blue Slime	
+enemy	snow_leopard	Snow Leopard	
+enemy	sparrow	Sparrow	
+enemy	spider	Giant Spider	
+enemy	storm_eagle	Storm Eagle	
+enemy	storm_titan	Storm Titan	
+enemy	tarantula	Tarantula	
+enemy	temporal_guardian	Temporal Guardian	
+enemy	time_wraith	Time Wraith	
+enemy	titan	Stone Titan	
+enemy	troll	Troll	
+enemy	vampire	Vampire	
+enemy	vampire_bat_swarm	Vampire Bat Swarm	
+enemy	vampire_lord	Vampire Lord	
+enemy	vampire_spawn	Vampire Spawn	
+enemy	void_dragon	Void Dragon	
+enemy	void_phantom	Void Phantom	
+enemy	void_walker	Void Walker	
+enemy	warlord	Orc Warlord	
+enemy	wild_boar	Wild Boar	
+enemy	wolf	Wolf	
+enemy	world_eater	World Eater	
+enemy	wraith	Wraith	
+enemy	wyrmling	Wyrmling	
+enemy	wyvern	Wyvern	
+enemy	yeti	Yeti	
+enemy	zombie	Zombie	
+item	acid_gland	Acid Gland	
+item	adamant_bar	Adamant Bar	
+item	adamant_boots	Adamant Boots	
+item	adamant_chestplate	Adamant Chestplate	
+item	adamant_gloves	Adamant Gloves	
+item	adamant_helmet	Adamant Helmet	
+item	adamant_leggings	Adamant Leggings	
+item	adamant_shield	Adamant Shield	
+item	adamant_sword	Adamant Sword	
+item	adamantite_ore	Adamantite Ore	
+item	adept_staff	Adept Staff	
+item	air_essence	Air Essence	
+item	amethyst	Amethyst	
+item	amulet_of_life	Amulet of Life	
+item	amulet_of_magic	Amulet of Magic	
+item	amulet_of_strength	Amulet of Strength	
+item	ancient_coin	Ancient Coin	
+item	ancient_rune	Ancient Rune	
+item	ancient_soul	Ancient Soul	
+item	angel_wing	Angel Wing	
+item	apple	Apple	
+item	apprentice_staff	Apprentice Staff	
+item	arcane_staff	Arcane Staff	
+item	assassin_dagger	Assassin Dagger	
+item	bandit_mask	Bandit Mask	
+item	bat_leather	Bat Leather	
+item	bear_claw	Bear Claw	
+item	beast_claw	Beast Claw	
+item	beef_roast	Beef Roast	
+item	beetle_carapace	Beetle Carapace	
+item	birch_log	Birch Log	
+item	bird_feather	Bird Feather	
+item	black_opal	Black Opal	
+item	bone	Bone	
+item	bread	Bread	
+item	bronze_axe	Bronze Axe	
+item	bronze_bar	Bronze Bar	
+item	bronze_dagger	Bronze Dagger	
+item	bronze_hatchet	Bronze Hatchet	
+item	bronze_key	Bronze Key	
+item	bronze_pickaxe	Bronze Pickaxe	
+item	bronze_sword	Bronze Sword	
+item	carrot_seed	Carrot Seed	
+item	celestial_axe	Celestial Axe	
+item	celestial_bar	Celestial Bar	
+item	celestial_ore	Celestial Ore	
+item	celestial_sword	Celestial Sword	
+item	cheese	Cheese	
+item	chicken_feather	Chicken Feather	
+item	chitin_plate	Chitin Plate	
+item	coal_ore	Coal Ore	
+item	compass	Compass	
+item	cooked_kraken_tentacle	Cooked Kraken Tentacle	
+item	cooked_leviathan	Cooked Leviathan	
+item	cooked_manta_ray	Cooked Manta Ray	
+item	cooked_salmon	Cooked Salmon	
+item	cooked_shark	Cooked Shark	
+item	cooked_swordfish	Cooked Swordfish	
+item	cooked_trout	Cooked Trout	
+item	cooked_tuna	Cooked Tuna	
+item	cooked_void_fish	Cooked Void Fish	
+item	copper_ore	Copper Ore	
+item	copper_ring	Copper Ring	
+item	corn_seed	Corn Seed	
+item	corrupted_soul	Corrupted Soul	
+item	cosmic_staff	Cosmic Staff	
+item	cow_hide	Cow Hide	
+item	crab_shell	Crab Shell	
+item	crocodile_leather	Crocodile Leather	
+item	crown_of_kings	Crown of Kings	
+item	crystal_component	Crystal Component	
+item	crystal_skull	Crystal Skull	
+item	cursed_bone	Cursed Bone	
+item	daisy	Daisy	
+item	deer_antler	Deer Antler	
+item	deer_hide	Deer Hide	
+item	defense_potion	Defense Potion	
+item	demon_horn	Demon Horn	
+item	diamond	Diamond	
+item	diamond_ring	Diamond Ring	
+item	dragon_axe	Dragon Axe	
+item	dragon_bone	Dragon Bone	
+item	dragon_boots	Dragon Boots	
+item	dragon_bow	Dragon Bow	
+item	dragon_chestplate	Dragon Chestplate	
+item	dragon_gloves	Dragon Gloves	
+item	dragon_hatchet	Dragon Hatchet	
+item	dragon_helmet	Dragon Helmet	
+item	dragon_herb	Dragon Herb	
+item	dragon_leggings	Dragon Leggings	
+item	dragon_pickaxe	Dragon Pickaxe	
+item	dragon_scale	Dragon Scale	
+item	dragon_shield	Dragon Shield	
+item	dragon_steak	Dragon Steak	
+item	dragon_sword	Dragon Sword	
+item	dragonite_axe	Dragonite Axe	
+item	dragonite_bar	Dragonite Bar	
+item	dragonite_ore	Dragonite Ore	
+item	dragonite_sword	Dragonite Sword	
+item	dungeon_map	Dungeon Map	
+item	eagle_talon	Eagle Talon	
+item	earth_essence	Earth Essence	
+item	elderwood_log	Elderwood Log	
+item	electric_organ	Electric Organ	
+item	elemental_staff	Elemental Staff	
+item	elephant_ivory	Elephant Ivory	
+item	elven_bow	Elven Bow	
+item	emerald	Emerald	
+item	enhancement_catalyst	Enhancement Catalyst	
+item	ethereal_bar	Ethereal Bar	
+item	ethereal_ore	Ethereal Ore	
+item	ethereal_sword	Ethereal Sword	
+item	experience_potion	Experience Potion	
+item	fairy_dust	Fairy Dust	
+item	fine_leather	Fine Leather	
+item	fire_essence	Fire Essence	
+item	fire_gland	Fire Gland	
+item	fishing_net	Fishing Net	
+item	frost_gland	Frost Gland	
+item	fusion_catalyst	Fusion Catalyst	
+item	gear_component	Gear Component	
+item	giant_pearl	Giant Pearl	
+item	ginseng	Ginseng	
+item	goblin_ear	Goblin Ear	
+item	gold_bar	Gold Bar	
+item	gold_necklace	Gold Necklace	
+item	gold_ore	Gold Ore	
+item	gold_ring	Gold Ring	
+item	golden_idol	Golden Idol	
+item	golden_key	Golden Key	
+item	golden_treasure_chest	Golden Treasure Chest	
+item	golem_core	Golem Core	
+item	greater_health_potion	Greater Health Potion	
+item	grimoire	Grimoire	
+item	harpoon	Harpoon	
+item	harpy_feather	Harpy Feather	
+item	health_potion	Health Potion	
+item	hippopotamus_hide	Hippopotamus Hide	
+item	ice_essence	Ice Essence	
+item	iron_axe	Iron Axe	
+item	iron_bar	Iron Bar	
+item	iron_boots	Iron Boots	
+item	iron_chestplate	Iron Chestplate	
+item	iron_dagger	Iron Dagger	
+item	iron_gloves	Iron Gloves	
+item	iron_hatchet	Iron Hatchet	
+item	iron_helmet	Iron Helmet	
+item	iron_leggings	Iron Leggings	
+item	iron_ore	Iron Ore	
+item	iron_pickaxe	Iron Pickaxe	
+item	iron_shield	Iron Shield	
+item	iron_sword	Iron Sword	
+item	ironbark_log	Ironbark Log	
+item	jellyfish_tentacle	Jellyfish Tentacle	
+item	leather_boots	Leather Boots	
+item	leather_chestplate	Leather Chestplate	
+item	leather_gloves	Leather Gloves	
+item	leather_helmet	Leather Helmet	
+item	leather_leggings	Leather Leggings	
+item	leather_necklace	Leather Necklace	
+item	legendary_treasure_chest	Legendary Treasure Chest	
+item	leopard_skin	Leopard Skin	
+item	lich_phylactery	Lich Phylactery	
+item	life_blossom	Life Blossom	
+item	light_essence	Light Essence	
+item	lily	Lily	
+item	lion_hide	Lion Hide	
+item	lobster_pot	Lobster Pot	
+item	lockpick	Lockpick	
+item	lost_soul	Lost Soul	
+item	lotus	Lotus	
+item	luck_potion	Luck Potion	
+item	magic_bean	Magic Bean	
+item	magic_bow	Magic Bow	
+item	magic_circuit	Magic Circuit	
+item	magic_fishing_rod	Magic Fishing Rod	
+item	magic_potion	Magic Potion	
+item	maple_bow	Maple Bow	
+item	maple_log	Maple Log	
+item	master_key	Master Key	
+item	master_rune	Master Rune	
+item	master_staff	Master Staff	
+item	meat_pie	Meat Pie	
+item	minor_health_potion	Minor Health Potion	
+item	mithril_bar	Mithril Bar	
+item	mithril_boots	Mithril Boots	
+item	mithril_chestplate	Mithril Chestplate	
+item	mithril_dagger	Mithril Dagger	
+item	mithril_gloves	Mithril Gloves	
+item	mithril_hatchet	Mithril Hatchet	
+item	mithril_helmet	Mithril Helmet	
+item	mithril_leggings	Mithril Leggings	
+item	mithril_ore	Mithril Ore	
+item	mithril_pickaxe	Mithril Pickaxe	
+item	mithril_shield	Mithril Shield	
+item	mithril_sword	Mithril Sword	
+item	monster_sinew	Monster Sinew	
+item	moonflower	Moonflower	
+item	nettle	Nettle	
+item	nightshade	Nightshade	
+item	oak_bow	Oak Bow	
+item	oak_log	Oak Log	
+item	octopus_ink	Octopus Ink	
+item	orange	Orange	
+item	orb_of_darkness	Orb of Darkness	
+item	orb_of_light	Orb of Light	
+item	orb_of_power	Orb of Power	
+item	orb_of_wisdom	Orb of Wisdom	
+item	orc_tooth	Orc Tooth	
+item	orchid	Orchid	
+item	phoenix_dust	Phoenix Dust	
+item	pig_skin	Pig Skin	
+item	platinum_ring	Platinum Ring	
+item	poison_dagger	Poison Dagger	
+item	potato_seed	Potato Seed	
+item	pristine_feather	Pristine Feather	
+item	pure_soul	Pure Soul	
+item	quartz	Quartz	
+item	rabbit_foot	Rabbit Foot	
+item	rabbit_fur	Rabbit Fur	
+item	rat_tail	Rat Tail	
+item	raw_kraken_tentacle	Raw Kraken Tentacle	
+item	raw_leviathan	Raw Leviathan	
+item	raw_manta_ray	Raw Manta Ray	
+item	raw_meat	Raw Meat	
+item	raw_salmon	Raw Salmon	
+item	raw_shark	Raw Shark	
+item	raw_swordfish	Raw Swordfish	
+item	raw_trout	Raw Trout	
+item	raw_tuna	Raw Tuna	
+item	raw_void_fish	Raw Void Fish	
+item	reality_fragment	Reality Fragment	
+item	redwood_log	Redwood Log	
+item	rhino_horn	Rhino Horn	
+item	roasted_chicken	Roasted Chicken	
+item	rope	Rope	
+item	rose	Rose	
+item	ruby	Ruby	
+item	rugged_leather	Rugged Leather	
+item	rune_of_fortune	Rune of Fortune	
+item	rune_of_power	Rune of Power	
+item	rune_of_protection	Rune of Protection	
+item	rune_of_speed	Rune of Speed	
+item	runite_axe	Runite Axe	
+item	runite_bar	Runite Bar	
+item	runite_ore	Runite Ore	
+item	runite_sword	Runite Sword	
+item	sage	Sage	
+item	sapphire	Sapphire	
+item	scorpion_chitin	Scorpion Chitin	
+item	scroll_of_enchanting	Scroll of Enchanting	
+item	scroll_of_identify	Scroll of Identify	
+item	scroll_of_summoning	Scroll of Summoning	
+item	scroll_of_teleport	Scroll of Teleport	
+item	shadow_bow	Shadow Bow	
+item	shadow_dagger	Shadow Dagger	
+item	shadow_essence	Shadow Essence	
+item	shadowbark_log	Shadowbark Log	
+item	shark_skin	Shark Skin	
+item	sheep_wool	Sheep Wool	
+item	silk_thread	Silk Thread	
+item	silver_bar	Silver Bar	
+item	silver_key	Silver Key	
+item	silver_necklace	Silver Necklace	
+item	silver_ore	Silver Ore	
+item	silver_ring	Silver Ring	
+item	skeleton_key	Skeleton Key	
+item	snake_skin	Snake Skin	
+item	space_fragment	Space Fragment	
+item	speed_potion	Speed Potion	
+item	spider_silk	Spider Silk	
+item	spring_component	Spring Component	
+item	staff_of_ages	Staff of Ages	
+item	star_dust	Star Dust	
+item	star_stone	Star Stone	
+item	starbloom	Starbloom	
+item	steel_axe	Steel Axe	
+item	steel_bar	Steel Bar	
+item	steel_boots	Steel Boots	
+item	steel_chestplate	Steel Chestplate	
+item	steel_dagger	Steel Dagger	
+item	steel_gloves	Steel Gloves	
+item	steel_hatchet	Steel Hatchet	
+item	steel_helmet	Steel Helmet	
+item	steel_leggings	Steel Leggings	
+item	steel_pickaxe	Steel Pickaxe	
+item	steel_shield	Steel Shield	
+item	steel_sword	Steel Sword	
+item	strength_potion	Strength Potion	
+item	super_health_potion	Super Health Potion	
+item	teak_log	Teak Log	
+item	thick_fur	Thick Fur	
+item	tiger_pelt	Tiger Pelt	
+item	time_fragment	Time Fragment	
+item	tin_ore	Tin Ore	
+item	titan_essence	Titan Essence	
+item	tomato_seed	Tomato Seed	
+item	tome_of_knowledge	Tome of Knowledge	
+item	tome_of_power	Tome of Power	
+item	torch	Torch	
+item	transmutation_catalyst	Transmutation Catalyst	
+item	treasure_chest	Treasure Chest	
+item	troll_hide	Troll Hide	
+item	turtle_shell	Turtle Shell	
+item	vampire_fang	Vampire Fang	
+item	vegetable_stew	Vegetable Stew	
+item	venom_sac	Venom Sac	
+item	void_axe	Void Axe	
+item	void_bar	Void Bar	
+item	void_crystal	Void Crystal	
+item	void_dust	Void Dust	
+item	void_moss	Void Moss	
+item	void_ore	Void Ore	
+item	void_shard	Void Shard	
+item	void_staff	Void Staff	
+item	void_sword	Void Sword	
+item	whale_blubber	Whale Blubber	
+item	wheat_seed	Wheat Seed	
+item	willow_bow	Willow Bow	
+item	willow_log	Willow Log	
+item	wolf_pelt	Wolf Pelt	
+item	world_seed	World Seed	
+item	world_tree_log	World Tree Log	
+item	wyvern_scale	Wyvern Scale	
+item	yew_bow	Yew Bow	
+item	yew_log	Yew Log	
+item	zombie_fragment	Zombie Fragment	
+skill	cooking	Cooking	
+skill	fishing	Fishing	
+skill	mining	Mining	
+skill	smithing	Smithing	
+skill	woodcutting	Woodcutting	

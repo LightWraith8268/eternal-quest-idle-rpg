@@ -13,7 +13,8 @@ class CombatEngine(
     private val onGoldEarned: suspend (Long, GoldSource) -> Unit = { _, _ -> },
     private val autoEatPriorityProvider: suspend () -> List<String> = { listOf("cooked_swordfish", "cooked_tuna", "cooked_salmon", "cooked_trout") },
     private val slotsPerTabProvider: suspend () -> Int = { 15 },
-    private val totalTabsProvider: suspend () -> Int = { 5 }
+    private val totalTabsProvider: suspend () -> Int = { 5 },
+    private val enemyProvider: suspend (String) -> Enemy? = { _ -> null }
 ) {
     
     suspend fun processCombatTick(currentTime: Long): CombatTickResult {
@@ -31,7 +32,7 @@ class CombatEngine(
         currentTime: Long
     ): CombatTickResult {
         val currentEnemy = combatDao.getCurrentEnemy() ?: return CombatTickResult.NotInCombat
-        val enemy = Enemies.ALL.find { it.id == currentEnemy.enemyId } ?: return CombatTickResult.NotInCombat
+        val enemy = enemyProvider(currentEnemy.enemyId) ?: return CombatTickResult.NotInCombat
         
         val weapon = playerStats.equippedWeapon?.let { weaponId ->
             Weapons.ALL.find { it.id == weaponId }
@@ -187,7 +188,7 @@ class CombatEngine(
     }
     
     suspend fun startCombat(enemyId: String, playerStats: CombatStats, currentTime: Long): Boolean {
-        val enemy = Enemies.ALL.find { it.id == enemyId } ?: return false
+        val enemy = enemyProvider(enemyId) ?: return false
         
         // Check combat level requirement
         val playerCombatLevel = combatSystem.calculateCombatLevel(playerStats.combatXp)

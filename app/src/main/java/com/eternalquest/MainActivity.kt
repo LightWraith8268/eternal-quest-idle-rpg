@@ -115,14 +115,17 @@ fun MainScreen(viewModel: MainViewModel) {
                 }
                 
                 GameTab.COMBAT -> {
+                    val context = androidx.compose.ui.platform.LocalContext.current
+                    com.eternalquest.util.EnemyCatalog.load(context)
                     val currentEnemy = combatStats?.currentEnemyId?.let { enemyId ->
-                        com.eternalquest.data.entities.Enemies.ALL.find { it.id == enemyId }
+                        com.eternalquest.util.EnemyCatalog.get(enemyId) ?: com.eternalquest.data.entities.Enemies.ALL.find { it.id == enemyId }
                     }
                     CombatScreen(
                         combatStats = combatStats,
                         currentEnemy = currentEnemy,
                         currentEnemyHp = currentEnemyHp,
                         combatEvents = combatEvents,
+                        
                         onStartCombat = viewModel::startCombat,
                         onEndCombat = viewModel::endCombat,
                         onEquipWeapon = viewModel::equipWeapon,
@@ -344,7 +347,6 @@ fun SettingsScreen(
     var selectedProfile by remember { mutableStateOf(com.eternalquest.util.ProfileManager.getCurrentProfileId(context)) }
     var saved by remember { mutableStateOf(false) }
     val activity = context as? android.app.Activity
-    val viewModel: com.eternalquest.ui.viewmodels.MainViewModel? = null // placeholder access through composition not available here
     androidx.compose.foundation.layout.Column(
         modifier = Modifier
             .fillMaxSize()

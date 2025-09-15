@@ -1,0 +1,52 @@
+{
+  "enemies": [
+    {
+      "id": "seraph",
+      "name": "Seraph",
+      "level": 120,
+      "hitpoints": 1800,
+      "maxHitpoints": 1800,
+      "attack": 140,
+      "strength": 120,
+      "defense": 130,
+      "attackSpeed": 8500,
+      "accuracy": 0.93,
+      "experienceReward": 8000,
+      "combatLevelRequired": 400,
+      "description": "A six-winged celestial guardian",
+      "area": "DIVINE_SANCTUM"
+    },
+    {
+      "id": "archangel",
+      "name": "Archangel",
+      "level": 130,
+      "hitpoints": 2000,
+      "maxHitpoints": 2000,
+      "attack": 150,
+      "strength": 130,
+      "defense": 140,
+      "attackSpeed": 9000,
+      "accuracy": 0.95,
+      "experienceReward": 9000,
+      "combatLevelRequired": 450,
+      "description": "A powerful celestial warrior",
+      "area": "DIVINE_SANCTUM"
+    },
+    {
+      "id": "divine_avatar",
+      "name": "Divine Avatar",
+      "level": 140,
+      "hitpoints": 2200,
+      "maxHitpoints": 2200,
+      "attack": 160,
+      "strength": 140,
+      "defense": 150,
+      "attackSpeed": 9500,
+      "accuracy": 0.97,
+      "experienceReward": 10000,
+      "combatLevelRequired": 480,
+      "description": "The physical manifestation of divine will",
+      "area": "DIVINE_SANCTUM"
+    }
+  ]
+}

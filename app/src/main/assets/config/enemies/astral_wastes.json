@@ -1,0 +1,52 @@
+{
+  "enemies": [
+    {
+      "id": "astral_drifter",
+      "name": "Astral Drifter",
+      "level": 75,
+      "hitpoints": 800,
+      "maxHitpoints": 800,
+      "attack": 80,
+      "strength": 70,
+      "defense": 75,
+      "attackSpeed": 6000,
+      "accuracy": 0.9,
+      "experienceReward": 3500,
+      "combatLevelRequired": 250,
+      "description": "A wandering soul lost in the astral plane",
+      "area": "ASTRAL_WASTES"
+    },
+    {
+      "id": "void_phantom",
+      "name": "Void Phantom",
+      "level": 80,
+      "hitpoints": 900,
+      "maxHitpoints": 900,
+      "attack": 85,
+      "strength": 75,
+      "defense": 80,
+      "attackSpeed": 6200,
+      "accuracy": 0.92,
+      "experienceReward": 4000,
+      "combatLevelRequired": 260,
+      "description": "A ghostly entity from the void between worlds",
+      "area": "ASTRAL_WASTES"
+    },
+    {
+      "id": "astral_leviathan",
+      "name": "Astral Leviathan",
+      "level": 90,
+      "hitpoints": 1200,
+      "maxHitpoints": 1200,
+      "attack": 100,
+      "strength": 85,
+      "defense": 90,
+      "attackSpeed": 7000,
+      "accuracy": 0.88,
+      "experienceReward": 5500,
+      "combatLevelRequired": 280,
+      "description": "A massive creature that swims through astral currents",
+      "area": "ASTRAL_WASTES"
+    }
+  ]
+}

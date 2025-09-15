@@ -23,7 +23,6 @@ import com.eternalquest.game.systems.CombatEvent
 import com.eternalquest.game.systems.CombatTickResult
 import com.eternalquest.ui.util.Sprites
 import androidx.compose.ui.res.painterResource
-import com.eternalquest.data.entities.Areas
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -77,8 +76,8 @@ fun ActiveCombatScreen(
     ) {
         // Combat Header
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            val sprite = Sprites.forEnemyId(enemy.id)
-            Image(painter = painterResource(id = sprite.resId), contentDescription = enemy.name, modifier = Modifier.size(40.dp))
+            val painter = Sprites.painterForEnemyId(enemy.id)
+            Image(painter = painter, contentDescription = enemy.name, modifier = Modifier.size(40.dp))
             Text(
                 text = "Combat: ${enemy.name}",
                 style = MaterialTheme.typography.headlineMedium,
@@ -237,12 +236,18 @@ fun CombatPrepScreen(
         }
         
         item {
-            AreaOverviewCard()
+            val context = androidx.compose.ui.platform.LocalContext.current
+            com.eternalquest.util.AreasCatalog.load(context)
+            AreaOverviewCard(areas = com.eternalquest.util.AreasCatalog.all())
         }
         
         item {
+            val context2 = androidx.compose.ui.platform.LocalContext.current
+            com.eternalquest.util.EnemyCatalog.load(context2)
+            val enemiesLocal = com.eternalquest.util.EnemyCatalog.all()
             EnemySelectionCard(
                 combatStats = combatStats,
+                enemies = enemiesLocal,
                 onStartCombat = onStartCombat
             )
         }
@@ -374,7 +379,7 @@ fun StatRow(label: String, value: String) {
 }
 
 @Composable
-fun AreaOverviewCard() {
+fun AreaOverviewCard(areas: List<com.eternalquest.util.AreaDef>) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(
             modifier = Modifier
@@ -388,7 +393,7 @@ fun AreaOverviewCard() {
                 modifier = Modifier.padding(bottom = 8.dp)
             )
             
-            Areas.ALL_AREAS.forEach { area ->
+            areas.forEach { area ->
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -396,8 +401,8 @@ fun AreaOverviewCard() {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    val sprite = Sprites.forAreaId(area.id)
-                    Image(painter = painterResource(id = sprite.resId), contentDescription = area.name, modifier = Modifier.size(28.dp))
+                    val painter = Sprites.painterForAreaId(area.id)
+                    Image(painter = painter, contentDescription = area.name, modifier = Modifier.size(28.dp))
                     Column(modifier = Modifier.weight(1f)) {
                         Row(
                             modifier = Modifier.fillMaxWidth(),
@@ -405,12 +410,7 @@ fun AreaOverviewCard() {
                         ) {
                             Text(area.name, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium)
                             Text(
-                                text = when (area.type) {
-                                    AreaType.OVERWORLD -> "Overworld"
-                                    AreaType.DUNGEON -> "Dungeon"
-                                    AreaType.RAID -> "Raid"
-                                    AreaType.BOSS_ROOM -> "Boss"
-                                },
+                                text = area.type,
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
                             )
@@ -613,6 +613,7 @@ fun AutoEatCard(
 @Composable
 fun EnemySelectionCard(
     combatStats: CombatStats?,
+    enemies: List<Enemy>,
     onStartCombat: (String) -> Unit
 ) {
     Card(modifier = Modifier.fillMaxWidth()) {
@@ -630,7 +631,7 @@ fun EnemySelectionCard(
             
             val playerLevel = combatStats?.calculateCombatLevel() ?: 1
             
-            Enemies.ALL.forEach { enemy ->
+            enemies.forEach { enemy ->
                 val canFight = playerLevel >= enemy.combatLevelRequired
                 
                 OutlinedButton(
@@ -641,8 +642,8 @@ fun EnemySelectionCard(
                         .padding(vertical = 2.dp)
                 ) {
                     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                        val sprite = Sprites.forEnemyId(enemy.id)
-                        Image(painter = painterResource(id = sprite.resId), contentDescription = enemy.name, modifier = Modifier.size(28.dp))
+                        val painter = Sprites.painterForEnemyId(enemy.id)
+                        Image(painter = painter, contentDescription = enemy.name, modifier = Modifier.size(28.dp))
                         Column(modifier = Modifier.weight(1f)) {
                             Row(
                                 modifier = Modifier.fillMaxWidth(),

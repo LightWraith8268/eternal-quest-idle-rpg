@@ -1,0 +1,52 @@
+{
+  "enemies": [
+    {
+      "id": "chrono_stalker",
+      "name": "Chrono Stalker",
+      "level": 85,
+      "hitpoints": 1000,
+      "maxHitpoints": 1000,
+      "attack": 95,
+      "strength": 80,
+      "defense": 85,
+      "attackSpeed": 6500,
+      "accuracy": 0.95,
+      "experienceReward": 4500,
+      "combatLevelRequired": 300,
+      "description": "A predator that hunts across multiple timelines",
+      "area": "TEMPORAL_RIFTS"
+    },
+    {
+      "id": "time_wraith",
+      "name": "Time Wraith",
+      "level": 90,
+      "hitpoints": 1100,
+      "maxHitpoints": 1100,
+      "attack": 100,
+      "strength": 85,
+      "defense": 90,
+      "attackSpeed": 6800,
+      "accuracy": 0.93,
+      "experienceReward": 5000,
+      "combatLevelRequired": 320,
+      "description": "A spirit torn from the flow of time",
+      "area": "TEMPORAL_RIFTS"
+    },
+    {
+      "id": "temporal_guardian",
+      "name": "Temporal Guardian",
+      "level": 95,
+      "hitpoints": 1400,
+      "maxHitpoints": 1400,
+      "attack": 110,
+      "strength": 95,
+      "defense": 100,
+      "attackSpeed": 7200,
+      "accuracy": 0.91,
+      "experienceReward": 6000,
+      "combatLevelRequired": 340,
+      "description": "An ancient protector of the timestream",
+      "area": "TEMPORAL_RIFTS"
+    }
+  ]
+}

@@ -222,10 +222,10 @@ fun SkillCard(
                                 .padding(vertical = 2.dp)
                         ) {
                             val rewardIcon = activity.itemRewards.firstOrNull()?.itemId
-                            val sprite = rewardIcon?.let { Sprites.forItemId(it) } ?: Sprites.forSkillName(activity.skill)
                             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                                val painter = if (rewardIcon != null) Sprites.painterForItemId(rewardIcon) else painterResource(id = Sprites.forSkillName(activity.skill).resId)
                                 Image(
-                                    painter = painterResource(id = sprite.resId),
+                                    painter = painter,
                                     contentDescription = activity.name,
                                     modifier = Modifier.size(24.dp)
                                 )
@@ -284,10 +284,10 @@ fun SkillCard(
                                     .padding(vertical = 2.dp)
                             ) {
                                 val rewardIcon = activity.itemRewards.firstOrNull()?.itemId
-                                val sprite = rewardIcon?.let { Sprites.forItemId(it) } ?: Sprites.forSkillName(activity.skill)
                                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                                    val painter = if (rewardIcon != null) Sprites.painterForItemId(rewardIcon) else painterResource(id = Sprites.forSkillName(activity.skill).resId)
                                     Image(
-                                        painter = painterResource(id = sprite.resId),
+                                        painter = painter,
                                         contentDescription = activity.name,
                                         modifier = Modifier.size(24.dp)
                                     )

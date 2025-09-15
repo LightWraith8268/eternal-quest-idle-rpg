@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "name": "mining",
+      "displayName": "Mining",
+      "description": "Extract ores and gems from rocks",
+      "baseXpRate": 10,
+      "category": "GATHERING"
+    },
+    {
+      "name": "woodcutting",
+      "displayName": "Woodcutting",
+      "description": "Chop trees for logs and materials",
+      "baseXpRate": 10,
+      "category": "GATHERING"
+    },
+    {
+      "name": "fishing",
+      "displayName": "Fishing",
+      "description": "Catch fish from various waters",
+      "baseXpRate": 10,
+      "category": "GATHERING"
+    },
+    {
+      "name": "cooking",
+      "displayName": "Cooking",
+      "description": "Prepare food from raw materials",
+      "baseXpRate": 15,
+      "category": "CRAFTING"
+    },
+    {
+      "name": "smithing",
+      "displayName": "Smithing",
+      "description": "Smelt bars and forge gear",
+      "baseXpRate": 20,
+      "category": "CRAFTING"
+    }
+  ]
+}
