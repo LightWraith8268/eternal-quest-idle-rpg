@@ -1,0 +1,23 @@
+{
+  "categories": {
+    "BANK_EXPANSION": "Bank",
+    "ACTIVITY_QUEUE": "Queue",
+    "OFFLINE_TIME": "Offline",
+    "CONVENIENCE": "Tools",
+    "COSMETIC": "Themes"
+  },
+  "icons": {
+    "BANK_EXPANSION": "account_box",
+    "ACTIVITY_QUEUE": "list",
+    "OFFLINE_TIME": "access_time",
+    "CONVENIENCE": "build",
+    "COSMETIC": "palette"
+  },
+  "order": [
+    "BANK_EXPANSION",
+    "CONVENIENCE",
+    "OFFLINE_TIME",
+    "ACTIVITY_QUEUE",
+    "COSMETIC"
+  ]
+}

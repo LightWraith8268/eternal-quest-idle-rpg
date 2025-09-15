@@ -1,0 +1,8 @@
+{
+  "perks": [
+    { "id": "xp", "name": "XP Bonus", "maxLevel": 5, "costPerLevel": 1, "percentPerLevel": 2 },
+    { "id": "speed", "name": "Speed Bonus", "maxLevel": 5, "costPerLevel": 1, "percentPerLevel": 2 },
+    { "id": "loot", "name": "Loot Chance", "maxLevel": 5, "costPerLevel": 1, "percentPerLevel": 2 }
+  ]
+}
+

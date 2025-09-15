@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Rat body -->
+    <path android:fillColor="#757575" android:pathData="M14,36 c0,-10 12,-14 24,-10 c8,2 12,6 12,10 c0,8 -10,12 -24,12 c-10,0 -12,-4 -12,-12 z"/>
+    <path android:fillColor="#616161" android:pathData="M46,30 c4,2 6,4 6,6 c0,2 -2,4 -6,6 c2,-4 2,-8 0,-12 z"/>
+    <!-- Ear -->
+    <path android:fillColor="#BDBDBD" android:pathData="M18,28 a4,4 0 1,0 0.1,0 z"/>
+    <!-- Eye -->
+    <path android:fillColor="#E53935" android:pathData="M40,36 a2,2 0 1,0 0.1,0 z"/>
+    <!-- Tail -->
+    <path android:fillColor="#EF9A9A" android:pathData="M50,42 c6,0 8,4 10,6"/>
+</vector>

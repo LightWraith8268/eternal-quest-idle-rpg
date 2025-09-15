@@ -1,0 +1,27 @@
+# Android/Gradle
+.gradle/
+local.properties
+.idea/
+*.iml
+.DS_Store
+/build/
+app/build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Artifacts
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Cache/Logs
+*.log
+
+# Misc
+gradle.zip
+/.classpath
+/.project
+/.settings/

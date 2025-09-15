@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew:*)",
+      "Bash(curl:*)",
+      "Bash(unzip:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(kotlinc:*)",
+      "Bash(java:*)",
+      "Bash(gh auth:*)",
+      "Bash(winget:*)",
+      "Bash(.gradlew.bat build:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "activities": [
+    {
+      "id": "smelt_iron_bar_json",
+      "name": "Smelt Iron Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 5200,
+      "xpReward": 32,
+      "itemRewards": [{"itemId": "iron_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "iron_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 1}],
+      "requirements": {"smithing": 1}
+    },
+    {
+      "id": "cook_tuna_json",
+      "name": "Cook Tuna (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 2800,
+      "xpReward": 32,
+      "itemRewards": [{"itemId": "cooked_tuna", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_tuna", "quantity": 1}],
+      "requirements": {"cooking": 25}
+    },
+    {
+      "id": "forge_bronze_sword_json",
+      "name": "Forge Bronze Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 6000,
+      "xpReward": 40,
+      "itemRewards": [{"itemId": "bronze_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "bronze_bar", "quantity": 2}],
+      "requirements": {"smithing": 5}
+    },
+    {
+      "id": "forge_bronze_axe_json",
+      "name": "Forge Bronze Axe (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 6400,
+      "xpReward": 45,
+      "itemRewards": [{"itemId": "bronze_axe", "quantity": 1}],
+      "itemCosts": [{"itemId": "bronze_bar", "quantity": 3}],
+      "requirements": {"smithing": 6}
+    },
+    {
+      "id": "forge_iron_boots_json",
+      "name": "Forge Iron Boots (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 7000,
+      "xpReward": 80,
+      "itemRewards": [{"itemId": "iron_boots", "quantity": 1}],
+      "itemCosts": [{"itemId": "iron_bar", "quantity": 2}],
+      "requirements": {"smithing": 16}
+    }
+    {
+      "id": "forge_iron_helmet_json",
+      "name": "Forge Iron Helmet (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 7800,
+      "xpReward": 90,
+      "itemRewards": [{"itemId": "iron_helmet", "quantity": 1}],
+      "itemCosts": [{"itemId": "iron_bar", "quantity": 2}],
+      "requirements": {"smithing": 18}
+    },
+    {
+      "id": "forge_steel_helmet_json",
+      "name": "Forge Steel Helmet (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 8800,
+      "xpReward": 120,
+      "itemRewards": [{"itemId": "steel_helmet", "quantity": 1}],
+      "itemCosts": [{"itemId": "steel_bar", "quantity": 3}],
+      "requirements": {"smithing": 28}
+    },
+    {
+      "id": "forge_steel_chestplate_json",
+      "name": "Forge Steel Chestplate (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 11200,
+      "xpReward": 180,
+      "itemRewards": [{"itemId": "steel_chestplate", "quantity": 1}],
+      "itemCosts": [{"itemId": "steel_bar", "quantity": 5}],
+      "requirements": {"smithing": 32}
+    },
+    {
+      "id": "forge_steel_axe_json",
+      "name": "Forge Steel Axe (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 9800,
+      "xpReward": 140,
+      "itemRewards": [{"itemId": "steel_axe", "quantity": 1}],
+      "itemCosts": [{"itemId": "steel_bar", "quantity": 3}],
+      "requirements": {"smithing": 30}
+    },
+    {
+      "id": "smelt_steel_bar_json",
+      "name": "Smelt Steel Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 6200,
+      "xpReward": 55,
+      "itemRewards": [{"itemId": "steel_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "iron_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 1}],
+      "requirements": {"smithing": 22}
+    },
+    {
+      "id": "forge_steel_boots_json",
+      "name": "Forge Steel Boots (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 9200,
+      "xpReward": 120,
+      "itemRewards": [{"itemId": "steel_boots", "quantity": 1}],
+      "itemCosts": [{"itemId": "steel_bar", "quantity": 2}],
+      "requirements": {"smithing": 28}
+    },
+    {
+      "id": "forge_mithril_boots_json",
+      "name": "Forge Mithril Boots (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 11200,
+      "xpReward": 160,
+      "itemRewards": [{"itemId": "mithril_boots", "quantity": 1}],
+      "itemCosts": [{"itemId": "mithril_bar", "quantity": 2}],
+      "requirements": {"smithing": 40}
+    },
+    {
+      "id": "forge_adamant_boots_json",
+      "name": "Forge Adamant Boots (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 12800,
+      "xpReward": 210,
+      "itemRewards": [{"itemId": "adamant_boots", "quantity": 1}],
+      "itemCosts": [{"itemId": "adamant_bar", "quantity": 2}],
+      "requirements": {"smithing": 55}
+    }
+    {
+      "id": "forge_iron_axe_json",
+      "name": "Forge Iron Axe (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 8800,
+      "xpReward": 78,
+      "itemRewards": [{"itemId": "iron_axe", "quantity": 1}],
+      "itemCosts": [{"itemId": "iron_bar", "quantity": 3}],
+      "requirements": {"smithing": 18}
+    },
+    {
+      "id": "smelt_bronze_bar_json",
+      "name": "Smelt Bronze Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 4800,
+      "xpReward": 24,
+      "itemRewards": [{"itemId": "bronze_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "copper_ore", "quantity": 1}, {"itemId": "tin_ore", "quantity": 1}],
+      "requirements": {"smithing": 1}
+    },
+    {
+      "id": "smelt_silver_bar_json",
+      "name": "Smelt Silver Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 5600,
+      "xpReward": 36,
+      "itemRewards": [{"itemId": "silver_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "silver_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 1}],
+      "requirements": {"smithing": 10}
+    },
+    {
+      "id": "smelt_gold_bar_json",
+      "name": "Smelt Gold Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 6000,
+      "xpReward": 45,
+      "itemRewards": [{"itemId": "gold_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "gold_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 1}],
+      "requirements": {"smithing": 20}
+    },
+    {
+      "id": "smelt_mithril_bar_json",
+      "name": "Smelt Mithril Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 7200,
+      "xpReward": 68,
+      "itemRewards": [{"itemId": "mithril_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "mithril_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 2}],
+      "requirements": {"smithing": 40}
+    },
+    {
+      "id": "smelt_adamant_bar_json",
+      "name": "Smelt Adamant Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 8200,
+      "xpReward": 85,
+      "itemRewards": [{"itemId": "adamant_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "adamantite_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 2}],
+      "requirements": {"smithing": 50}
+    },
+    {
+      "id": "forge_iron_chestplate_json",
+      "name": "Forge Iron Chestplate (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 10000,
+      "xpReward": 110,
+      "itemRewards": [{"itemId": "iron_chestplate", "quantity": 1}],
+      "itemCosts": [{"itemId": "iron_bar", "quantity": 5}],
+      "requirements": {"smithing": 20}
+    },
+    {
+      "id": "forge_mithril_sword_json",
+      "name": "Forge Mithril Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 9200,
+      "xpReward": 120,
+      "itemRewards": [{"itemId": "mithril_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "mithril_bar", "quantity": 3}],
+      "requirements": {"smithing": 40}
+    },
+    {
+      "id": "forge_adamant_sword_json",
+      "name": "Forge Adamant Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 10400,
+      "xpReward": 160,
+      "itemRewards": [{"itemId": "adamant_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "adamant_bar", "quantity": 3}],
+      "requirements": {"smithing": 55}
+    },
+    {
+      "id": "cook_swordfish_json",
+      "name": "Cook Swordfish (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 4200,
+      "xpReward": 48,
+      "itemRewards": [{"itemId": "cooked_swordfish", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_swordfish", "quantity": 1}],
+      "requirements": {"cooking": 45}
+    },
+    {
+      "id": "cook_trout_json",
+      "name": "Cook Trout (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 2000,
+      "xpReward": 12,
+      "itemRewards": [{"itemId": "cooked_trout", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_trout", "quantity": 1}],
+      "requirements": {"cooking": 1}
+    },
+    {
+      "id": "cook_salmon_json",
+      "name": "Cook Salmon (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 3000,
+      "xpReward": 20,
+      "itemRewards": [{"itemId": "cooked_salmon", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_salmon", "quantity": 1}],
+      "requirements": {"cooking": 15}
+    }
+    {
+      "id": "mine_tin_json",
+      "name": "Mine Tin Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 2800,
+      "xpReward": 8,
+      "itemRewards": [{"itemId": "tin_ore", "quantity": 1}],
+      "requirements": {"mining": 1}
+    },
+    {
+      "id": "mine_silver_json",
+      "name": "Mine Silver Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 5200,
+      "xpReward": 16,
+      "itemRewards": [{"itemId": "silver_ore", "quantity": 1}],
+      "requirements": {"mining": 30}
+    },
+    {
+      "id": "mine_gold_json",
+      "name": "Mine Gold Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 6200,
+      "xpReward": 22,
+      "itemRewards": [{"itemId": "gold_ore", "quantity": 1}],
+      "requirements": {"mining": 40}
+    },
+    {
+      "id": "mine_adamantite_json",
+      "name": "Mine Adamantite Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 7800,
+      "xpReward": 32,
+      "itemRewards": [{"itemId": "adamantite_ore", "quantity": 1}],
+      "requirements": {"mining": 55}
+    },
+    {
+      "id": "cut_birch_json",
+      "name": "Cut Birch Trees (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 2400,
+      "xpReward": 7,
+      "itemRewards": [{"itemId": "birch_log", "quantity": 1}],
+      "requirements": {"woodcutting": 5}
+    },
+    {
+      "id": "cut_teak_json",
+      "name": "Cut Teak Trees (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 3600,
+      "xpReward": 12,
+      "itemRewards": [{"itemId": "teak_log", "quantity": 1}],
+      "requirements": {"woodcutting": 15}
+    },
+
+    // Ultra Tier Mining
+    {
+      "id": "mine_runite_json",
+      "name": "Mine Runite Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 9200,
+      "xpReward": 45,
+      "itemRewards": [{"itemId": "runite_ore", "quantity": 1}],
+      "requirements": {"mining": 65}
+    },
+    {
+      "id": "mine_dragonite_json",
+      "name": "Mine Dragonite Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 11800,
+      "xpReward": 65,
+      "itemRewards": [{"itemId": "dragonite_ore", "quantity": 1}],
+      "requirements": {"mining": 75}
+    },
+    {
+      "id": "mine_celestial_json",
+      "name": "Mine Celestial Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 14200,
+      "xpReward": 85,
+      "itemRewards": [{"itemId": "celestial_ore", "quantity": 1}],
+      "requirements": {"mining": 85}
+    },
+    {
+      "id": "mine_void_json",
+      "name": "Mine Void Ore (JSON)",
+      "skill": "mining",
+      "baseTimeMs": 16800,
+      "xpReward": 110,
+      "itemRewards": [{"itemId": "void_ore", "quantity": 1}],
+      "requirements": {"mining": 95}
+    },
+
+    // Ultra Tier Woodcutting
+    {
+      "id": "cut_redwood_json",
+      "name": "Cut Redwood Trees (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 5800,
+      "xpReward": 28,
+      "itemRewards": [{"itemId": "redwood_log", "quantity": 1}],
+      "requirements": {"woodcutting": 55}
+    },
+    {
+      "id": "cut_elderwood_json",
+      "name": "Cut Elderwood Trees (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 7400,
+      "xpReward": 38,
+      "itemRewards": [{"itemId": "elderwood_log", "quantity": 1}],
+      "requirements": {"woodcutting": 65}
+    },
+    {
+      "id": "cut_ironbark_json",
+      "name": "Cut Ironbark Trees (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 9200,
+      "xpReward": 52,
+      "itemRewards": [{"itemId": "ironbark_log", "quantity": 1}],
+      "requirements": {"woodcutting": 75}
+    },
+    {
+      "id": "cut_shadowbark_json",
+      "name": "Cut Shadowbark Trees (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 11800,
+      "xpReward": 72,
+      "itemRewards": [{"itemId": "shadowbark_log", "quantity": 1}],
+      "requirements": {"woodcutting": 85}
+    },
+    {
+      "id": "cut_world_tree_json",
+      "name": "Cut World Tree (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 15200,
+      "xpReward": 98,
+      "itemRewards": [{"itemId": "world_tree_log", "quantity": 1}],
+      "requirements": {"woodcutting": 95}
+    },
+
+    // Ultra Tier Fishing
+    {
+      "id": "catch_shark_json",
+      "name": "Catch Shark (JSON)",
+      "skill": "fishing",
+      "baseTimeMs": 8200,
+      "xpReward": 42,
+      "itemRewards": [{"itemId": "raw_shark", "quantity": 1}],
+      "requirements": {"fishing": 60}
+    },
+    {
+      "id": "catch_manta_ray_json",
+      "name": "Catch Manta Ray (JSON)",
+      "skill": "fishing",
+      "baseTimeMs": 9800,
+      "xpReward": 58,
+      "itemRewards": [{"itemId": "raw_manta_ray", "quantity": 1}],
+      "requirements": {"fishing": 70}
+    },
+    {
+      "id": "catch_kraken_tentacle_json",
+      "name": "Catch Kraken Tentacle (JSON)",
+      "skill": "fishing",
+      "baseTimeMs": 12400,
+      "xpReward": 78,
+      "itemRewards": [{"itemId": "raw_kraken_tentacle", "quantity": 1}],
+      "requirements": {"fishing": 80}
+    },
+    {
+      "id": "catch_leviathan_json",
+      "name": "Catch Leviathan (JSON)",
+      "skill": "fishing",
+      "baseTimeMs": 16200,
+      "xpReward": 105,
+      "itemRewards": [{"itemId": "raw_leviathan", "quantity": 1}],
+      "requirements": {"fishing": 90}
+    },
+
+    // Ultra Tier Cooking
+    {
+      "id": "cook_shark_json",
+      "name": "Cook Shark (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 4800,
+      "xpReward": 62,
+      "itemRewards": [{"itemId": "cooked_shark", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_shark", "quantity": 1}],
+      "requirements": {"cooking": 60}
+    },
+    {
+      "id": "cook_manta_ray_json",
+      "name": "Cook Manta Ray (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 5400,
+      "xpReward": 78,
+      "itemRewards": [{"itemId": "cooked_manta_ray", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_manta_ray", "quantity": 1}],
+      "requirements": {"cooking": 70}
+    },
+    {
+      "id": "cook_kraken_tentacle_json",
+      "name": "Cook Kraken Tentacle (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 6800,
+      "xpReward": 98,
+      "itemRewards": [{"itemId": "cooked_kraken_tentacle", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_kraken_tentacle", "quantity": 1}],
+      "requirements": {"cooking": 80}
+    },
+    {
+      "id": "cook_leviathan_json",
+      "name": "Cook Leviathan (JSON)",
+      "skill": "cooking",
+      "baseTimeMs": 8800,
+      "xpReward": 125,
+      "itemRewards": [{"itemId": "cooked_leviathan", "quantity": 1}],
+      "itemCosts": [{"itemId": "raw_leviathan", "quantity": 1}],
+      "requirements": {"cooking": 90}
+    },
+
+    // Ultra Tier Smelting
+    {
+      "id": "smelt_runite_bar_json",
+      "name": "Smelt Runite Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 9200,
+      "xpReward": 120,
+      "itemRewards": [{"itemId": "runite_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "runite_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 3}],
+      "requirements": {"smithing": 65}
+    },
+    {
+      "id": "smelt_dragonite_bar_json",
+      "name": "Smelt Dragonite Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 11200,
+      "xpReward": 150,
+      "itemRewards": [{"itemId": "dragonite_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "dragonite_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 4}],
+      "requirements": {"smithing": 75}
+    },
+    {
+      "id": "smelt_celestial_bar_json",
+      "name": "Smelt Celestial Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 13400,
+      "xpReward": 185,
+      "itemRewards": [{"itemId": "celestial_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "celestial_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 5}],
+      "requirements": {"smithing": 85}
+    },
+    {
+      "id": "smelt_void_bar_json",
+      "name": "Smelt Void Bar (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 15800,
+      "xpReward": 225,
+      "itemRewards": [{"itemId": "void_bar", "quantity": 1}],
+      "itemCosts": [{"itemId": "void_ore", "quantity": 1}, {"itemId": "coal_ore", "quantity": 6}],
+      "requirements": {"smithing": 95}
+    },
+
+    // Ultra Tier Weapon Forging - Swords
+    {
+      "id": "forge_runite_sword_json",
+      "name": "Forge Runite Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 12000,
+      "xpReward": 180,
+      "itemRewards": [{"itemId": "runite_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "runite_bar", "quantity": 3}],
+      "requirements": {"smithing": 68}
+    },
+    {
+      "id": "forge_dragonite_sword_json",
+      "name": "Forge Dragonite Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 14500,
+      "xpReward": 220,
+      "itemRewards": [{"itemId": "dragonite_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "dragonite_bar", "quantity": 3}],
+      "requirements": {"smithing": 78}
+    },
+    {
+      "id": "forge_celestial_sword_json",
+      "name": "Forge Celestial Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 17200,
+      "xpReward": 265,
+      "itemRewards": [{"itemId": "celestial_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "celestial_bar", "quantity": 3}],
+      "requirements": {"smithing": 88}
+    },
+    {
+      "id": "forge_void_sword_json",
+      "name": "Forge Void Sword (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 19800,
+      "xpReward": 315,
+      "itemRewards": [{"itemId": "void_sword", "quantity": 1}],
+      "itemCosts": [{"itemId": "void_bar", "quantity": 3}],
+      "requirements": {"smithing": 98}
+    },
+
+    // Ultra Tier Weapon Forging - Axes
+    {
+      "id": "forge_runite_axe_json",
+      "name": "Forge Runite Axe (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 13200,
+      "xpReward": 195,
+      "itemRewards": [{"itemId": "runite_axe", "quantity": 1}],
+      "itemCosts": [{"itemId": "runite_bar", "quantity": 4}],
+      "requirements": {"smithing": 70}
+    },
+    {
+      "id": "forge_dragonite_axe_json",
+      "name": "Forge Dragonite Axe (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 15800,
+      "xpReward": 240,
+      "itemRewards": [{"itemId": "dragonite_axe", "quantity": 1}],
+      "itemCosts": [{"itemId": "dragonite_bar", "quantity": 4}],
+      "requirements": {"smithing": 80}
+    },
+
+    // Bow Crafting (Woodcutting skill)
+    {
+      "id": "craft_maple_bow_json",
+      "name": "Craft Maple Bow (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 8200,
+      "xpReward": 65,
+      "itemRewards": [{"itemId": "maple_bow", "quantity": 1}],
+      "itemCosts": [{"itemId": "maple_log", "quantity": 3}],
+      "requirements": {"woodcutting": 35}
+    },
+    {
+      "id": "craft_yew_bow_json",
+      "name": "Craft Yew Bow (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 11800,
+      "xpReward": 95,
+      "itemRewards": [{"itemId": "yew_bow", "quantity": 1}],
+      "itemCosts": [{"itemId": "yew_log", "quantity": 4}],
+      "requirements": {"woodcutting": 50}
+    },
+    {
+      "id": "craft_elven_bow_json",
+      "name": "Craft Elven Bow (JSON)",
+      "skill": "woodcutting",
+      "baseTimeMs": 15200,
+      "xpReward": 135,
+      "itemRewards": [{"itemId": "elven_bow", "quantity": 1}],
+      "itemCosts": [{"itemId": "elderwood_log", "quantity": 5}],
+      "requirements": {"woodcutting": 68}
+    },
+
+    // Armor Forging - Complete Sets
+    {
+      "id": "forge_mithril_helmet_json",
+      "name": "Forge Mithril Helmet (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 9600,
+      "xpReward": 140,
+      "itemRewards": [{"itemId": "mithril_helmet", "quantity": 1}],
+      "itemCosts": [{"itemId": "mithril_bar", "quantity": 2}],
+      "requirements": {"smithing": 42}
+    },
+    {
+      "id": "forge_mithril_chestplate_json",
+      "name": "Forge Mithril Chestplate (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 12200,
+      "xpReward": 200,
+      "itemRewards": [{"itemId": "mithril_chestplate", "quantity": 1}],
+      "itemCosts": [{"itemId": "mithril_bar", "quantity": 5}],
+      "requirements": {"smithing": 44}
+    },
+    {
+      "id": "forge_adamant_helmet_json",
+      "name": "Forge Adamant Helmet (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 11200,
+      "xpReward": 180,
+      "itemRewards": [{"itemId": "adamant_helmet", "quantity": 1}],
+      "itemCosts": [{"itemId": "adamant_bar", "quantity": 2}],
+      "requirements": {"smithing": 57}
+    },
+    {
+      "id": "forge_adamant_chestplate_json",
+      "name": "Forge Adamant Chestplate (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 14800,
+      "xpReward": 260,
+      "itemRewards": [{"itemId": "adamant_chestplate", "quantity": 1}],
+      "itemCosts": [{"itemId": "adamant_bar", "quantity": 5}],
+      "requirements": {"smithing": 59}
+    },
+
+    // Dragon Tier Armor
+    {
+      "id": "forge_dragon_helmet_json",
+      "name": "Forge Dragon Helmet (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 16200,
+      "xpReward": 280,
+      "itemRewards": [{"itemId": "dragon_helmet", "quantity": 1}],
+      "itemCosts": [{"itemId": "dragon_bone", "quantity": 2}, {"itemId": "dragon_scale", "quantity": 3}],
+      "requirements": {"smithing": 72}
+    },
+    {
+      "id": "forge_dragon_chestplate_json",
+      "name": "Forge Dragon Chestplate (JSON)",
+      "skill": "smithing",
+      "baseTimeMs": 22000,
+      "xpReward": 420,
+      "itemRewards": [{"itemId": "dragon_chestplate", "quantity": 1}],
+      "itemCosts": [{"itemId": "dragon_bone", "quantity": 4}, {"itemId": "dragon_scale", "quantity": 8}],
+      "requirements": {"smithing": 75}
+    }
+  ]
+}

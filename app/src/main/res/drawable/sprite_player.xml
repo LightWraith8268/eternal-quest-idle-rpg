@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Simple stylized player: head, body, sword -->
+    <path android:fillColor="#FFE0B2" android:pathData="M32,10 a8,8 0 1,0 0.1,0 z"/>
+    <path android:fillColor="#3F51B5" android:pathData="M24,26 h16 v16 h-16 z"/>
+    <path android:fillColor="#303F9F" android:pathData="M24,42 h6 v12 h-6 z"/>
+    <path android:fillColor="#303F9F" android:pathData="M34,42 h6 v12 h-6 z"/>
+    <path android:fillColor="#8D6E63" android:pathData="M22,28 h-8 v8 h8 z"/>
+    <path android:fillColor="#8D6E63" android:pathData="M42,28 h8 v8 h-8 z"/>
+    <path android:fillColor="#B0BEC5" android:pathData="M48,14 l10,10 l-3,3 l-10,-10 z"/>
+    <path android:fillColor="#CFD8DC" android:pathData="M54,20 l4,4 l-3,3 l-4,-4 z"/>
+</vector>
