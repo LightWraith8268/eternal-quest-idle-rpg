@@ -247,7 +247,11 @@ object QoLUpgrades {
 // Gold earning sources
 object GoldSources {
     fun getItemSellValue(itemId: String, quantity: Int): Long {
-        val item = GameItems.ALL.find { it.id == itemId }
+        val item = try {
+            com.eternalquest.util.ItemCatalog.get(itemId)
+        } catch (_: Exception) {
+            null
+        } ?: GameItems.ALL.find { it.id == itemId }
         return if (item != null) {
             (item.value * quantity * 0.8f).toLong() // 80% of item value
         } else {

@@ -28,6 +28,8 @@ import com.eternalquest.util.ProfileManager
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.saveable.rememberSaveable
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -52,6 +54,11 @@ fun BankScreen(
     LaunchedEffect(sortMode) { BankPrefs.setSortMode(context, profileId, sortMode) }
     LaunchedEffect(selectedCategory) { BankPrefs.setCategory(context, profileId, selectedCategory) }
     LaunchedEffect(showEmpty) { BankPrefs.setShowEmpty(context, profileId, showEmpty) }
+    LaunchedEffect(context) {
+        withContext(Dispatchers.IO) {
+            runCatching { com.eternalquest.util.ItemCatalog.load(context) }
+        }
+    }
 
     Column(
         modifier = Modifier
@@ -272,7 +279,8 @@ fun BankScreen(
 @Composable
 fun BankSlot(bankItem: BankItem?, onSellItem: ((String, Int) -> Unit)? = null) {
     val item = if (bankItem != null) {
-        GameItems.ALL.find { it.id == bankItem.itemId }
+        com.eternalquest.util.ItemCatalog.get(bankItem.itemId)
+            ?: GameItems.ALL.find { it.id == bankItem.itemId }
     } else null
     
     var showSell by remember { mutableStateOf(false) }
@@ -328,7 +336,8 @@ fun BankSlot(bankItem: BankItem?, onSellItem: ((String, Int) -> Unit)? = null) {
     }
 
     if (showSell && bankItem != null && onSellItem != null) {
-        val meta = GameItems.ALL.find { it.id == bankItem.itemId }
+        val meta = com.eternalquest.util.ItemCatalog.get(bankItem.itemId)
+            ?: GameItems.ALL.find { it.id == bankItem.itemId }
         val oneGold = GoldSources.getItemSellValue(bankItem.itemId, 1)
         val allGold = GoldSources.getItemSellValue(bankItem.itemId, bankItem.quantity)
         AlertDialog(

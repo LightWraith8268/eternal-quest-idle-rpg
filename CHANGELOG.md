@@ -12,7 +12,7 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 ## [1.0.0] - 2025-09-13
 ### Added
 - Core loop skills: Mining, Woodcutting, Fishing, Cooking
-- Combat alpha: time‑based mechanics, equipment, loot tables, auto‑eat
+- Combat system: time‑based mechanics, equipment loadouts, curated loot tables, and auto‑eat priorities
 - Bank & QoL Store: dynamic tabs/slots, sorting/search tools, auto‑sell
 - Extended content tiers and JSON‑loaded activities (recipes.json)
 - Prestige per skill with +5% XP per prestige

@@ -24,5 +24,12 @@ object StorePrefs {
     fun setSortMode(context: Context, profileId: Int, mode: String) {
         prefs(context).edit().putString("store_sort_$profileId", mode).apply()
     }
+
+    fun clearProfile(context: Context, profileId: Int) {
+        prefs(context).edit()
+            .remove("store_seen_$profileId")
+            .remove("store_sort_$profileId")
+            .apply()
+    }
 }
 

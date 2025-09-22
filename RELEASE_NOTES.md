@@ -4,7 +4,7 @@
 
 Highlights
 - Core loop skills with XP to level 100
-- Combat alpha (time‑based), equipment, loot, auto‑eat with threshold + best‑food
+- Combat system with equipment loadouts, curated loot, and flexible auto‑eat priorities
 - Bank with dynamic tabs/slots, quick sell, sorting/search tools, auto‑sell fallback
 - JSON‑driven content: activities/recipes, Perk caps/costs, Store labels/icons/order, QoL costs
 - Meta: Prestige (+5% XP per prestige), Ascension (Sigils), multi‑profile with live switch

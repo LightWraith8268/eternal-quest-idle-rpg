@@ -132,13 +132,14 @@ class CombatEngine(
                 bankDao.updateBankItem(bankItem.copy(quantity = newQuantity))
             }
 
+            val healAmount = CombatSystem.healingAmountForFood(chosenFoodId)
             val newHp = minOf(
                 playerStats.maxHitpoints,
-                playerStats.hitpoints + CombatSystem.HEALING_AMOUNT
+                playerStats.hitpoints + healAmount
             )
             combatDao.updateHitpoints(newHp)
 
-            return CombatEvent.AutoEat(chosenFoodId, CombatSystem.HEALING_AMOUNT, newHp)
+            return CombatEvent.AutoEat(chosenFoodId, healAmount, newHp)
         }
         return null
     }

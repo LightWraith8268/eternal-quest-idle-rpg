@@ -141,7 +141,11 @@ object Sprites {
     }
 
     fun forItemId(itemId: String): SpriteRef {
-        val item = GameItems.ALL.find { it.id == itemId }
+        val item = try {
+            com.eternalquest.util.ItemCatalog.get(itemId)
+        } catch (_: Exception) {
+            null
+        } ?: GameItems.ALL.find { it.id == itemId }
         val tint = hashColor(itemId)
         return when (item?.category) {
             ItemCategory.ORE -> pick(ores, itemId)
