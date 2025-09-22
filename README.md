@@ -4,12 +4,11 @@ Eternal Quest is an idle RPG for Android built with Kotlin and Jetpack Compose. 
 
 ## Features (v1.0.0)
 - Core loop: Mining, Woodcutting, Fishing, Cooking with XP/levels (cap 100)
-- Combat alpha: time‑based attacks, auto‑eat, loot tables, equipment
-- Bank & QoL Store: dynamic tabs (5→10), slots (15→50), sorting/search tools, auto‑sell
-- Extended content: higher‑tier resources + JSON‑loaded activities/recipes
-- Meta progression: Prestige per skill, Ascension resets with Ethereal Sigils
-- Sigil Meta‑Perks: XP/Speed/Loot bonuses, configurable via JSON
-- Multi‑profile: up to 3 isolated profiles; live switching in settings
+- Combat system: time‑based attacks, curated loot tables, auto‑eat priorities, and equipment loadouts with best‑owned guidance
+- Bank & QoL Store: dynamic tabs (5→10), slots (15→50), sorting/search tools, auto‑sell, and inventory selling directly from the store
+- Expanded content: higher‑tier resources plus JSON‑loaded activities, skills, items, enemies, areas, and loot tables for easy tuning
+- Meta progression: Prestige per skill, Ascension resets with Ethereal Sigils, and Sigil meta‑perks for XP/speed/loot bonuses
+- Presentation & profiles: Material You theming, combat log toggle, in‑app changelog, sprite preview, and up to 3 isolated profiles with live switching
 
 ## Build & Run
 - Build: `./gradlew build`

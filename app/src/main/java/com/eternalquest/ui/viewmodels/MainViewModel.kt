@@ -1,6 +1,7 @@
 package com.eternalquest.ui.viewmodels
 
 import android.app.Application
+import android.os.Build
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.eternalquest.data.entities.*
@@ -9,6 +10,7 @@ import com.eternalquest.game.systems.*
 import com.eternalquest.ui.components.OfflineProgressData
 import com.eternalquest.ui.components.SkillProgress
 import com.eternalquest.ui.components.ItemGain
+import com.eternalquest.util.SettingsPrefs
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 
@@ -72,6 +74,9 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     private val _availableUpgrades = MutableStateFlow<List<UpgradeInfo>>(emptyList())
     val availableUpgrades: StateFlow<List<UpgradeInfo>> = _availableUpgrades.asStateFlow()
 
+    private val _settingsState = MutableStateFlow(SettingsState())
+    val settingsState: StateFlow<SettingsState> = _settingsState.asStateFlow()
+
     // Derived upgrade-based UI state
     val bankTabCount: StateFlow<Int> = playerUpgrades
         .map { upgrades -> QoLUpgrades.getTotalBankTabs(upgrades ?: PlayerUpgrades()) }
@@ -102,6 +107,45 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         initializeGame()
         startGameTick()
         refreshAutoEatPriority()
+        loadSettings()
+    }
+
+    private fun loadSettings() {
+        val context = getApplication<Application>()
+        val theme = SettingsPrefs.getTheme(context)
+        val supportsDynamic = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+        val useDynamic = if (supportsDynamic) {
+            SettingsPrefs.getUseDynamicColor(context)
+        } else {
+            SettingsPrefs.setUseDynamicColor(context, false)
+            false
+        }
+        val showCombatLog = SettingsPrefs.getShowCombatLog(context)
+        _settingsState.value = SettingsState(
+            theme = theme,
+            useDynamicColor = useDynamic,
+            showCombatLog = showCombatLog
+        )
+    }
+
+    fun setThemePreference(theme: ThemePreference) {
+        val context = getApplication<Application>()
+        SettingsPrefs.setTheme(context, theme)
+        _settingsState.update { it.copy(theme = theme) }
+    }
+
+    fun setDynamicColorEnabled(enabled: Boolean) {
+        val context = getApplication<Application>()
+        val supportsDynamic = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+        val sanitized = enabled && supportsDynamic
+        SettingsPrefs.setUseDynamicColor(context, sanitized)
+        _settingsState.update { it.copy(useDynamicColor = sanitized) }
+    }
+
+    fun setShowCombatLog(show: Boolean) {
+        val context = getApplication<Application>()
+        SettingsPrefs.setShowCombatLog(context, show)
+        _settingsState.update { it.copy(showCombatLog = show) }
     }
     
     private fun initializeGame() {
@@ -352,7 +396,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     fun switchProfileNow(profileId: Int) {
-        viewModelScope.launch { repository.switchProfile(profileId) }
+        viewModelScope.launch {
+            repository.switchProfile(profileId)
+            refreshAutoEatPriority()
+            refreshUpgrades()
+        }
     }
 
     fun deleteProfile(profileId: Int) {

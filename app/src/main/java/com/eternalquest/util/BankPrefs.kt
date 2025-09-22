@@ -41,4 +41,14 @@ object BankPrefs {
     fun setSelectedTab(context: Context, profileId: Int, tab: Int) {
         prefs(context).edit().putInt("bank_tab_$profileId", tab).apply()
     }
+
+    fun clearProfile(context: Context, profileId: Int) {
+        prefs(context).edit().apply {
+            remove("bank_query_$profileId")
+            remove("bank_sort_$profileId")
+            remove("bank_category_$profileId")
+            remove("bank_show_empty_$profileId")
+            remove("bank_tab_$profileId")
+        }.apply()
+    }
 }

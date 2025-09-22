@@ -10,7 +10,24 @@ class CombatSystem {
         const val BASE_CRIT_CHANCE = 0.05f // 5% base crit chance
         const val CRIT_DAMAGE_MULTIPLIER = 1.5f
         const val BASE_ACCURACY = 0.8f
-        const val HEALING_AMOUNT = 15 // HP restored per food consumed
+        const val HEALING_AMOUNT = 15 // Default HP restored if food is unknown
+
+        private val FOOD_HEALING: Map<String, Int> = mapOf(
+            "cooked_trout" to 10,
+            "cooked_salmon" to 14,
+            "cooked_tuna" to 18,
+            "cooked_swordfish" to 24,
+            "cooked_shark" to 35,
+            "cooked_manta_ray" to 45,
+            "cooked_kraken_tentacle" to 60,
+            "cooked_leviathan" to 80,
+            "cooked_void_fish" to 100
+        )
+
+        fun healingAmountForFood(foodId: String): Int {
+            val key = foodId.lowercase()
+            return FOOD_HEALING[key] ?: HEALING_AMOUNT
+        }
     }
     
     fun calculateDamage(

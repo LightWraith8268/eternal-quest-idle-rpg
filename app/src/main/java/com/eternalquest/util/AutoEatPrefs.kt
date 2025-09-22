@@ -19,5 +19,12 @@ object AutoEatPrefs {
         val csv = priority.joinToString(",")
         prefs.edit().putString(KEY_PREFIX + profileId, csv).apply()
     }
+
+    fun clearProfile(context: Context, profileId: Int) {
+        val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+        prefs.edit().remove(KEY_PREFIX + profileId).apply()
+    }
+
+    fun defaultPriority(): List<String> = DEFAULT
 }
 

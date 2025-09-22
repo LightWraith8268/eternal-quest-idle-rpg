@@ -18,6 +18,7 @@ class TickEngine(
     private val timeService: TimeService,
     private val onGoldEarned: suspend (Long, GoldSource) -> Unit = { _, _ -> },
     private val slotsPerTabProvider: suspend () -> Int = { 15 },
+    private val totalTabsProvider: suspend () -> Int = { 5 },
     private val metaXpMultiplierProvider: suspend () -> Double = { 1.0 },
     private val speedFactorProvider: suspend () -> Double = { 1.0 },
     private val lootChanceBonusProvider: suspend () -> Double = { 1.0 },
@@ -97,27 +98,32 @@ class TickEngine(
         if (existingItem != null) {
             // Add to existing stack
             bankDao.addToStack(existingItem.tabIndex, existingItem.slotIndex, quantity)
-        } else {
-            // Find first available slot in tab 0
-            val usedSlots = bankDao.getUsedSlotsInTab(0)
-            val slotsPerTab = slotsPerTabProvider()
+            return
+        }
+
+        val slotsPerTab = slotsPerTabProvider().coerceAtLeast(1)
+        val totalTabs = totalTabsProvider().coerceAtLeast(1)
+
+        for (tabIndex in 0 until totalTabs) {
+            val usedSlots = bankDao.getUsedSlotsInTab(tabIndex)
             if (usedSlots < slotsPerTab) {
-                val nextSlot = bankDao.getNextAvailableSlot(0) ?: 0
+                val nextSlot = bankDao.getNextAvailableSlot(tabIndex) ?: usedSlots
                 bankDao.insertBankItem(
                     BankItem(
                         itemId = itemId,
-                        tabIndex = 0,
+                        tabIndex = tabIndex,
                         slotIndex = nextSlot,
                         quantity = quantity
                     )
                 )
-            } else {
-                // Bank full - attempt auto-sell if enabled
-                val sold = tryAutoSell(itemId, quantity)
-                if (!sold) {
-                    // item lost if not sold
-                }
+                return
             }
+        }
+
+        // Bank full across all tabs - attempt auto-sell if enabled
+        val sold = tryAutoSell(itemId, quantity)
+        if (!sold) {
+            // Item is discarded if auto-sell is disabled or returns false
         }
     }
     

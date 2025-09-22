@@ -1,5 +1,6 @@
 package com.eternalquest.ui.screens
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -7,13 +8,17 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.eternalquest.data.entities.*
 import com.eternalquest.game.systems.XpSystem
-import androidx.compose.foundation.Image
-import androidx.compose.ui.res.painterResource
 import com.eternalquest.ui.util.Sprites
+import com.eternalquest.util.SkillsCatalog
+import java.util.Locale
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -27,20 +32,48 @@ fun SkillsScreen(
 ) {
     var pendingPrestige by remember { mutableStateOf<String?>(null) }
 
+    val context = LocalContext.current
+    val fallbackMetadata = remember {
+        val map = linkedMapOf<String, SkillType>()
+        Skills.ALL.forEach { map[it.name] = it }
+        map as Map<String, SkillType>
+    }
+    var skillMetadata by remember { mutableStateOf<Map<String, SkillType>>(fallbackMetadata) }
+
+    LaunchedEffect(context) {
+        withContext(Dispatchers.IO) {
+            runCatching { SkillsCatalog.load(context) }
+        }
+        val loaded = SkillsCatalog.all()
+        if (loaded.isNotEmpty()) {
+            val map = linkedMapOf<String, SkillType>()
+            loaded.forEach { map[it.name] = it }
+            skillMetadata = map
+        }
+    }
+
+    val orderMap = remember(skillMetadata) {
+        skillMetadata.keys.withIndex().associate { it.value to it.index }
+    }
+    val orderedSkills = remember(skills, orderMap) {
+        skills.sortedBy { orderMap[it.name] ?: Int.MAX_VALUE }
+    }
+
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        items(skills) { skill ->
+        items(orderedSkills, key = { it.name }) { skill ->
             SkillCard(
                 skill = skill,
+                skillType = skillMetadata[skill.name] ?: fallbackMetadata[skill.name],
                 allSkills = skills,
-                isActive = currentActivity != null && Activities.ALL.any { 
-                    it.skill == skill.name && currentActivity.contains(it.id) 
+                isActive = currentActivity != null && Activities.ALL.any {
+                    it.skill == skill.name && currentActivity.contains(it.id)
                 },
-                activityProgress = if (currentActivity != null && Activities.ALL.any { 
+                activityProgress = if (currentActivity != null && Activities.ALL.any {
                     it.skill == skill.name && currentActivity.contains(it.id) 
                 }) activityProgress else 0f,
                 onStartActivity = onStartActivity,
@@ -72,6 +105,7 @@ fun SkillsScreen(
 @Composable
 fun SkillCard(
     skill: Skill,
+    skillType: SkillType?,
     allSkills: List<Skill>,
     isActive: Boolean,
     activityProgress: Float,
@@ -79,7 +113,7 @@ fun SkillCard(
     onStopActivity: () -> Unit,
     onPrestigeSkill: (String) -> Unit
 ) {
-    val skillType = Skills.ALL.find { it.name == skill.name }
+    val resolvedSkillType = skillType ?: Skills.ALL.find { it.name == skill.name }
     val (availableActivities, lockedActivities) = Activities.ALL
         .filter { it.skill == skill.name }
         .partition { activity ->
@@ -110,11 +144,11 @@ fun SkillCard(
                     val sprite = Sprites.forSkillName(skill.name)
                     Image(
                         painter = painterResource(id = sprite.resId),
-                        contentDescription = skillType?.displayName ?: skill.name,
+                        contentDescription = resolvedSkillType?.displayName ?: skill.name,
                         modifier = Modifier.size(28.dp)
                     )
                     Text(
-                        text = skillType?.displayName ?: skill.name,
+                        text = resolvedSkillType?.displayName ?: skill.name,
                         style = MaterialTheme.typography.headlineSmall,
                         fontWeight = FontWeight.Bold
                     )
@@ -130,9 +164,41 @@ fun SkillCard(
                     )
                 }
             }
-            
+
             Spacer(modifier = Modifier.height(8.dp))
-            
+
+            resolvedSkillType?.let { type ->
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    AssistChip(
+                        onClick = {},
+                        enabled = false,
+                        label = {
+                            val label = type.category.name
+                                .lowercase(Locale.getDefault())
+                                .replaceFirstChar { it.titlecase(Locale.getDefault()) }
+                            Text(label)
+                        }
+                    )
+                    Text(
+                        text = "Base XP: ${type.baseXpRate}",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                if (type.description.isNotBlank()) {
+                    Spacer(modifier = Modifier.height(6.dp))
+                    Text(
+                        text = type.description,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
             // XP Progress Bar
             val progress = XpSystem.getProgressToNextLevel(skill.experience)
             val nextLevelXp = XpSystem.getXpForNextLevel(skill.level)

@@ -18,12 +18,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.eternalquest.data.entities.*
 import com.eternalquest.game.systems.UpgradeInfo
+import com.eternalquest.ui.util.Sprites
+import java.util.Locale
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun StoreScreen(
     goldBalance: Long,
     upgrades: List<UpgradeInfo>,
+    bankItems: List<BankItem>,
     onPurchaseUpgrade: (String) -> Unit,
     onSellItem: (String, Int) -> Unit
 ) {
@@ -36,6 +41,35 @@ fun StoreScreen(
     var ownedOnly by remember { mutableStateOf(false) }
     val profileId = com.eternalquest.util.ProfileManager.getCurrentProfileId(context)
     var sortMode by remember { mutableStateOf(com.eternalquest.util.StorePrefs.getSortMode(context, profileId)) }
+
+    LaunchedEffect(context) {
+        withContext(Dispatchers.IO) {
+            runCatching { com.eternalquest.util.ItemCatalog.load(context) }
+        }
+    }
+
+    val inventoryByItemId = remember(bankItems) {
+        bankItems.groupBy { it.itemId }.mapValues { entry -> entry.value.sumOf { it.quantity } }
+    }
+    val sellableItems = remember(inventoryByItemId) {
+        inventoryByItemId.mapNotNull { (itemId, quantity) ->
+            val item = com.eternalquest.util.ItemCatalog.get(itemId)
+                ?: GameItems.ALL.find { it.id == itemId }
+                ?: return@mapNotNull null
+            val unitValue = GoldSources.getItemSellValue(itemId, 1)
+            if (quantity <= 0 || unitValue <= 0L) {
+                null
+            } else {
+                SellItemOption(
+                    itemId = itemId,
+                    name = item.name,
+                    quantity = quantity,
+                    unitValue = unitValue,
+                    item = item
+                )
+            }
+        }.sortedBy { it.name }
+    }
     
     Column(
         modifier = Modifier
@@ -228,6 +262,206 @@ fun StoreScreen(
                                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
                                 textAlign = TextAlign.Center
                             )
+                        }
+                    }
+                }
+            }
+
+            item {
+                Spacer(modifier = Modifier.height(16.dp))
+                SellInventoryCard(
+                    sellableItems = sellableItems,
+                    onSellItem = onSellItem
+                )
+            }
+        }
+    }
+}
+
+data class SellItemOption(
+    val itemId: String,
+    val name: String,
+    val quantity: Int,
+    val unitValue: Long,
+    val item: Item
+)
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun SellInventoryCard(
+    sellableItems: List<SellItemOption>,
+    onSellItem: (String, Int) -> Unit
+) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Text(
+                text = "Sell Inventory",
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Medium
+            )
+
+            if (sellableItems.isEmpty()) {
+                Text(
+                    text = "You don't have any items with a resale value yet.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            } else {
+                var selectedItemId by remember { mutableStateOf(sellableItems.first().itemId) }
+                var quantity by remember { mutableStateOf(1) }
+                var menuExpanded by remember { mutableStateOf(false) }
+
+                LaunchedEffect(sellableItems) {
+                    if (sellableItems.none { it.itemId == selectedItemId }) {
+                        selectedItemId = sellableItems.first().itemId
+                    }
+                    val max = sellableItems.find { it.itemId == selectedItemId }?.quantity ?: sellableItems.first().quantity
+                    quantity = quantity.coerceIn(1, max)
+                }
+
+                val selectedOption = sellableItems.find { it.itemId == selectedItemId }
+
+                ExposedDropdownMenuBox(
+                    expanded = menuExpanded,
+                    onExpandedChange = {
+                        menuExpanded = if (sellableItems.isNotEmpty()) !menuExpanded else false
+                    }
+                ) {
+                    OutlinedTextField(
+                        value = selectedOption?.name ?: "Select item",
+                        onValueChange = {},
+                        readOnly = true,
+                        modifier = Modifier
+                            .menuAnchor()
+                            .fillMaxWidth(),
+                        label = { Text("Item to sell") },
+                        trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = menuExpanded) },
+                        supportingText = {
+                            selectedOption?.let { option ->
+                                Text(
+                                    text = "${option.quantity} owned • ${option.unitValue} gold each",
+                                    style = MaterialTheme.typography.bodySmall
+                                )
+                            }
+                        }
+                    )
+                    ExposedDropdownMenu(
+                        expanded = menuExpanded,
+                        onDismissRequest = { menuExpanded = false }
+                    ) {
+                        sellableItems.forEach { option ->
+                            val sprite = Sprites.painterForItemId(option.itemId)
+                            DropdownMenuItem(
+                                text = {
+                                    Column {
+                                        Text(option.name, fontWeight = FontWeight.Medium)
+                                        Text(
+                                            text = "${option.quantity} owned • ${option.unitValue} gold",
+                                            style = MaterialTheme.typography.bodySmall
+                                        )
+                                    }
+                                },
+                                leadingIcon = {
+                                    Image(
+                                        painter = sprite,
+                                        contentDescription = option.name,
+                                        modifier = Modifier.size(28.dp)
+                                    )
+                                },
+                                onClick = {
+                                    selectedItemId = option.itemId
+                                    quantity = 1
+                                    menuExpanded = false
+                                }
+                            )
+                        }
+                    }
+                }
+
+                selectedOption?.let { option ->
+                    val sprite = Sprites.painterForItemId(option.itemId)
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        Image(
+                            painter = sprite,
+                            contentDescription = option.name,
+                            modifier = Modifier.size(36.dp)
+                        )
+                        Column(modifier = Modifier.weight(1f)) {
+                            Text(option.item.description, style = MaterialTheme.typography.bodySmall)
+                            val categoryLabel = option.item.category.name
+                                .lowercase(Locale.getDefault())
+                                .replace('_', ' ')
+                                .replaceFirstChar { it.titlecase(Locale.getDefault()) }
+                            Text(
+                                text = "Category: $categoryLabel",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                    }
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            IconButton(
+                                onClick = { quantity = (quantity - 1).coerceAtLeast(1) },
+                                enabled = quantity > 1
+                            ) {
+                                Icon(Icons.Default.Remove, contentDescription = "Decrease quantity")
+                            }
+                            Text(
+                                text = quantity.toString(),
+                                style = MaterialTheme.typography.titleLarge,
+                                modifier = Modifier.widthIn(min = 40.dp),
+                                textAlign = TextAlign.Center
+                            )
+                            IconButton(
+                                onClick = { quantity = (quantity + 1).coerceAtMost(option.quantity) },
+                                enabled = quantity < option.quantity
+                            ) {
+                                Icon(Icons.Default.Add, contentDescription = "Increase quantity")
+                            }
+                        }
+                        Text(
+                            text = "Owned: ${option.quantity}",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+
+                    val totalValue = option.unitValue * quantity
+                    Text(
+                        text = "Total: $totalValue gold",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Medium
+                    )
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Button(
+                            onClick = { onSellItem(option.itemId, quantity) },
+                            enabled = quantity in 1..option.quantity
+                        ) {
+                            Text("Sell")
+                        }
+                        OutlinedButton(
+                            onClick = { onSellItem(option.itemId, option.quantity) },
+                            enabled = option.quantity > 1
+                        ) {
+                            Text("Sell All (${option.quantity})")
                         }
                     }
                 }

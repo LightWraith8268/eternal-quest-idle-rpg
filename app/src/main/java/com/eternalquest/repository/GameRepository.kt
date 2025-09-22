@@ -44,6 +44,10 @@ class GameRepository(private val appContext: Context) {
             val upgrades = upgradesDao.getPlayerUpgradesSync() ?: PlayerUpgrades()
             QoLUpgrades.getBankSlotsPerTab(upgrades)
         },
+        totalTabsProvider = {
+            val upgrades = upgradesDao.getPlayerUpgradesSync() ?: PlayerUpgrades()
+            QoLUpgrades.getTotalBankTabs(upgrades)
+        },
         metaXpMultiplierProvider = {
             val perks = sigilPerksDao.getPerksSync() ?: SigilPerks()
             1.0 + (perks.xpBonusLevel * 0.02)
@@ -103,34 +107,37 @@ class GameRepository(private val appContext: Context) {
     fun getSkill(name: String): Flow<Skill?> = dataSource.flatMapLatest { skillDao.getSkill(name) }
     
     suspend fun initializeSkills() {
+        val definitions = com.eternalquest.util.SkillsCatalog
+            .all()
+            .ifEmpty { Skills.ALL }
         val existingSkills = skillDao.getAllSkills().first()
         val existingNames = existingSkills.map { it.name }.toSet()
-        val missing = Skills.ALL.filter { it.name !in existingNames }
         if (existingSkills.isEmpty()) {
-            val initialSkills = Skills.ALL.map { skillType ->
+            val initialSkills = definitions.map { definition ->
                 Skill(
-                    name = skillType.name,
+                    name = definition.name,
                     level = 1,
                     experience = 0L,
                     prestigeCount = 0,
-                    isUnlocked = when (skillType.name) {
-                        "mining", "woodcutting", "fishing" -> true
-                        else -> true // unlock crafting skills by default for Phase 5
-                    }
+                    isUnlocked = definition.category != SkillCategory.COMBAT
                 )
             }
             skillDao.insertSkills(initialSkills)
-        } else if (missing.isNotEmpty()) {
-            val newSkills = missing.map { skillType ->
-                Skill(
-                    name = skillType.name,
-                    level = 1,
-                    experience = 0L,
-                    prestigeCount = 0,
-                    isUnlocked = true
-                )
+        } else {
+            val newSkills = definitions
+                .filterNot { it.name in existingNames }
+                .map { definition ->
+                    Skill(
+                        name = definition.name,
+                        level = 1,
+                        experience = 0L,
+                        prestigeCount = 0,
+                        isUnlocked = definition.category != SkillCategory.COMBAT
+                    )
+                }
+            if (newSkills.isNotEmpty()) {
+                skillDao.insertSkills(newSkills)
             }
-            skillDao.insertSkills(newSkills)
         }
     }
     
@@ -434,6 +441,9 @@ class GameRepository(private val appContext: Context) {
         val safe = profileId.coerceIn(1, 3)
         val dbName = "eternal_quest_database_profile_${safe}"
         appContext.deleteDatabase(dbName)
+        com.eternalquest.util.AutoEatPrefs.clearProfile(appContext, safe)
+        com.eternalquest.util.StorePrefs.clearProfile(appContext, safe)
+        com.eternalquest.util.BankPrefs.clearProfile(appContext, safe)
     }
 
     // Sigil Perks
@@ -514,6 +524,10 @@ class GameRepository(private val appContext: Context) {
             slotsPerTabProvider = {
                 val upgrades = newUpgradesDao.getPlayerUpgradesSync() ?: PlayerUpgrades()
                 QoLUpgrades.getBankSlotsPerTab(upgrades)
+            },
+            totalTabsProvider = {
+                val upgrades = newUpgradesDao.getPlayerUpgradesSync() ?: PlayerUpgrades()
+                QoLUpgrades.getTotalBankTabs(upgrades)
             },
             metaXpMultiplierProvider = {
                 val perks = newSigilPerksDao.getPerksSync() ?: SigilPerks()
